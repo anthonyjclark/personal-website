@@ -1,0 +1,144 @@
+.cv-title {
+  font-size: 1.5rem;
+}
+
+.cv-subtitle {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.sec-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.itm {
+  margin-bottom: 1.5rem;
+}
+
+.itm-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.itm-date {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  line-height: 1.4rem;
+}
+
+.itm-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0.75rem 0;
+  padding: 0;
+}
+
+.itm-organization, .itm-location {
+  font-style: italic;
+}
+
+.itm-details {
+
+  & p {
+    margin: 0;
+  }
+
+  & ul {
+    margin: 0;
+    padding-left: 25px;
+  }
+
+  & em strong {
+    /*font-weight: 600;*/
+    /*font-family: 'Open Sans Semi-Bold', sans-serif;*/
+    font-variant: small-caps;
+  }
+}
+
+.bib-authors {
+  margin: 0;
+
+  & .bib-author-ajc {
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+
+  & .bib-author-student {
+    text-decoration: underline;
+  }
+}
+
+.bib-venue {
+  margin: 0;
+}
+
+.bib-sep {
+  padding-left: calc(0.5rem + 1px);
+  border-left: 1px solid #ccc;
+  margin-left: calc(0.5rem + 1px);
+}
+
+.only-print {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .cv-address {
+    margin: 0 1rem;
+  }
+}
+
+@media print
+{
+  html {
+    /*font-family: georgia, times, serif;*/
+    font-size: 10.5px;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .cv-container {
+    width: 100%
+  }
+  .no-print {
+    display: none;
+  }
+  .only-print {
+    display: inline-block;
+  }
+  [class^='flx-'] {
+    page-break-inside: avoid;
+    region-break-inside: avoid;
+  }
+  div.page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  .itm {
+      page-break-inside: avoid;
+  }
+
+  a:link:after, a:visited:after {
+    content: "";
+  }
+  .itm a, .cv-address a {
+    text-decoration: none;
+    &:link:after, &:visited:after {
+      content: "";
+    }
+  }
+
+  .itm-details em strong {
+    font-weight: 600;
+  }
+}
+
+@page {
+    margin: 0.75in;
+}

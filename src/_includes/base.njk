@@ -1,0 +1,44 @@
+---
+title: Anthony J. Clark
+description: Professional website for Anthony J. Clark
+---
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="/static/site.webmanifest">
+  <link rel="apple-touch-icon" href="/static/icon.png">
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+
+  <link rel="stylesheet" href="/static/css/normalize.css">
+
+    {% set css %}
+        {% include "css/h5bp1.css" %}
+        {% include "css/custom.css" %}
+        {% include "css/flxgrid.css" %}
+        {% include "css/cv.css" %}
+        {% include "css/h5bp2.css" %}
+    {% endset %}
+    <style>
+        {{ css | postcss | safe }}
+    </style>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <div class="container">
+      {% include "nav.njk" %}
+      {{ content | safe }}
+      {% include "footer.njk" %}
+    </div>
+
+</body>
+
+</html>

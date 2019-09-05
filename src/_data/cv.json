@@ -1,0 +1,452 @@
+{
+    "grants": {
+        "sectionname": "Grant Activity",
+        "note": "I have contributed to writing, editing, and producing preliminary results for the following grants.",
+        "items": [
+            {
+                "title": "NVIDIA GPU Grant Program",
+                "date": "2018-07-09",
+                "details": "Award: Quadro P6000\nDetails: NVIDIA awarded a powerful GPU to be used for deep learning research.\nPI: Anthony J. Clark"
+            },
+            {
+                "title": "Missouri State University Major Equipment Grant",
+                "date": "2016-11-20",
+                "details": "Amount: $24,000\nDetails: Funds were utilized to purchase a 3D printer and a CNC mill that will be used by faculty and students in the Departments of Computer Science and Engineering.\nPI: Anthony J. Clark"
+            },
+            {
+                "title": "II-EN: Evolution Park: An Evolutionary Robotics Habitat for the Study of Crawling, Swimming and Flying Creatures",
+                "date": "2011-08-20 to 2014-05-15",
+                "details": "Amount: $305,000\nSponsor: NSF, Division Of Computer and Network Systems\nPI: P. McKinley, Co-PIs: X. Tan, J. Boughman"
+            },
+            {
+                "title": "Exploiting Robot-Fish Interactions and Evolutionary Computing to Understand and Synthesize Complex Collective Behavior",
+                "date": "2011-08-20 to 2012-05-15",
+                "details": "Amount: $110,642\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: X. Tan, Co-PIs: P. McKinley, J. Boughman"
+            },
+            {
+                "title": "Understanding and Synthesizing Collective Behavior with Mixed Robotic and Live Fish Schools",
+                "date": "2012-08-20 to 2013-05-15",
+                "details": "Amount: $169,923\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: X. Tan, Co-PIs: P. McKinley, J. Boughman"
+            },
+            {
+                "title": "Distributed, Onboard Evolution in a Robotic Cloud",
+                "date": "2013-08-20 to 2014-05-15",
+                "details": "Amount: $168,231\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: T. Soule (U. Idaho), Co-PIs: R. Heckendorn (U. Idaho), P. McKinley (MSU), J. Zhan (NCA&T), S. Harrison (NCA&T)"
+            }
+        ]
+    },
+    "awards": {
+        "sectionname": "Awards, Honors, and Certificates",
+        "items": [
+            {
+                "title": "Faculty Excellence in Teaching",
+                "date": "2018-05-01",
+                "organization": "College of Natural and Applied Sciences, Missouri State University"
+            },
+            {
+                "title": "Master Advisor",
+                "date": "2017-08-11",
+                "organization": "Missouri State University"
+            },
+            {
+                "title": "Cultural Consciousness in the Classroom: Certificate of Participation",
+                "date": "2017-01-12",
+                "organization": "Missouri State University"
+            },
+            {
+                "title": "Outstanding Graduate Student Service Award",
+                "date": "2016-05-20",
+                "organization": "Department of Computer Science, Michigan State University"
+            },
+            {
+                "title": "Best Paper Award",
+                "date": "2013-09-10",
+                "organization": "Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems",
+                "details": "Matthew J. Rose, Anthony J. Clark, Jared M. Moore, and Philip K. McKinley. Just Keep Swimming: Accounting for Uncertainty in Self-Modeling Aquatic Robots. In Proceedings of the 6th International Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems, Taormina, Italy, September 2013."
+            },
+            {
+                "title": "Best Paper Award",
+                "date": "2012-07-10",
+                "organization": "ALIFE Conference, Behavior and Intelligence Track",
+                "details": "Anthony J. Clark, Jared Moore, Jianxun Wang, Xiaobo Tan, and Philip McKinley. Evolutionary design and experimental validation of a flexible caudal fin for robotic fish. In Proceedings of the Thirteenth International Conference on the Synthesis and Simulation of Living Systems, East Lansing, Michigan, USA, pages 325-332, July 2012."
+            },
+            {
+                "title": "Honorable Mention: Graduate Research Fellowship Program",
+                "date": "2012-01-01",
+                "organization": "National Science Foundation"
+            },
+            {
+                "title": "Top Up Graduate Fellowship",
+                "date": "2010-08-20",
+                "organization": "NSF BEACON Center"
+            },
+            {
+                "title": "University Enrichment Fellowship",
+                "date": "2010-08-20",
+                "organization": "Michigan State University"
+            },
+            {
+                "title": "Graduated magna cum laude",
+                "date": "2009-12-15",
+                "organization": "Kansas State University"
+            },
+            {
+                "title": "Garmin Scholarship",
+                "date": "2008-08-20",
+                "organization": "Garmin International"
+            }
+        ]
+    },
+    "contact": {
+        "sectionname": "Contact Information",
+        "name": "Anthony J. Clark",
+        "update": "2019-08-30",
+        "address1": "Missouri State University\nComputer Science\n901 S. National Ave.\nSpringfield, MO 65897",
+        "address2": "<div id=\"email-insert\"></div>\n<a href=\"http://anthonyjclark.com\">anthonyjclark.com</a>\nCheek Hall, Room 307\n<div id=\"phone-insert\"></div>\n"
+    },
+    "softwares": {
+        "sectionname": "Software Contributions",
+        "items": [
+            {
+                "title": "Review, A Visualization Player",
+                "details": "Description: [Review](https://review.github.io/) is a web-based platform for sharing dynamic visualizations. [Code](https://github.com/review/review.github.io), [Description](/pdf/Clark.2018.EvoSoft.Review.pdf)"
+            },
+            {
+                "title": "Evolve-a-Robot, An Online Evolutionary Robotics Environment",
+                "details": "Description: [Evolve-a-Robot](http://evolve-a-robot.github.io/) is an interactive evolutionary robotics simulation. The project has two goals. The first is to expose K-12 students to evolution and evolutionary computation using an engaging and fun platform. Evolve-a-Robot does this by visualizing the evolution of robotic cars with an easy-to-use interface. And second, to expose enough of the adjustable parameters (i.e. genetic operators, and evolutionary configuration) to make the simulation useful for teaching evolutionary algorithms to undergraduate students. [Code](https://github.com/evolve-a-robot/evolve-a-robot.github.io), [Description](/pdf/Moore.2014.ALIFE.Web.pdf)"
+            }
+        ]
+    },
+    "talks": {
+        "sectionname": "Presentations",
+        "items": [
+            {
+                "title": "Invited Talk: Robotic Systems",
+                "date": "2018-09-27",
+                "organization": "IEEE Southwest Missouri Section",
+                "location": "Springfield, Missouri, USA"
+            },
+            {
+                "title": "Conference Talk: Evolving Adabot: A Mobile Robot with Adjustable Wheel Extensions",
+                "date": "2017-12-01",
+                "organization": "IEEE Symposium on Robotic Intelligence in Informationally Structured Space (RiiSS), held in conjunction with the 2017 IEEE Symposium on Computational Intelligence (SSCI)",
+                "location": "Honolulu, Hawaii, USA"
+            },
+            {
+                "title": "Conference Talk: An Evolutionary Approach to Discovering Execution Mode Boundaries for Adaptive Controllers",
+                "date": "2016-12-12",
+                "organization": "IEEE International Conference on Evolvable Systems (ICES), held in conjunction with the 2016 IEEE Symposium on Computational Intelligence (SSCI)",
+                "location": "Athens, Greece"
+            },
+            {
+                "title": "Conference Talk: Enhancing a Model-Free Adaptive Controller through Evolutionary Computation",
+                "date": "2015-07-15",
+                "organization": "ACM Genetic and Evolutionary Computation Conference (GECCO 2015)",
+                "location": "Madrid, Spain"
+            },
+            {
+                "title": "Conference Talk: Balancing Performance and Efficiency in a Robotic Fish with Evolutionary Multiobjective Optimization",
+                "date": "2014-12-09",
+                "organization": "IEEE International Conference on Evolvable Systems (ICES), held in conjunction with the 2014 IEEE Symposium on Computational Intelligence (SSCI)",
+                "location": "Orlando, Florida, USA"
+            },
+            {
+                "title": "Conference Talk: On-Board Evolution of a Model-Free Adaptive Controller for a Robotic Fish",
+                "date": "2014-07-12",
+                "organization": "The Fourteenth International Conference on the Synthesis and Simulation of Living Systems (ALIFE-14), International Evolution of Physical Systems Workshop (EPS)",
+                "location": "New York City, New York, USA"
+            },
+            {
+                "title": "Invited Conference Talk: Evolving Aquatic Robots",
+                "date": "2013-09-15",
+                "organization": "The Twelfth European Conference on Artificial Life (ECAL), International Evolution of Physical Systems Workshop (EPS)",
+                "location": "Taormina, Italy"
+            },
+            {
+                "title": "Poster Presentation: Evolutionary Optimization of Robotic Fish Control and Morphology",
+                "date": "2013-07-15",
+                "organization": "ACM Genetic and Evolutionary Computation Conference (GECCO 2013)",
+                "location": "Amsterdam, The Netherlands"
+            },
+            {
+                "title": "Conference Talk: Evolutionary Design and Experimental Validation of a Flexible Caudal Fin for Robotic Fish",
+                "date": "2012-07-12",
+                "organization": "The Thirteenth International Conference on the Synthesis and Simulation of Living Systems (ALIFE-13)",
+                "location": "East Lansing, Michigan, USA"
+            }
+        ]
+    },
+    "proservice": {
+        "sectionname": "Professional Activities",
+        "items": [
+            {
+                "title": "Reviewer for Journals",
+                "details": "Elsevier Robotics and Autonomous Systems\nIEEE Transactions on Systems, Man and Cybernetics: Systems\nIEEE Transactions on Robotics\nSage Adaptive Behavior"
+            },
+            {
+                "title": "Reviewer for Conferences",
+                "details": "Evostar\nIEEE Symposium Series on Computational Intelligence\nIEEE International Conference on Self-Adaptive and Self-Organizing Systems"
+            },
+            {
+                "title": "Professional Society Memberships",
+                "details": "IEEE and ACM"
+            },
+            {
+                "title": "NSF Panelist",
+                "details": "Smart and Autonomous Systems\nNational Robotics Initiative"
+            },
+            {
+                "title": "Task Force Member",
+                "date": "2018-01-01 to present",
+                "organization": "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
+            },
+            {
+                "title": "Program Committee Member",
+                "date": "2018-04-11",
+                "organization": "EvoROBOT Track at the Evostar 2018 Conference",
+                "location": "Parma, Italy"
+            },
+            {
+                "title": "Abstract and Poster",
+                "date": "2017-09-24",
+                "organization": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+                "details": "Evo-ROS: Integrating Evolutionary Robotics and ROS\nMoore, Jared M., Clark, Anthony J., Simon, Glen, McKinley, Philip K. In *2017 IEEE/RSJ International Conference on Intelligent Robots and Systems*. Vancouver, BC, Canada, September, 2017"
+            },
+            {
+                "title": "Workshop Organizer, SimER: Simulation in Evolutionary Robotics Workshop",
+                "date": "2017-07-20",
+                "organization": "Genetic and Evolutionary Computation Conference",
+                "location": "Berlin, Germany",
+                "details": "Responsibilities: Co-organize a workshop that brought together experts from around the world to discuss the topic of simulation; specifically how we can improve the current state of simulation in ER."
+            },
+            {
+                "title": "Invited Conference Talk: Evolving Aquatic Robots",
+                "date": "2013-09-15",
+                "details": "The Twelfth European Conference on Artificial Life (ECAL), International Evolution of Physical Systems Workshop (EPS)\nTaormina, Italy, September 2013"
+            }
+        ]
+    },
+    "education": {
+        "sectionname": "Education",
+        "items": [
+            {
+                "title": "Ph.D. in Computer Science",
+                "date": "2016-08-10",
+                "organization": "Department of Computer Science and Engineering, Michigan State University",
+                "location": "East Lansing, MI, USA",
+                "details": "[Automatically Addressing Uncertainty in Autonomous Robots With Computational Evolution](/pdf/Clark.2016.Dissertation.pdf)\nOutstanding Graduate Student Service Award\nAdvisor: [Dr. Philip K. McKinley](https://www.cse.msu.edu/~mckinley/)"
+            },
+            {
+                "title": "B.S. in Computer Engineering",
+                "date": "2009-12-20",
+                "organization": "Department of Electrical and Computer Engineering, Kansas State University",
+                "location": "Manhattan, KS, USA",
+                "details": "Graduated magna cum laude"
+            }
+        ]
+    },
+    "uniservice": {
+        "sectionname": "University Service",
+        "items": [
+            {
+                "title": "STEMentors Program Advisor",
+                "date": "2018-04-15 to present",
+                "details": "Advise the new outreach program, which is directed at providing mentoring for local lower-income schools."
+            },
+            {
+                "title": "Robotics Club Advisor",
+                "date": "2017-11-20 to present",
+                "details": "Given strong student demand, I (and one of our EE faculty) initiated Missouri State University's first robotics club."
+            },
+            {
+                "title": "CSC Representative, CNAS College Council (elected)",
+                "date": "2017-08-20 to present",
+                "details": "Act upon curricular matters that are referred to it by departments within the college. The College Council approves departmental proposals, rejects and returns proposals to the originating department, or amends and approves proposals."
+            },
+            {
+                "title": "CSC Representative, CNAS Student Recruitment Committee",
+                "date": "2016-08-20 to present",
+                "details": "Attend recruitment events on the behalf of the college, and make recommendations to the dean regarding recruitment procedures."
+            },
+            {
+                "title": "CSC Representative, CNAS Diversity Committee",
+                "date": "2016-08-20 to 2019-08-15",
+                "details": "Represent my department at the college level diversity committee. A primary goal for the members of this committee is to improve the retention of students that are considered at risk for either dropping out or transferring. We improve retention through a variety of activities: poster sessions, scholarships, and picnics."
+            },
+            {
+                "title": "ACM Chapter Advisor",
+                "date": "2017-08-20 to 2019-05-15",
+                "details": "Coordinate ACM study chapter activities, include: scheduling speakers, organizing off-campus activities (e.g., competitions), and recruit volunteers to help at departmental events."
+            },
+            {
+                "title": "Proactive Advisor",
+                "date": "2018-09-15",
+                "details": "Attend special training sessions on proactive advising techniques so that I can better advise first generation computer science undergraduates. I currently advise ~75 CS students."
+            },
+            {
+                "title": "Coordinator, Computer Science and Engineering Graduate Association (elected)",
+                "date": "2014-08-20 to 2016-05-20",
+                "details": "Coordinated monthly meetings for graduate students in the Department of Computer Science and Engineering, facilitated communication of Department news and policies, and organized graduate student service opportunities."
+            },
+            {
+                "title": "Graduate Representative, Computer Science and Engineering Graduate Studies and Research Committee (elected)",
+                "date": "2014-08-20 to 2015-05-20",
+                "details": "Act as a voting member of the GSRC, which establishes academic standards, coordinates graduate course offerings, determines admission standards and policies for financial awards, and evaluates Ph.D. qualifier examinations."
+            },
+            {
+                "title": "Graduate Representative, Computer Science and Engineering Departmental Meetings (elected)",
+                "date": "2013-08-20 to 2014-05-20",
+                "details": "Act as a voting member at CSE department meetings."
+            },
+            {
+                "title": "Officer, Eta Kappa Nu, Electrical and Computer Engineering at Kansas State University (elected)",
+                "date": "2007-08-20 to 2009-05-20"
+            }
+        ]
+    },
+    "outreach": {
+        "sectionname": "Advising, Mentoring, and Outreach",
+        "items": [
+            {
+                "title": "First Lego League Team Mentor and Competition Judge",
+                "date": "2017-11-15 to present",
+                "organization": "FIRST",
+                "details": "Responsibilities: Mentor one FLL team and judge at a regional competition."
+            },
+            {
+                "title": "Advising Undergraduate and Graduate Researchers",
+                "date": "2016-08-20 to present",
+                "organization": "Missouri State University",
+                "details": "Responsibilities: Coordinate and advise from three to six undergraduate and graduate students from different departments every semester."
+            },
+            {
+                "title": "Instructor, Introduction to Evolutionary Robotics",
+                "date": "2015-07-15",
+                "organization": "Introduction to Robotics Engineering Program, Michigan State University",
+                "details": "Responsibilities: Presented my research and an explanation of evolutionary robotics to 22 high school students. I introduced a web-based evolutionary robotics simulation platform (BoxCar2D) to the students and in a hands-on laboratory session helped them answer several questions regarding the evolutionary robotics process."
+            },
+            {
+                "title": "Mentor, Visiting Scholar Program",
+                "date": "2015-03-15 to 2015-07-15",
+                "organization": "Department of Computer Science and Engineering, Michigan State University",
+                "details": "Responsibilities: Co-mentored Mr. Ren\u00e9 Draschwandtner, a visiting Master's student from the University of Applied Sciences in Austria. I worked with Mr. Draschwandtner, Dr. Jared Moore, and Dr. Philip McKinley to study locomotion and grasping behaviors for a snake-like robot using methods from evolutionary robotics."
+            },
+            {
+                "title": "Presenter, 3D Printing Showcase",
+                "date": "2014-09-20",
+                "organization": "Michigan State University Library",
+                "details": "Responsibilities: Presented 3D printing technologies and my lab's research as part of outreach directed at undergraduates and the general public."
+            },
+            {
+                "title": "Co-Organizer of Sandbox Session, Evolution-In-Action Software and the Web",
+                "date": "2014-08-25",
+                "organization": "NSF BEACON Center",
+                "details": "Responsibilities: Organized an open discussion regarding the application of state-of-the-art web technologies to evolutionary research and outreach projects."
+            },
+            {
+                "title": "Instructor, BEACON High School Summer Residential Program",
+                "date": "2014-07-20",
+                "organization": "W.K. Kellogg Biological Station, Michigan State University",
+                "details": "Responsibilities: Presented an overview of evolutionary computation to a group of four high school students interested in STEM fields, and then facilitated their work as they conducted, wrote about, and presented results from their own evolutionary study in a day-long course."
+            },
+            {
+                "title": "Mentor, NSF Research Experience for Teachers Summer Program",
+                "date": "2014-07-17",
+                "organization": "College of Engineering, Michigan State University",
+                "details": "Responsibilities: Mentored a local high school engineering instructor, Charles Payson. Over the course of his second summer in the program, Mr. Payson designed, implemented, and presented a web application used to teach evolutionary robotics concepts to K-12 students and the general public. I taught Mr. Payson web-programming skills as well as aided him in developing a curriculum for high school students."
+            },
+            {
+                "title": "Instructor, Introduction to Robotics Engineering",
+                "date": "2014-07-15",
+                "organization": "College of Engineering High School Summer Program, Michigan State University",
+                "details": "Responsibilities: Introduced evolutionary robotics to approximately 20 high school students in a tutorial style. The tutorial was based on an interactive web-based simulation environment developed by myself and Jared M. Moore. Students conducted evolutionary experiments in which they evolved robots in simulation."
+            },
+            {
+                "title": "Graduate Student Evaluator",
+                "date": "2014-02-10",
+                "organization": "Undergraduate Research and Arts Forum, Michigan State University",
+                "details": "Responsibilities: Provided feedback to undergraduates presenting their research, and scored poster presentations for a competition."
+            },
+            {
+                "title": "Mentor, NSF Research Experience for Teachers Summer Program",
+                "date": "2013-05-20 to 2013-08-20",
+                "organization": "College of Engineering, Michigan State University",
+                "details": "Responsibilities: Mentored a local high school engineering instructor, Charles Payson. During a six-week program, I aided Mr. Payson in learning C++ programming, evolutionary algorithm development, and creating dynamic simulations. At the end of the program, I assisted Mr. Payson in translating his research into a robotics lesson plan using the VEX robotics platform."
+            },
+            {
+                "title": "Mentor, NSF Research Experience for Teachers Summer Program",
+                "date": "2011-05-20 to 2013-08-20",
+                "organization": "College of Engineering, Michigan State University",
+                "details": "Responsibilities: Mentored a local elementary school teacher, Adam Ford, who specializes in computers and robotics. Mr. Ford developed the Biolume environment, which demonstrates evolution 'in-action' using using simple robots. The Biolume project is an outreach exhibit aimed at demonstrating evolutionary principles to the general public."
+            }
+        ]
+    },
+    "work": {
+        "sectionname": "Professional Experience",
+        "items": [
+            {
+                "title": "Assistant Professor of Computer Science",
+                "date": "2016-08-15 to present",
+                "organization": "Department of Computer Science, Missouri State University",
+                "location": "Springfield, MO, USA",
+                "details": "***Research Interests:*** autonomous mobile robots &bull; evolutionary computation &bull; machine learning\n***Undergraduate Courses:*** algorithms and data structures &bull; languages and machines &bull; senior seminar\n***Graduate Courses:*** evolutionary computation &bull; deep learning &bull; advanced robotics\n"
+            },
+            {
+                "title": "Computer Science Teaching Assistant",
+                "date": "2016-01-15 to 2016-05-15",
+                "organization": "Department of Computer Science and Engineering, Michigan State University",
+                "location": "East Lansing, MI, USA",
+                "details": "Administered two lab sections of Introduction to Programming II (CSE232).\n- approximately 25 students in each lab section\n- covering lecture and lab material at the beginning of each session\n- creating projects\n- grading course projects (11 total projects)\n- answering questions during weekly help-room sessions"
+            },
+            {
+                "title": "Computer Science Instructor",
+                "date": "2015-05-20 to 2015-07-08",
+                "organization": "Department of Computer Science and Engineering, Michigan State University",
+                "location": "East Lansing, MI, USA",
+                "details": "Organized and taught Introduction to Programming II (CSE232) during the summer session.\n- 56 students\n- develop and present lectures covering introductory programming concepts using C++\n- develop a series of course projects\n- mentor and coordinate three teaching assistants\n- modify and expand weekly laboratory assignments"
+            },
+            {
+                "title": "Graduate Fellow and Research Assistant",
+                "date": "2010-05-20 to 2016-08-10",
+                "organization": "Department of Computer Science and Engineering, Michigan State University",
+                "location": "East Lansing, MI, USA",
+                "details": "Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems.\n- apply evolutionary algorithms to the design and control of mobile robots,\n- design 3D-printed robots containing flexible components,\n- work on an interdisciplinary team including engineers and biologists, and\n- present research at the BEACON Center, an NSF Science and Technology Center."
+            },
+            {
+                "title": "Undergraduate Research Assistant",
+                "date": "2009-05-20 to 2009-12-15",
+                "organization": "Autonomous Vehicle Systems Laboratory, Kansas State University",
+                "location": "Manhattan, KS, USA",
+                "details": "Designed software used to capture images at specified GPS locations with an autonomous aerial vehicle."
+            },
+            {
+                "title": "Undergraduate Research Assistant",
+                "date": "2008-08-20 to 2009-05-15",
+                "organization": "Independent Research with Professor Stewart E. Stanton, Kansas State University",
+                "location": "Manhattan, KS, USA",
+                "details": "Investigated the fundamentals of convergence of complex solutions in power systems."
+            },
+            {
+                "title": "Software Engineer, Intern",
+                "date": "2008-05-20 to 2008-08-10",
+                "organization": "Department of Positioning and Sensors, Garmin International",
+                "location": "Olathe, KS, USA",
+                "details": "Solved problems associated with positioning error due to antenna performance."
+            },
+            {
+                "title": "Undergraduate Research Fellow",
+                "date": "2007-05-20 to 2007-08-01",
+                "organization": "Data Science Summer Institute, University of Illinois at Urbana-Champaign",
+                "location": "Urbana-Champaign, IL, USA",
+                "details": "Attended lectures covering the fundamentals of data science and worked on a team to create a reverse image search engine."
+            },
+            {
+                "title": "SAS Tutor",
+                "date": "2007-08-20 to 2009-05-15",
+                "organization": "Scholars Assisting Scholars (SAS) Program, Kansas State University",
+                "location": "Manhattan, KS, USA",
+                "details": "Attended lectures on the subject I was tutoring, provided walk-in, free tutoring consistent with course instruction, and led review sessions prior to exams."
+            }
+        ]
+    }
+}

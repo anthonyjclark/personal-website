@@ -1,0 +1,50 @@
+.flxgrid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+[class^='flx-'] {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.flx-100 {
+  flex: 0 0 100%;
+}
+
+.flx-90 {
+  flex: 0 0 90%;
+}
+
+.flx-80 {
+  flex: 0 0 80%;
+}
+
+.flx-70 {
+  flex: 0 0 70%;
+}
+
+.flx-60 {
+  flex: 0 0 60%;
+}
+
+.flx-50 {
+  flex: 0 0 50%;
+}
+
+.flx-40 {
+  flex: 0 0 40%;
+}
+
+.flx-30 {
+  flex: 0 0 30%;
+}
+
+.flx-20 {
+  flex: 0 0 20%;
+}
+
+.flx-10 {
+  flex: 0 0 10%;
+}

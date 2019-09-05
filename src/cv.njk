@@ -1,0 +1,116 @@
+---
+layout: base.njk
+---
+
+<div id="cv-container">
+
+    <div class="flxgrid">
+      <div class="flx-100 cv-title">
+        {{ cv.contact.name | safe }}
+      </div>
+      <div class="flx-100 cv-subtitle">
+        Last Updated: {{ cv.contact.update | safe }}
+      </div>
+      <div class="flx-100 cv-subtitle no-print">
+        This page can be printed via your browser; I recommend 0.75 inch side margins. Note: links are not preserved by Chrome. <button  onclick="javascript:window.print()" class="btn-print">Print</button>
+      </div>
+    </div>
+
+    <hr class="sec-hr" />
+
+    <div class="flxgrid">
+      <div class="flx-50">
+        <div class="cv-address text-breaking">
+          {{ cv.contact.address1 | safe }}
+        </div>
+      </div>
+      <div class="flx-50">
+        <div class="cv-address text-right text-breaking">
+          {{ cv.contact.address2 | safe }}
+        </div>
+      </div>
+    </div>
+
+    {% for section in [cv.education, cv.work, cv.awards] %}
+    {{section.sectionname}}
+    {% endfor %}
+
+    {% for bib in bibs_f %}
+    <div class="itm flxgrid">
+
+        {% if loop.first == true %}
+        <div class="flx-100">
+            <hr class="sec-hr" />
+            <div class="sec-header" id="publications">
+                Publications
+                <div class="cv-subtitle">
+                    Student authors are underlined.
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="flx-20">
+            <div class="itm-date text-right">
+                {{ bib.date }}
+            </div>
+        </div>
+
+        <div class="flx-80" id="{{ bib.key }}">
+            <a class="no-url-print" href="/pdf/{{ bib.key }}.pdf" target="_blank">
+                <p class="itm-title">{{ bib.title }}</p>
+            </a>
+            <p class="bib-authors">{{ bib.authors | safe }}</p>
+            <p class="bib-venue">
+                {{ bib.venue | safe }}
+            </p>
+            <p class="no-print bib-venue">
+                <span><a href="/pdf/{{ bib.key }}.pdf" target="_blank">PDF</a></span>
+                <span class="bib-sep"><a href="/bib/{{ bib.key }}.bib" target="_blank">BibTeX</a></span>
+                {% if bib.doi | length > 0 %}
+                <span class="bib-sep"><a href="{{ bib.doi }}" target="_blank">DOI</a></span>
+                {% endif %}
+                {% if bib.slides %}
+                <span class="bib-sep"><a href="/pdf/{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
+                {% endif %}
+            </p>
+            {% if bib.doi | length > 0 %}
+            <p class="only-print bib-venue">
+                DOI: {{ bib.doi }}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+    {% for section in [cv.uniservice, cv.proservice, cv.outreach, cv.grants, cv.softwares] %}
+    {{section.sectionname}}
+    {% endfor %}
+
+
+</div>
+
+<style type="text/css">
+  @media print {
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+  }
+</style>
+
+<script language="JavaScript">
+  var username = "anthonyjclark",
+      domain = "gmail.com";
+  document.getElementById("email-insert").innerHTML =
+    username + "&#8203;@" + domain;
+
+  var area = "(347)",
+      prefix = "687",
+      line = "8421";
+  document.getElementById("phone-insert").innerHTML =
+    "+1 " + area + " " + prefix + " - " + line;
+
+</script>
