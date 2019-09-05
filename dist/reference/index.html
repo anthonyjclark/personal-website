@@ -1,0 +1,701 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Anthony J. Clark</title>
+  <meta name="description" content="Professional website for Anthony J. Clark">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="/static/site.webmanifest">
+  <link rel="apple-touch-icon" href="/static/icon.png">
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+
+  <link rel="stylesheet" href="/static/css/normalize.css">
+
+    
+    <style>
+        
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+header > nav > ul > li {
+  list-style: none;
+  display: inline;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  box-shadow: 5px 5px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+img.arcs-logo {
+  box-shadow: none;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-breaking {
+  white-space: pre-line;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 900px;
+  }
+
+  .main-nav a {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0 1rem;
+  }
+
+  .main-nav .icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
+
+.main-nav {
+  background: #f8f8f8;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.main-nav a {
+  padding: 1rem 0.25rem;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  /*max-width: 140px;*/
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  color: #333;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  background: #ccc;
+  color: black;
+}
+
+.main-nav a:hover svg,
+.main-nav a:focus svg {
+  fill: green;
+}
+
+.main-nav a:hover span,
+.main-nav a:focus span {
+  color: black;
+}
+
+.main-nav span {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #888;
+  margin: 0.25rem 0 0 0;
+}
+
+.main-nav .icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  float: left;
+  margin-right: 0.5rem;
+  fill: #999;
+}
+
+.main-nav.footer .icon {
+  display: block;
+  margin: auto;
+}
+
+/*#main-nav-list li a div {
+  padding-left: 0.2rem;
+}
+*/
+
+.contact-info {
+  padding-right: 1rem;
+  max-width: 50%;
+  min-width: 5rem;
+  display: inline-block;
+}
+
+footer {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-top: medium solid #777;
+}
+
+.flxgrid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+[class^='flx-'] {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.flx-100 {
+  flex: 0 0 100%;
+}
+
+.flx-90 {
+  flex: 0 0 90%;
+}
+
+.flx-80 {
+  flex: 0 0 80%;
+}
+
+.flx-70 {
+  flex: 0 0 70%;
+}
+
+.flx-60 {
+  flex: 0 0 60%;
+}
+
+.flx-50 {
+  flex: 0 0 50%;
+}
+
+.flx-40 {
+  flex: 0 0 40%;
+}
+
+.flx-30 {
+  flex: 0 0 30%;
+}
+
+.flx-20 {
+  flex: 0 0 20%;
+}
+
+.flx-10 {
+  flex: 0 0 10%;
+}
+
+.cv-title {
+  font-size: 1.5rem;
+}
+
+.cv-subtitle {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.sec-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.itm {
+  margin-bottom: 1.5rem;
+}
+
+.itm-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.itm-date {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  line-height: 1.4rem;
+}
+
+.itm-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0.75rem 0;
+  padding: 0;
+}
+
+.itm-organization,
+.itm-location {
+  font-style: italic;
+}
+
+.itm-details p {
+  margin: 0;
+}
+
+.itm-details ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.itm-details em strong {
+  /*font-weight: 600;*/
+  /*font-family: 'Open Sans Semi-Bold', sans-serif;*/
+  font-feature-settings: "c2sc";
+  font-variant: small-caps;
+}
+
+.bib-authors {
+  margin: 0;
+}
+
+.bib-authors .bib-author-ajc {
+  font-weight: 600;
+  font-feature-settings: "c2sc";
+  font-variant: small-caps;
+}
+
+.bib-authors .bib-author-student {
+  text-decoration: underline;
+}
+
+.bib-venue {
+  margin: 0;
+}
+
+.bib-sep {
+  padding-left: calc(0.5rem + 1px);
+  border-left: 1px solid #ccc;
+  margin-left: calc(0.5rem + 1px);
+}
+
+.only-print {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .cv-address {
+    margin: 0 1rem;
+  }
+}
+
+@media print {
+  html {
+    /*font-family: georgia, times, serif;*/
+    font-size: 10.5px;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .cv-container {
+    width: 100%;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .only-print {
+    display: inline-block;
+  }
+
+  [class^='flx-'] {
+    page-break-inside: avoid;
+    region-break-inside: avoid;
+  }
+
+  div.page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .itm {
+    page-break-inside: avoid;
+  }
+
+  a:link:after,
+  a:visited:after {
+    content: "";
+  }
+
+  .itm a,
+  .cv-address a {
+    text-decoration: none;
+  }
+
+  .itm a:link:after,
+  .itm a:visited:after,
+  .cv-address a:link:after,
+  .cv-address a:visited:after {
+    content: "";
+  }
+
+  .itm-details em strong {
+    font-weight: 600;
+  }
+}
+
+@page  {
+  margin: 0.75in;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+
+    
+    </style>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <div class="container">
+          <header>
+      <nav role='navigation' class="main-nav" id="main-nav">
+        <ul id="main-nav-list">
+          <li><a href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="icon"><path fill-rule="evenodd" d="M16 9l-3-3V2h-2v2L8 1 0 9h2l1 5c0 .55.45 1 1 1h8c.55 0 1-.45 1-1l1-5h2zm-4 5H9v-4H7v4H4L2.81 7.69 8 2.5l5.19 5.19L12 14z"/></svg>
+            <div>Home</div>
+          </a></li>
+          <li><a href="/cv/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="icon"><path fill-rule="evenodd" d="M7.83 9.19L4 8c-4-8 0 1.5 0 2.5S5.8 12 8 12s4-.5 4-1.5V8L8.17 9.19a.73.73 0 0 1-.36 0h.02zm.28-6.39a.34.34 0 0 0-.2 0L.27 5.18a.35.35 0 0 0 0 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 0 0 0-.67L8.1 2.81l.01-.01zM8.02 6c-.55 0-1-.22-1-.5s.45-.5 1-.5 1 .22 1 .5-.45.5-1 .5z"/></svg>
+            <div>CV</div>
+          </a></li>
+          <li><a href="/arcslab/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="423 -9 200 200" class="icon"><path d="M 609.63734 33.153318 C 608.1706 31.209992 606.6222 29.319648 604.9644 27.517242 C 596.2661 29.55751 588.0779 32.373798 580.33625 36.034204 C 578.05794 33.82018 575.3938 32.023465 572.83383 30.11476 C 570.1493 28.378213 567.42005 26.654137 564.54304 25.214234 C 566.1336 17.545316 567.09526 9.283135 567.12375 1.176553 C 562.56073 -.5901702 557.9304 -2.170715 553.13624 -3.264997 C 547.5182 3.0370365 542.6547 10.173457 538.8018 17.215993 C 535.588 16.76337 532.32154 16.624473 529.08354 16.520782 C 525.83804 16.62562 522.5784 16.581718 519.37273 17.093034 C 515.79066 9.761035 511.4334 2.675142 506.342 -4 C 501.5199 -3.1035975 496.90946 -1.5327072 492.30474 -.006473162 C 491.9268 8.565113 492.29115 16.582894 493.77244 24.701734 C 490.92275 26.129424 488.1629 27.685442 485.5817 29.50531 C 482.8513 31.12946 480.5871 33.313893 478.08936 35.21743 C 470.7569 31.297443 462.821 27.88779 454.4304 25.10622 C 451.3791 28.686513 448.28214 32.24257 445.79964 36.20417 C 450.58994 43.285294 456.3414 49.84675 462.4502 55.586696 C 460.9234 58.25506 460.06645 61.20182 458.85073 63.99821 C 458.11546 66.943875 456.99715 69.81069 456.5922 72.827625 C 448.25723 73.65165 439.50927 75.183255 431.30846 77.55258 C 430.8859 82.15298 430.91924 86.76451 431.27616 91.37994 C 439.5984 94.52935 448.37646 96.74602 456.72457 98.09738 C 457.57565 101.04019 458.0648 104.08015 459.27544 106.92885 C 460.2451 109.85203 461.5214 112.66215 462.94934 115.41897 C 456.56035 120.79994 451.03794 126.62212 445.7059 133.20129 C 448.3099 137.12303 451.1266 140.97029 454.35636 144.48276 C 463.05593 142.44287 471.24413 139.62658 478.98454 135.9658 C 481.26285 138.17982 483.92696 139.97653 486.4882 141.88562 C 489.1715 143.62179 491.90074 145.34586 494.77776 146.78577 C 493.1872 154.45468 492.22554 162.71687 492.19705 170.82345 C 496.76006 172.59017 501.3904 174.17071 506.18456 175.265 C 511.803 168.96183 516.6661 161.82654 520.51897 154.784 C 523.7328 155.23663 526.99926 155.37553 530.2385 155.4796 C 533.48275 155.37438 536.7424 155.41828 539.94684 154.90659 C 543.53013 162.23897 547.8886 169.32524 552.9788 176 C 557.8009 175.1036 562.41134 173.5327 567.01606 172.00647 C 567.3952 163.43527 567.02964 155.4171 565.54836 147.29827 C 568.39804 145.87058 571.1591 144.31494 573.7391 142.49469 C 576.4707 140.87092 578.7337 138.6861 581.2314 136.78257 C 588.5651 140.70294 596.4998 144.11221 604.8908 146.89265 C 606.9761 144.44625 609.08295 142.01066 611 139.44885 L 561.2697 117.47258 C 559.8903 118.67764 558.4197 119.79986 556.8601 120.82846 C 549.2091 126.21392 539.51285 128.82645 530.02217 128.8659 C 520.4937 128.79446 510.77235 125.77513 503.0201 120.4759 C 495.36625 115.10933 489.1276 107.54555 486.24677 98.88767 C 483.08354 90.29517 483.1912 81.05097 485.96497 72.42307 C 489.0245 63.882696 494.61896 56.34461 502.45946 51.171156 C 510.1117 45.78608 519.80795 43.17355 529.299 43.13296 C 538.8275 43.2044 548.54806 46.226 556.30107 51.522966 C 557.77064 52.55364 559.18805 53.66528 560.53954 54.85009 Z"/></svg>
+            <div>ARCS</div>
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <h1>Requesting a Reference Letter:</h1>
+<p>It is important to pick proper letter writers; people who know you well enough to write a meaningful letter, and who feel comfortable saying only good things about you. I highly recommend that you start interacting with professors as early in your careers as possible to have solid options for letter-writers when the time comes.</p>
+<p><strong>Should you ask me for a letter</strong>? It depends on how much we have interacted and on what basis. In general, if you have taken only a single course from me and have not interacted with me in any other context, I will say &quot;no.&quot; Unless there was a remarkable amount of interaction in that course, it would be difficult for me to write a strong letter. If you are unsure, then ask me if I feel comfortable writing you a strong letter, and I will tell you.</p>
+<p>If I am going to write you a letter, I want a lot of information from you to help me write the strongest letter I can. Specifically:</p>
+<ul>
+<li>I would like <strong>at least three weeks warning</strong>, but I understand that sometimes you find out about an opportunity at the last moment. Be clear about the earliest due dates for the letter and send me a reminder a few days before it is due.</li>
+<li>Send me your CV or resume. Include any other essays your have written as part of your application, such as a personal statement or research plan. An unofficial transcript can also help.</li>
+<li>Remind me of the major types of interactions we have had, including what courses you have taken from me, what projects you have worked on for me, what events you may have helped organize with me, or anything else that you think is relevant. You would be amazed how easy it is to forget one of those. When possible, please also remind me of dates (even just the year) so that I can be as specific as possible in my letter, which is always stronger.</li>
+<li>Give me a list of at least three points that you would like me to include in the letter. Please do not be modest; I want to know what you feel is most important for me to describe. Some important points to illustrate include your: knowledge, creativity, critical thinking, rigor, technical skills, leadership, teamwork, written and verbal communication, initiative, enthusiasm, reliability, maturity, and your basic social skills. I would like you to remind me of incidents where you have demonstrated some of these traits. <em>These are also all points that you should try to emphasize about yourself in any personal essay</em>.</li>
+<li>Tell me why you want whatever it is to which you are applying. If it is an application to a Ph.D. program, what do you plan to do with the degree? If it is for a fellowship, how will this additional money enhance your options? This information will help me know how to best position your letter. While your target audience might have specific expectations of your goals, I do not, so be honest. If you are not sure of what you want to do with your Ph.D., I will not say that in the letter, but knowing this fact will help me give you better advice.</li>
+</ul>
+
+          <footer>
+        <div class="main-nav footer">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1.6rem" viewBox="0 0 10 16" class="icon"><path fill-rule="evenodd" d="M5 3L0 9h3v4h4V9h3z"/></svg>
+                &copy; 2019 | Anthony J. Clark
+                <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1.6rem" viewBox="0 0 10 16" class="icon"><path fill-rule="evenodd" d="M5 3L0 9h3v4h4V9h3z"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>
