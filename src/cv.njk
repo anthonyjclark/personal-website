@@ -31,7 +31,7 @@ layout: base.njk
       {% include "section.njk" %}
     {% endfor %}
 
-    {% for bib in bibs_f %}
+    {% for bib in formatted_bibs %}
     <div class="itm flxgrid">
 
         {% if loop.first == true %}

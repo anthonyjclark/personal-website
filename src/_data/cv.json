@@ -14,14 +14,14 @@
                 "details": "Amount: $24,000\nDetails: Funds were utilized to purchase a 3D printer and a CNC mill that will be used by faculty and students in the Departments of Computer Science and Engineering.\nPI: Anthony J. Clark"
             },
             {
+                "title": "Distributed, Onboard Evolution in a Robotic Cloud",
+                "date": "2013-08-20 to 2014-05-15",
+                "details": "Amount: $168,231\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: T. Soule (U. Idaho), Co-PIs: R. Heckendorn (U. Idaho), P. McKinley (MSU), J. Zhan (NCA&T), S. Harrison (NCA&T)"
+            },
+            {
                 "title": "II-EN: Evolution Park: An Evolutionary Robotics Habitat for the Study of Crawling, Swimming and Flying Creatures",
                 "date": "2011-08-20 to 2014-05-15",
                 "details": "Amount: $305,000\nSponsor: NSF, Division Of Computer and Network Systems\nPI: P. McKinley, Co-PIs: X. Tan, J. Boughman"
-            },
-            {
-                "title": "Exploiting Robot-Fish Interactions and Evolutionary Computing to Understand and Synthesize Complex Collective Behavior",
-                "date": "2011-08-20 to 2012-05-15",
-                "details": "Amount: $110,642\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: X. Tan, Co-PIs: P. McKinley, J. Boughman"
             },
             {
                 "title": "Understanding and Synthesizing Collective Behavior with Mixed Robotic and Live Fish Schools",
@@ -29,9 +29,9 @@
                 "details": "Amount: $169,923\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: X. Tan, Co-PIs: P. McKinley, J. Boughman"
             },
             {
-                "title": "Distributed, Onboard Evolution in a Robotic Cloud",
-                "date": "2013-08-20 to 2014-05-15",
-                "details": "Amount: $168,231\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: T. Soule (U. Idaho), Co-PIs: R. Heckendorn (U. Idaho), P. McKinley (MSU), J. Zhan (NCA&T), S. Harrison (NCA&T)"
+                "title": "Exploiting Robot-Fish Interactions and Evolutionary Computing to Understand and Synthesize Complex Collective Behavior",
+                "date": "2011-08-20 to 2012-05-15",
+                "details": "Amount: $110,642\nSponsor: NSF BEACON Center for the Study of Evolution in Action\nPI: X. Tan, Co-PIs: P. McKinley, J. Boughman"
             }
         ]
     },
@@ -100,7 +100,7 @@
     "contact": {
         "sectionname": "Contact Information",
         "name": "Anthony J. Clark",
-        "update": "2019-08-30",
+        "update": "2019-09-08",
         "address1": "Missouri State University\nComputer Science\n901 S. National Ave.\nSpringfield, MO 65897",
         "address2": "<div id=\"email-insert\"></div>\n<a href=\"http://anthonyjclark.com\">anthonyjclark.com</a>\nCheek Hall, Room 307\n<div id=\"phone-insert\"></div>\n"
     },
@@ -120,6 +120,12 @@
     "talks": {
         "sectionname": "Presentations",
         "items": [
+            {
+                "title": "Conference Talk: An Ensemble of Face Recognition Algorithms for Unsupervised Expansion of Training Data",
+                "date": "2018-12-01",
+                "organization": "International Conference on Computational Science and Computational Intelligence (CSCI 2018)",
+                "location": "Las Vegas, Nevada, USA"
+            },
             {
                 "title": "Invited Talk: Robotic Systems",
                 "date": "2018-09-27",
@@ -234,7 +240,7 @@
                 "date": "2016-08-10",
                 "organization": "Department of Computer Science and Engineering, Michigan State University",
                 "location": "East Lansing, MI, USA",
-                "details": "[Automatically Addressing Uncertainty in Autonomous Robots With Computational Evolution](/pdf/Clark.2016.Dissertation.pdf)\nOutstanding Graduate Student Service Award\nAdvisor: [Dr. Philip K. McKinley](https://www.cse.msu.edu/~mckinley/)"
+                "details": "[Automatically Addressing Uncertainty in Autonomous Robots With Computational Evolution](https://d.lib.msu.edu/etd/4287)\nOutstanding Graduate Student Service Award\nAdvisor: [Dr. Philip K. McKinley](https://www.cse.msu.edu/~mckinley/)"
             },
             {
                 "title": "B.S. in Computer Engineering",
@@ -389,7 +395,7 @@
                 "date": "2016-08-15 to present",
                 "organization": "Department of Computer Science, Missouri State University",
                 "location": "Springfield, MO, USA",
-                "details": "***Research Interests:*** autonomous mobile robots &bull; evolutionary computation &bull; machine learning\n***Undergraduate Courses:*** algorithms and data structures &bull; languages and machines &bull; senior seminar\n***Graduate Courses:*** evolutionary computation &bull; deep learning &bull; advanced robotics\n"
+                "details": "***Research Interests:*** mobile robotics &bull; deep learning &bull;\n***Undergraduate Courses:*** introduction to C++ programming &bull; data structures &bull; algorithms and data structures &bull; languages and machines &bull; senior seminar\n***Graduate Courses:*** evolutionary computation &bull; deep learning &bull; advanced robotics\n"
             },
             {
                 "title": "Computer Science Teaching Assistant",
