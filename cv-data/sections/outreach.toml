@@ -1,0 +1,100 @@
+[outreach]
+sectionname = "Advising, Mentoring, and Outreach"
+
+[[outreach.items]]
+title = "First Lego League Team Mentor and Competition Judge"
+date = "2017-11-15 to present"
+organization = "FIRST"
+details = """
+Responsibilities: Mentor one FLL team and judge at a regional competition."""
+
+[[outreach.items]]
+title = "Advising Undergraduate and Graduate Researchers"
+date = "2016-08-20 to present"
+organization = "Missouri State University"
+details = """
+Responsibilities: Coordinate and advise from three to six undergraduate and graduate students from different departments every semester."""
+
+[[outreach.items]]
+title = "Instructor, Introduction to Evolutionary Robotics"
+date = "2015-07-15"
+organization = "Introduction to Robotics Engineering Program, Michigan State University"
+details = """
+Responsibilities: Presented my research and an explanation of evolutionary robotics to 22 high school students. I introduced a web-based evolutionary robotics simulation platform (BoxCar2D) to the students and in a hands-on laboratory session helped them answer several questions regarding the evolutionary robotics process."""
+
+[[outreach.items]]
+title = "Mentor, Visiting Scholar Program"
+date = "2015-03-15 to 2015-07-15"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+details = """
+Responsibilities: Co-mentored Mr. René Draschwandtner, a visiting Master's student from the University of Applied Sciences in Austria. I worked with Mr. Draschwandtner, Dr. Jared Moore, and Dr. Philip McKinley to study locomotion and grasping behaviors for a snake-like robot using methods from evolutionary robotics."""
+
+[[outreach.items]]
+title = "Presenter, 3D Printing Showcase"
+date = "2014-09-20"
+organization = "Michigan State University Library"
+details = """
+Responsibilities: Presented 3D printing technologies and my lab's research as part of outreach directed at undergraduates and the general public."""
+
+[[outreach.items]]
+title = "Co-Organizer of Sandbox Session, Evolution-In-Action Software and the Web"
+date = "2014-08-25"
+organization = "NSF BEACON Center"
+details = """
+Responsibilities: Organized an open discussion regarding the application of state-of-the-art web technologies to evolutionary research and outreach projects."""
+
+[[outreach.items]]
+title = "Instructor, BEACON High School Summer Residential Program"
+date = "2014-07-20"
+organization = "W.K. Kellogg Biological Station, Michigan State University"
+details = """
+Responsibilities: Presented an overview of evolutionary computation to a group of four high school students interested in STEM fields, and then facilitated their work as they conducted, wrote about, and presented results from their own evolutionary study in a day-long course."""
+
+[[outreach.items]]
+title = "Mentor, NSF Research Experience for Teachers Summer Program"
+date = "2014-07-17"
+organization = "College of Engineering, Michigan State University"
+details = """
+Responsibilities: Mentored a local high school engineering instructor, Charles Payson. Over the course of his second summer in the program, Mr. Payson designed, implemented, and presented a web application used to teach evolutionary robotics concepts to K-12 students and the general public. I taught Mr. Payson web-programming skills as well as aided him in developing a curriculum for high school students."""
+
+[[outreach.items]]
+title = "Instructor, Introduction to Robotics Engineering"
+date = "2014-07-15"
+organization = "College of Engineering High School Summer Program, Michigan State University"
+details = """
+Responsibilities: Introduced evolutionary robotics to approximately 20 high school students in a tutorial style. The tutorial was based on an interactive web-based simulation environment developed by myself and Jared M. Moore. Students conducted evolutionary experiments in which they evolved robots in simulation."""
+
+# [[outreach.items]]
+# title = "Presenter, Research Experiences for Undergraduates"
+# date = "2014-07-27"
+# details = """
+# College of Engineering, Michigan State University
+# Responsibilities: Presented my evolutionary robotics research and participated in a question and answer session with Dr. Philip K. McKinley, Jared M. Moore, and a group of visiting REU students."""
+
+[[outreach.items]]
+title = "Graduate Student Evaluator"
+date = "2014-02-10"
+organization = "Undergraduate Research and Arts Forum, Michigan State University"
+details = """
+Responsibilities: Provided feedback to undergraduates presenting their research, and scored poster presentations for a competition."""
+
+# [[outreach.items]]
+# title = "Presenter, Engineering Robotics at MSU Summer Residential Program"
+# date = "2013-07-20"
+# details = """
+# College of Engineering, Michigan State University
+# Responsibilities: Presented my research on evolving robotic fish control and morphology; participated in a question and answer session with Dr. Philip K. McKinley, Jared M. Moore, and a group of high school students."""
+
+[[outreach.items]]
+title = "Mentor, NSF Research Experience for Teachers Summer Program"
+date = "2013-05-20 to 2013-08-20"
+organization = "College of Engineering, Michigan State University"
+details = """
+Responsibilities: Mentored a local high school engineering instructor, Charles Payson. During a six-week program, I aided Mr. Payson in learning C++ programming, evolutionary algorithm development, and creating dynamic simulations. At the end of the program, I assisted Mr. Payson in translating his research into a robotics lesson plan using the VEX robotics platform."""
+
+[[outreach.items]]
+title = "Mentor, NSF Research Experience for Teachers Summer Program"
+date = "2011-05-20 to 2013-08-20"
+organization = "College of Engineering, Michigan State University"
+details = """
+Responsibilities: Mentored a local elementary school teacher, Adam Ford, who specializes in computers and robotics. Mr. Ford developed the Biolume environment, which demonstrates evolution 'in-action' using using simple robots. The Biolume project is an outreach exhibit aimed at demonstrating evolutionary principles to the general public."""

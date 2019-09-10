@@ -1,0 +1,60 @@
+[proservice]
+sectionname = "Professional Activities"
+
+[[proservice.items]]
+title = "Reviewer for Journals"
+details = """
+Elsevier Robotics and Autonomous Systems
+IEEE Transactions on Systems, Man and Cybernetics: Systems
+IEEE Transactions on Robotics
+Sage Adaptive Behavior"""
+
+[[proservice.items]]
+title = "Reviewer for Conferences"
+details = """
+Evostar
+IEEE Symposium Series on Computational Intelligence
+IEEE International Conference on Self-Adaptive and Self-Organizing Systems"""
+
+[[proservice.items]]
+title = "Professional Society Memberships"
+details = "IEEE and ACM"
+
+[[proservice.items]]
+title = "NSF Panelist"
+details = """
+Smart and Autonomous Systems
+National Robotics Initiative"""
+
+[[proservice.items]]
+title = "Task Force Member"
+date = "2018-01-01 to present"
+organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
+
+[[proservice.items]]
+title = "Program Committee Member"
+date = "2018-04-11"
+organization = "EvoROBOT Track at the Evostar 2018 Conference"
+location = "Parma, Italy"
+
+[[proservice.items]]
+title = "Abstract and Poster"
+date = "2017-09-24"
+organization = "IEEE/RSJ International Conference on Intelligent Robots and Systems"
+details = """
+Evo-ROS: Integrating Evolutionary Robotics and ROS
+Moore, Jared M., Clark, Anthony J., Simon, Glen, McKinley, Philip K. In *2017 IEEE/RSJ International Conference on Intelligent Robots and Systems*. Vancouver, BC, Canada, September, 2017"""
+
+[[proservice.items]]
+title = "Workshop Organizer, SimER: Simulation in Evolutionary Robotics Workshop"
+date = "2017-07-20"
+organization = "Genetic and Evolutionary Computation Conference"
+location = "Berlin, Germany"
+details = "Responsibilities: Co-organize a workshop that brought together experts from around the world to discuss the topic of simulation; specifically how we can improve the current state of simulation in ER."
+
+[[proservice.items]]
+title = "Invited Conference Talk: Evolving Aquatic Robots"
+date = "2013-09-15"
+details = """
+The Twelfth European Conference on Artificial Life (ECAL), International Evolution of Physical Systems Workshop (EPS)
+Taormina, Italy, September 2013"""

@@ -1,0 +1,19 @@
+[education]
+sectionname = "Education"
+
+[[education.items]]
+title = "Ph.D. in Computer Science"
+date = "2016-08-10"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+location = "East Lansing, MI, USA"
+details = """
+[Automatically Addressing Uncertainty in Autonomous Robots With Computational Evolution](https://d.lib.msu.edu/etd/4287)
+Outstanding Graduate Student Service Award
+Advisor: [Dr. Philip K. McKinley](https://www.cse.msu.edu/~mckinley/)"""
+
+[[education.items]]
+title = "B.S. in Computer Engineering"
+date = "2009-12-20"
+organization = "Department of Electrical and Computer Engineering, Kansas State University"
+location = "Manhattan, KS, USA"
+details = "Graduated magna cum laude"

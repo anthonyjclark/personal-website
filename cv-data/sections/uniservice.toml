@@ -1,0 +1,64 @@
+[uniservice]
+sectionname = "University Service"
+
+[[uniservice.items]]
+title = "STEMentors Program Advisor"
+date = "2018-04-15 to present"
+details = """
+Advise the new outreach program, which is directed at providing mentoring for local lower-income schools."""
+
+[[uniservice.items]]
+title = "Robotics Club Advisor"
+date = "2017-11-20 to present"
+details = """
+Given strong student demand, I (and one of our EE faculty) initiated Missouri State University's first robotics club."""
+
+[[uniservice.items]]
+title = "CSC Representative, CNAS College Council (elected)"
+date = "2017-08-20 to present"
+details = """
+Act upon curricular matters that are referred to it by departments within the college. The College Council approves departmental proposals, rejects and returns proposals to the originating department, or amends and approves proposals."""
+
+[[uniservice.items]]
+title = "CSC Representative, CNAS Student Recruitment Committee"
+date = "2016-08-20 to present"
+details = """
+Attend recruitment events on the behalf of the college, and make recommendations to the dean regarding recruitment procedures."""
+
+[[uniservice.items]]
+title = "CSC Representative, CNAS Diversity Committee"
+date = "2016-08-20 to 2019-08-15"
+details = """
+Represent my department at the college level diversity committee. A primary goal for the members of this committee is to improve the retention of students that are considered at risk for either dropping out or transferring. We improve retention through a variety of activities: poster sessions, scholarships, and picnics."""
+
+[[uniservice.items]]
+title = "ACM Chapter Advisor"
+date = "2017-08-20 to 2019-05-15"
+details = """
+Coordinate ACM study chapter activities, include: scheduling speakers, organizing off-campus activities (e.g., competitions), and recruit volunteers to help at departmental events."""
+
+[[uniservice.items]]
+title = "Proactive Advisor"
+date = "2018-09-15"
+details = "Attend special training sessions on proactive advising techniques so that I can better advise first generation computer science undergraduates. I currently advise ~75 CS students."
+
+[[uniservice.items]]
+title = "Coordinator, Computer Science and Engineering Graduate Association (elected)"
+date = "2014-08-20 to 2016-05-20"
+details = """
+Coordinated monthly meetings for graduate students in the Department of Computer Science and Engineering, facilitated communication of Department news and policies, and organized graduate student service opportunities."""
+
+[[uniservice.items]]
+title = "Graduate Representative, Computer Science and Engineering Graduate Studies and Research Committee (elected)"
+date = "2014-08-20 to 2015-05-20"
+details = """
+Act as a voting member of the GSRC, which establishes academic standards, coordinates graduate course offerings, determines admission standards and policies for financial awards, and evaluates Ph.D. qualifier examinations."""
+
+[[uniservice.items]]
+title = "Graduate Representative, Computer Science and Engineering Departmental Meetings (elected)"
+date = "2013-08-20 to 2014-05-20"
+details = "Act as a voting member at CSE department meetings."
+
+[[uniservice.items]]
+title = "Officer, Eta Kappa Nu, Electrical and Computer Engineering at Kansas State University (elected)"
+date = "2007-08-20 to 2009-05-20"

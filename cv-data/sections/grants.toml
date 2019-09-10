@@ -1,0 +1,51 @@
+[grants]
+sectionname = "Grant Activity"
+note = "I have contributed to writing, editing, and producing preliminary results for the following grants."
+
+[[grants.items]]
+title = "NVIDIA GPU Grant Program"
+date = "2018-07-09"
+details = """
+Award: Quadro P6000
+Details: NVIDIA awarded a powerful GPU to be used for deep learning research.
+PI: Anthony J. Clark"""
+
+[[grants.items]]
+title = "Missouri State University Major Equipment Grant"
+date = "2016-11-20"
+details = """
+Amount: $24,000
+Details: Funds were utilized to purchase a 3D printer and a CNC mill that will be used by faculty and students in the Departments of Computer Science and Engineering.
+PI: Anthony J. Clark"""
+
+[[grants.items]]
+title = "Distributed, Onboard Evolution in a Robotic Cloud"
+date = "2013-08-20 to 2014-05-15"
+details = """
+Amount: $168,231
+Sponsor: NSF BEACON Center for the Study of Evolution in Action
+PI: T. Soule (U. Idaho), Co-PIs: R. Heckendorn (U. Idaho), P. McKinley (MSU), J. Zhan (NCA&T), S. Harrison (NCA&T)"""
+
+[[grants.items]]
+title = "II-EN: Evolution Park: An Evolutionary Robotics Habitat for the Study of Crawling, Swimming and Flying Creatures"
+date = "2011-08-20 to 2014-05-15"
+details = """
+Amount: $305,000
+Sponsor: NSF, Division Of Computer and Network Systems
+PI: P. McKinley, Co-PIs: X. Tan, J. Boughman"""
+
+[[grants.items]]
+title = "Understanding and Synthesizing Collective Behavior with Mixed Robotic and Live Fish Schools"
+date = "2012-08-20 to 2013-05-15"
+details = """
+Amount: $169,923
+Sponsor: NSF BEACON Center for the Study of Evolution in Action
+PI: X. Tan, Co-PIs: P. McKinley, J. Boughman"""
+
+[[grants.items]]
+title = "Exploiting Robot-Fish Interactions and Evolutionary Computing to Understand and Synthesize Complex Collective Behavior"
+date = "2011-08-20 to 2012-05-15"
+details = """
+Amount: $110,642
+Sponsor: NSF BEACON Center for the Study of Evolution in Action
+PI: X. Tan, Co-PIs: P. McKinley, J. Boughman"""

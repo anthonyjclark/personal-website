@@ -1,0 +1,125 @@
+[talks]
+sectionname = "Presentations"
+
+[[talks.items]]
+title = "Conference Talk: An Ensemble of Face Recognition Algorithms for Unsupervised Expansion of Training Data"
+date = "2018-12-01"
+organization = "International Conference on Computational Science and Computational Intelligence (CSCI 2018)"
+location = "Las Vegas, Nevada, USA"
+
+[[talks.items]]
+title = "Invited Talk: Robotic Systems"
+date = "2018-09-27"
+organization = "IEEE Southwest Missouri Section"
+location = "Springfield, Missouri, USA"
+
+[[talks.items]]
+title = "Conference Talk: Evolving Adabot: A Mobile Robot with Adjustable Wheel Extensions"
+date = "2017-12-01"
+organization = "IEEE Symposium on Robotic Intelligence in Informationally Structured Space (RiiSS), held in conjunction with the 2017 IEEE Symposium on Computational Intelligence (SSCI)"
+location = "Honolulu, Hawaii, USA"
+
+[[talks.items]]
+title = "Conference Talk: An Evolutionary Approach to Discovering Execution Mode Boundaries for Adaptive Controllers"
+date = "2016-12-12"
+organization = "IEEE International Conference on Evolvable Systems (ICES), held in conjunction with the 2016 IEEE Symposium on Computational Intelligence (SSCI)"
+location = "Athens, Greece"
+
+# [[talks.items]]
+# title = "Invited Talk: Robotics"
+# date = "2016-10-25"
+# details = """
+# S-STEM Seminar Class
+# Springfield, Missouri, USA, October 2016"""
+
+[[talks.items]]
+title = "Conference Talk: Enhancing a Model-Free Adaptive Controller through Evolutionary Computation"
+date = "2015-07-15"
+organization = "ACM Genetic and Evolutionary Computation Conference (GECCO 2015)"
+location = "Madrid, Spain"
+
+[[talks.items]]
+title = "Conference Talk: Balancing Performance and Efficiency in a Robotic Fish with Evolutionary Multiobjective Optimization"
+date = "2014-12-09"
+organization = "IEEE International Conference on Evolvable Systems (ICES), held in conjunction with the 2014 IEEE Symposium on Computational Intelligence (SSCI)"
+location = "Orlando, Florida, USA"
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolving Adaptive Control for Robotic Fish"
+# date = "2014-08-10"
+# details = """
+# BEACON Congress
+# East Lansing, Michigan, USA, August 2014"""
+
+# [[talks.items]]
+# title = "Poster Presentation: 3D Evolutionary Robotics on the Web: Evolve-a-Robot"
+# date = "2014-08-10"
+# details = """
+# BEACON Congress
+# East Lansing, Michigan, USA, August 2014"""
+
+[[talks.items]]
+title = "Conference Talk: On-Board Evolution of a Model-Free Adaptive Controller for a Robotic Fish"
+date = "2014-07-12"
+organization = "The Fourteenth International Conference on the Synthesis and Simulation of Living Systems (ALIFE-14), International Evolution of Physical Systems Workshop (EPS)"
+location = "New York City, New York, USA"
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolving Robotic Fish Control and Morphology"
+# date = "2013-12-08"
+# details = """
+# NSF Annual Site Visit to BEACON
+# East Lansing, Michigan, USA, December 2013"""
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolutionary Optimization of Robotic Fish Control and Morphology"
+# date = "2013-10-24"
+# details = """
+# Cyberinfrastructure Days
+# East Lansing, Michigan, USA, October 2013"""
+
+[[talks.items]]
+title = "Invited Conference Talk: Evolving Aquatic Robots"
+date = "2013-09-15"
+organization = "The Twelfth European Conference on Artificial Life (ECAL), International Evolution of Physical Systems Workshop (EPS)"
+location = "Taormina, Italy"
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolutionary Optimization of Robotic Fish Control and Morphology"
+# date = "2013-08-15"
+# details = """
+# BEACON Congress
+# East Lansing, Michigan, USA, August 2013"""
+
+[[talks.items]]
+title = "Poster Presentation: Evolutionary Optimization of Robotic Fish Control and Morphology"
+date = "2013-07-15"
+organization = "ACM Genetic and Evolutionary Computation Conference (GECCO 2013)"
+location = "Amsterdam, The Netherlands"
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolutionary Design and Experimental Validation of a Flexible Caudal Fin for Robotic Fish"
+# date = "2012-12-08"
+# details = """
+# NSF Annual Site Visit to BEACON
+# East Lansing, Michigan, USA, December 2012"""
+
+[[talks.items]]
+title = "Conference Talk: Evolutionary Design and Experimental Validation of a Flexible Caudal Fin for Robotic Fish"
+date = "2012-07-12"
+organization = "The Thirteenth International Conference on the Synthesis and Simulation of Living Systems (ALIFE-13)"
+location = "East Lansing, Michigan, USA"
+
+# [[talks.items]]
+# title = "Seminar: Using Evolutionary Computation to Optimize Robotic Fish"
+# date = "2012-02-20"
+# details = """
+# BEACON Seminar
+# East Lansing, Michigan, USA, February 2012"""
+
+# [[talks.items]]
+# title = "Poster Presentation: Evolution for Robotic Fish"
+# date = "2011-12-10"
+# details = """
+# NSF Annual Site Visit to BEACON
+# East Lansing, Michigan, USA, December 2011"""

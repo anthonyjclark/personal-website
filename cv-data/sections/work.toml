@@ -1,0 +1,86 @@
+[work]
+sectionname = "Professional Experience"
+
+[[work.items]]
+title = "Assistant Professor of Computer Science"
+date = "2016-08-15 to present"
+organization = "Department of Computer Science, Missouri State University"
+location = "Springfield, MO, USA"
+details = """
+***Research Interests:*** mobile robotics &bull; deep learning &bull;
+***Undergraduate Courses:*** introduction to C++ programming &bull; data structures &bull; algorithms and data structures &bull; languages and machines &bull; senior seminar
+***Graduate Courses:*** evolutionary computation &bull; deep learning &bull; advanced robotics
+"""
+
+[[work.items]]
+title = "Computer Science Teaching Assistant"
+date = "2016-01-15 to 2016-05-15"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+location = "East Lansing, MI, USA"
+details = """
+Administered two lab sections of Introduction to Programming II (CSE232).
+- approximately 25 students in each lab section
+- covering lecture and lab material at the beginning of each session
+- creating projects
+- grading course projects (11 total projects)
+- answering questions during weekly help-room sessions"""
+
+[[work.items]]
+title = "Computer Science Instructor"
+date = "2015-05-20 to 2015-07-08"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+location = "East Lansing, MI, USA"
+details = """
+Organized and taught Introduction to Programming II (CSE232) during the summer session.
+- 56 students
+- develop and present lectures covering introductory programming concepts using C++
+- develop a series of course projects
+- mentor and coordinate three teaching assistants
+- modify and expand weekly laboratory assignments"""
+
+[[work.items]]
+title = "Graduate Fellow and Research Assistant"
+date = "2010-05-20 to 2016-08-10"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+location = "East Lansing, MI, USA"
+details = """
+Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems.
+- apply evolutionary algorithms to the design and control of mobile robots,
+- design 3D-printed robots containing flexible components,
+- work on an interdisciplinary team including engineers and biologists, and
+- present research at the BEACON Center, an NSF Science and Technology Center."""
+
+[[work.items]]
+title = "Undergraduate Research Assistant"
+date = "2009-05-20 to 2009-12-15"
+organization = "Autonomous Vehicle Systems Laboratory, Kansas State University"
+location = "Manhattan, KS, USA"
+details = "Designed software used to capture images at specified GPS locations with an autonomous aerial vehicle."
+
+[[work.items]]
+title = "Undergraduate Research Assistant"
+date = "2008-08-20 to 2009-05-15"
+organization = "Independent Research with Professor Stewart E. Stanton, Kansas State University"
+location = "Manhattan, KS, USA"
+details = "Investigated the fundamentals of convergence of complex solutions in power systems."
+
+[[work.items]]
+title = "Software Engineer, Intern"
+date = "2008-05-20 to 2008-08-10"
+organization = "Department of Positioning and Sensors, Garmin International"
+location = "Olathe, KS, USA"
+details = "Solved problems associated with positioning error due to antenna performance."
+
+[[work.items]]
+title = "Undergraduate Research Fellow"
+date = "2007-05-20 to 2007-08-01"
+organization = "Data Science Summer Institute, University of Illinois at Urbana-Champaign"
+location = "Urbana-Champaign, IL, USA"
+details = "Attended lectures covering the fundamentals of data science and worked on a team to create a reverse image search engine."
+
+[[work.items]]
+title = "SAS Tutor"
+date = "2007-08-20 to 2009-05-15"
+organization = "Scholars Assisting Scholars (SAS) Program, Kansas State University"
+location = "Manhattan, KS, USA"
+details = "Attended lectures on the subject I was tutoring, provided walk-in, free tutoring consistent with course instruction, and led review sessions prior to exams."

@@ -1,0 +1,61 @@
+[awards]
+sectionname = "Awards, Honors, and Certificates"
+
+[[awards.items]]
+title = "Faculty Excellence in Teaching"
+date = "2018-05-01"
+organization = "College of Natural and Applied Sciences, Missouri State University"
+
+[[awards.items]]
+title = "Master Advisor"
+date = "2017-08-11"
+organization = "Missouri State University"
+
+[[awards.items]]
+title = "Cultural Consciousness in the Classroom: Certificate of Participation"
+date = "2017-01-12"
+organization = "Missouri State University"
+
+[[awards.items]]
+title = "Outstanding Graduate Student Service Award"
+date = "2016-05-20"
+organization = "Department of Computer Science, Michigan State University"
+
+[[awards.items]]
+title = "Best Paper Award"
+date = "2013-09-10"
+organization = "Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems"
+details = """
+Matthew J. Rose, Anthony J. Clark, Jared M. Moore, and Philip K. McKinley. Just Keep Swimming: Accounting for Uncertainty in Self-Modeling Aquatic Robots. In Proceedings of the 6th International Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems, Taormina, Italy, September 2013."""
+
+[[awards.items]]
+title = "Best Paper Award"
+date = "2012-07-10"
+organization = "ALIFE Conference, Behavior and Intelligence Track"
+details = """
+Anthony J. Clark, Jared Moore, Jianxun Wang, Xiaobo Tan, and Philip McKinley. Evolutionary design and experimental validation of a flexible caudal fin for robotic fish. In Proceedings of the Thirteenth International Conference on the Synthesis and Simulation of Living Systems, East Lansing, Michigan, USA, pages 325-332, July 2012."""
+
+[[awards.items]]
+title = "Honorable Mention: Graduate Research Fellowship Program"
+date = "2012-01-01"
+organization = "National Science Foundation"
+
+[[awards.items]]
+title = "Top Up Graduate Fellowship"
+date = "2010-08-20"
+organization = "NSF BEACON Center"
+
+[[awards.items]]
+title = "University Enrichment Fellowship"
+date = "2010-08-20"
+organization = "Michigan State University"
+
+[[awards.items]]
+title = "Graduated magna cum laude"
+date = "2009-12-15"
+organization = "Kansas State University"
+
+[[awards.items]]
+title = "Garmin Scholarship"
+date = "2008-08-20"
+organization = "Garmin International"
