@@ -1,3 +1,8 @@
+$color-pri-blue: #1240AB;	/* Main Primary color */
+$color-sec-purple: #6F0AAB;	/* Main Secondary color (1) */
+$color-sec-green: #00C90D;	/* Main Secondary color (2) */
+$color-com-orange: #FFAA00;	/* Main Complement color */
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -20,7 +25,7 @@ img {
 }
 
 a {
-  color: green;
+  color: $color-sec-green;
   text-decoration: none;
 
   &:hover, &:focus {
@@ -92,7 +97,7 @@ a {
       background: #ccc;
       color: black;
       & svg {
-        fill: green;
+        fill: $color-sec-green;
       }
       & span {
         color: black;

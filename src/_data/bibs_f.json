@@ -7,6 +7,7 @@
         "date": "Sep 2019",
         "year": 2019,
         "month_index": 9,
+        "award": false,
         "doi": "",
         "slides": false
     },
@@ -18,6 +19,7 @@
         "date": "Sep 2019",
         "year": 2019,
         "month_index": 9,
+        "award": false,
         "doi": "",
         "slides": false
     },
@@ -29,6 +31,7 @@
         "date": "Sep 2019",
         "year": 2019,
         "month_index": 9,
+        "award": false,
         "doi": "",
         "slides": false
     },
@@ -40,6 +43,7 @@
         "date": "Sep 2019",
         "year": 2019,
         "month_index": 9,
+        "award": false,
         "doi": "",
         "slides": false
     },
@@ -51,6 +55,7 @@
         "date": "Jul 2019",
         "year": 2019,
         "month_index": 7,
+        "award": false,
         "doi": "10.1162/isal_a_00221",
         "slides": false
     },
@@ -62,6 +67,7 @@
         "date": "Dec 2018",
         "year": 2018,
         "month_index": 12,
+        "award": false,
         "doi": "10.1155/2018/7692042",
         "slides": false
     },
@@ -73,6 +79,7 @@
         "date": "Dec 2018",
         "year": 2018,
         "month_index": 12,
+        "award": false,
         "doi": "10.1109/CSCI.2018.00072",
         "slides": true
     },
@@ -84,6 +91,7 @@
         "date": "Oct 2018",
         "year": 2018,
         "month_index": 10,
+        "award": false,
         "doi": "10.1145/3281151.3281154",
         "slides": false
     },
@@ -95,6 +103,7 @@
         "date": "Sep 2018",
         "year": 2018,
         "month_index": 9,
+        "award": false,
         "doi": "10.1145/3277104.3277118",
         "slides": false
     },
@@ -106,6 +115,7 @@
         "date": "Jul 2018",
         "year": 2018,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/3205651.3208292",
         "slides": false
     },
@@ -117,6 +127,7 @@
         "date": "Jul 2018",
         "year": 2018,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/3205651.3205703",
         "slides": false
     },
@@ -128,6 +139,7 @@
         "date": "Jul 2018",
         "year": 2018,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/3205651.3208269",
         "slides": false
     },
@@ -139,6 +151,7 @@
         "date": "Dec 2017",
         "year": 2017,
         "month_index": 12,
+        "award": false,
         "doi": "10.1109/SSCI.2017.8280979",
         "slides": true
     },
@@ -150,6 +163,7 @@
         "date": "Jul 2017",
         "year": 2017,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/3071178.3071246",
         "slides": false
     },
@@ -161,6 +175,7 @@
         "date": "Dec 2016",
         "year": 2016,
         "month_index": 12,
+        "award": false,
         "doi": "10.1109/SSCI.2016.7850178",
         "slides": true
     },
@@ -172,6 +187,7 @@
         "date": "Nov 2015",
         "year": 2015,
         "month_index": 11,
+        "award": false,
         "doi": "10.1088/1748-3190/10/6/065006",
         "slides": false
     },
@@ -183,6 +199,7 @@
         "date": "Jul 2015",
         "year": 2015,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/2739480.2754762",
         "slides": true
     },
@@ -194,6 +211,7 @@
         "date": "Dec 2014",
         "year": 2014,
         "month_index": 12,
+        "award": false,
         "doi": "10.1109/ICES.2014.7008744",
         "slides": true
     },
@@ -205,6 +223,7 @@
         "date": "Jul 2014",
         "year": 2014,
         "month_index": 7,
+        "award": false,
         "doi": "",
         "slides": true
     },
@@ -216,6 +235,7 @@
         "date": "Jul 2014",
         "year": 2014,
         "month_index": 7,
+        "award": false,
         "doi": "",
         "slides": false
     },
@@ -227,6 +247,7 @@
         "date": "Jul 2014",
         "year": 2014,
         "month_index": 7,
+        "award": false,
         "doi": "10.7551/978-0-262-32621-6-ch033",
         "slides": false
     },
@@ -234,10 +255,11 @@
         "key": "Rose.2013.ERLARS.JustKeepSwimming",
         "title": "Just Keep Swimming : Accounting for Uncertainty in Self-Modeling Aquatic Robots",
         "authors": "Matthew J. Rose, <span class=\"bib-author-ajc\">Anthony J. Clark</span>, Jared M. Moore, and Philip K. McKinley",
-        "venue": "<span class=\"bib-venue\">International Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems (ERLARS 2013),</span> Taormina, Italy.",
+        "venue": "<span class=\"bib-venue\">International Workshop on Evolutionary and Reinforcement Learning for Autonomous Robot Systems (ERLARS 2013),</span> Taormina, Italy. <strong>Best Paper Award</strong>",
         "date": "Sep 2013",
         "year": 2013,
         "month_index": 9,
+        "award": true,
         "doi": "",
         "slides": false
     },
@@ -249,6 +271,7 @@
         "date": "Jul 2013",
         "year": 2013,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/2464576.2464593",
         "slides": true
     },
@@ -260,6 +283,7 @@
         "date": "Jul 2013",
         "year": 2013,
         "month_index": 7,
+        "award": false,
         "doi": "10.1145/2463372.2463402",
         "slides": false
     },
@@ -267,10 +291,11 @@
         "key": "Clark.2012.ALIFE.EvolutionaryDesignExperimental",
         "title": "Evolutionary Design and Experimental Validation of a Flexible Caudal Fin for Robotic Fish",
         "authors": "<span class=\"bib-author-ajc\">Anthony J. Clark</span>, Jared M. Moore, Jianxun Wang, Xiaobo Tan, and Philip K. McKinley",
-        "venue": "<span class=\"bib-venue\">International Conference on the Synthesis and Simulation of Living Systems (ALIFE 2013),</span> Easy Lansing, Michigan, USA.",
+        "venue": "<span class=\"bib-venue\">International Conference on the Synthesis and Simulation of Living Systems (ALIFE 2013),</span> Easy Lansing, Michigan, USA. <strong>Best Paper Award</strong>",
         "date": "Jul 2012",
         "year": 2012,
         "month_index": 7,
+        "award": true,
         "doi": "10.7551/978-0-262-31050-5-ch043",
         "slides": true
     }

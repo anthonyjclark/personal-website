@@ -7,6 +7,10 @@
   color: #999;
 }
 
+.cv-address div {
+  display: inline;
+}
+
 .sec-header {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -94,7 +98,7 @@
 @media print
 {
   html {
-    /*font-family: georgia, times, serif;*/
+    font-family: georgia, times, serif;
     font-size: 10.5px;
     padding: 0;
     margin: 0;

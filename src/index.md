@@ -26,8 +26,9 @@ My research focuses on making autonomous robots more robust and adaptive. For ex
 
 ---
 
-#### Courses (date last taught)
+#### Courses (date last taught if not current)
 
+- [CSC 232 Data Structures](http://courses.missouristate.edu/anthonyclark/232/)
 - [CSC 325 Algorithms and Advanced Data Structures](http://courses.missouristate.edu/anthonyclark/325/)
 - [CSC 333 Languages and Machines](http://courses.missouristate.edu/anthonyclark/333/)
 - [CSC 482 Senior Seminar (Fall 2018)](http://courses.missouristate.edu/anthonyclark/482/)

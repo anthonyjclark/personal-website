@@ -48,3 +48,11 @@
 .flx-10 {
   flex: 0 0 10%;
 }
+
+.flx-cv-date {
+  flex: 0 0 18%;
+}
+
+.flx-cv-content {
+  flex: 0 0 82%;
+}

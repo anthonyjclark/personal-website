@@ -110,7 +110,7 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
-}
+}	/* Main Primary color */	/* Main Secondary color (1) */	/* Main Secondary color (2) */	/* Main Complement color */
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -134,7 +134,7 @@ img.arcs-logo {
 }
 
 a {
-  color: green;
+  color: #00c90d;
   text-decoration: none;
 }
 
@@ -216,7 +216,7 @@ a:focus {
 
 .main-nav a:hover svg,
 .main-nav a:focus svg {
-  fill: green;
+  fill: #00c90d;
 }
 
 .main-nav a:hover span,
@@ -315,6 +315,14 @@ footer {
   flex: 0 0 10%;
 }
 
+.flx-cv-date {
+  flex: 0 0 18%;
+}
+
+.flx-cv-content {
+  flex: 0 0 82%;
+}
+
 .cv-title {
   font-size: 1.5rem;
 }
@@ -322,6 +330,10 @@ footer {
 .cv-subtitle {
   font-size: 0.8rem;
   color: #999;
+}
+
+.cv-address div {
+  display: inline;
 }
 
 .sec-header {
@@ -410,7 +422,7 @@ footer {
 
 @media print {
   html {
-    /*font-family: georgia, times, serif;*/
+    font-family: georgia, times, serif;
     font-size: 10.5px;
     padding: 0;
     margin: 0;
