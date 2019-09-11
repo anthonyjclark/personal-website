@@ -3,6 +3,10 @@
 from pathlib import Path
 import sys
 
+if len(sys.argv) != 2:
+    print("Expected the bib directory as an argument.", file=sys.stderr)
+    exit(1)
+
 bib_dir = Path(sys.argv[1])
 pdf_dir = Path("../pdf")
 

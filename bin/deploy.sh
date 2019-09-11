@@ -5,6 +5,24 @@
 
 set -e
 
+read -r -p "Do you want to proceed? [y/N] " response
+if [[ ! $response =~ ^([yY][eE][sS]|[yY])+$ ]]
+then
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+
+# Check if there are any uncommitted changes
+if ! git diff-index --quiet HEAD --; then
+    echo "Changes to the following files are uncommitted:"
+    git diff-index --name-only HEAD --
+    echo "Please commit the changes before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+
 # Format bib files (only needs to be done when creating a new file)
 # biber --tool --output_align --output_indent=2 --output_fieldcase=lower <filename>.bib
 
