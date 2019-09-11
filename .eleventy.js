@@ -1,5 +1,4 @@
-const ENV = "development";
-// const ENV = "release";
+const build_mode = process.env.BUILD_MODE;
 
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
@@ -13,10 +12,10 @@ const md = require('markdown-it')({
 });
 
 let format;
-if (ENV === "development") {
-    format = require("stylefmt");
-} else {
+if (build_mode === "release") {
     format = require("cssnano");
+} else {
+    format = require("stylefmt");
 }
 
 const processor = postcss([autoprefixer, precss, format]);
@@ -74,6 +73,6 @@ module.exports = function (eleventyConfig) {
             input: "src",
             output: "dist"
         },
-        pathPrefix: (ENV === "development") ? "/" : "/eleventy-base-blog/"
+        pathPrefix: (build_mode === "release") ? "/anthonyclark/dist/" : "/"
     };
 };

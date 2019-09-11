@@ -16,7 +16,7 @@ fi
 # Check if there are any uncommitted changes
 if ! git diff-index --quiet HEAD --; then
     echo -e "\nChanges to the following files are uncommitted:"
-    git diff-index --name-only HEAD --
+    git diff-index --name-only HEAD -- | sed 's/^/• /'
     echo "Please commit the changes before proceeding."
     echo "Aborting."
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
@@ -47,7 +47,7 @@ echo -e "\nConvert toml cv data files to a suitable format for eleventy."
 ./bin/cv_data_to_json.py ./cv-data/sections > "$formatted_cv_data"
 
 echo -e "\nBuild site."
-npx @11ty/eleventy
+BUILD_MODE=release npx @11ty/eleventy
 
 
 echo -e "\nDeploying site to people.missouristate.edu"
