@@ -13,14 +13,14 @@ then
 fi
 
 
-# # Check if there are any uncommitted changes
-# if ! git diff-index --quiet HEAD --; then
-#     echo "Changes to the following files are uncommitted:"
-#     git diff-index --name-only HEAD --
-#     echo "Please commit the changes before proceeding."
-#     echo "Aborting."
-#     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-# fi
+# Check if there are any uncommitted changes
+if ! git diff-index --quiet HEAD --; then
+    echo -e "\nChanges to the following files are uncommitted:"
+    git diff-index --name-only HEAD --
+    echo "Please commit the changes before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
 
 
 # Format bib files (only needs to be done when creating a new file)
@@ -37,8 +37,8 @@ formatted_cv_data="./src/_data/cv.json"
 echo -e "\nCheck all bib files for corresponding pdfs."
 ./bin/check_bibs.py $bib_dir $pdf_dir
 
-# echo -e "\nConvert and combine all bib files into a json format."
-# pandoc-citeproc -j $bib_dir/*.bib > "$bib_json_file"
+echo -e "\nConvert and combine all bib files into a json format."
+pandoc-citeproc -j $bib_dir/*.bib > "$bib_json_file"
 
 echo -e "\nConvert bib data into a format suitable format for eleventy."
 ./bin/format_bibs.py "$bib_json_file" > "$formatted_bibs"
@@ -46,5 +46,5 @@ echo -e "\nConvert bib data into a format suitable format for eleventy."
 echo -e "\nConvert toml cv data files to a suitable format for eleventy."
 ./bin/cv_data_to_json.py ./cv-data/sections > "$formatted_cv_data"
 
-# echo -e "\nBuild site."
-# npx @11ty/eleventy
+echo -e "\nBuild site."
+npx @11ty/eleventy
