@@ -64,8 +64,12 @@ until mount | grep "on /Volumes/anthonyclark" > /dev/null; do
     echo "Waiting..."
 done
 
+# Trailing slashes are important
+site_dir_local="./dist/"
+site_dir_remote="/Volumes/anthonyclark/dist/"
+
 # do stuff here
-rsync -ari --exclude=.DS_Store dist/ /Volumes/anthonyclark/dist
+rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
 
 read -p "Do you want to unmount the SMB share? " -n 1 -r
 echo

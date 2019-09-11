@@ -1,5 +1,9 @@
 const build_mode = process.env.BUILD_MODE;
 
+if (build_mode === "release") {
+    console.log("Current build mode:", build_mode);
+}
+
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 const precss = require('precss');

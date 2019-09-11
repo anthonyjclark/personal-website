@@ -53,7 +53,7 @@ layout: base.njk
         </div>
 
         <div class="flx-cv-content" id="{{ bib.key }}">
-            <a class="no-url-print" href="/pdf/{{ bib.key }}.pdf" target="_blank">
+            <a class="no-url-print" href="{{ "/pdf/" | url }}{{ bib.key }}.pdf" target="_blank">
                 <p class="itm-title">{{ bib.title }}</p>
             </a>
             <p class="bib-authors">{{ bib.authors | safe }}</p>
@@ -61,13 +61,13 @@ layout: base.njk
                 {{ bib.venue | safe }}
             </p>
             <p class="no-print bib-venue">
-                <span><a href="/pdf/{{ bib.key }}.pdf" target="_blank">PDF</a></span>
-                <span class="bib-sep"><a href="/bib/{{ bib.key }}.bib" target="_blank">BibTeX</a></span>
+                <span><a href="{{ "/pdf/" | url }}{{ bib.key }}.pdf" target="_blank">PDF</a></span>
+                <span class="bib-sep"><a href="{{ "/bib/" | url }}{{ bib.key }}.bib" target="_blank">BibTeX</a></span>
                 {% if bib.doi | length > 0 %}
                 <span class="bib-sep"><a href="{{ bib.doi }}" target="_blank">DOI</a></span>
                 {% endif %}
                 {% if bib.slides %}
-                <span class="bib-sep"><a href="/pdf/{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
+                <span class="bib-sep"><a href="{{ "/pdf/" | url }}{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
                 {% endif %}
             </p>
             {% if bib.doi | length > 0 %}

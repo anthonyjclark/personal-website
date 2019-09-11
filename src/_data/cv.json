@@ -109,11 +109,11 @@
         "items": [
             {
                 "title": "Review, A Visualization Player",
-                "details": "Description: [Review](https://review.github.io/) is a web-based platform for sharing dynamic visualizations. [Code](https://github.com/review/review.github.io), [Description](/pdf/Clark.2018.EvoSoft.Review.pdf)"
+                "details": "Description: [Review](https://review.github.io/) is a web-based platform for sharing dynamic visualizations. [Code](https://github.com/review/review.github.io), [Description]({{ "/static/pdf/Clark.2018.EvoSoft.Review.pdf" | url }})"
             },
             {
                 "title": "Evolve-a-Robot, An Online Evolutionary Robotics Environment",
-                "details": "Description: [Evolve-a-Robot](http://evolve-a-robot.github.io/) is an interactive evolutionary robotics simulation. The project has two goals. The first is to expose K-12 students to evolution and evolutionary computation using an engaging and fun platform. Evolve-a-Robot does this by visualizing the evolution of robotic cars with an easy-to-use interface. And second, to expose enough of the adjustable parameters (i.e. genetic operators, and evolutionary configuration) to make the simulation useful for teaching evolutionary algorithms to undergraduate students. [Code](https://github.com/evolve-a-robot/evolve-a-robot.github.io), [Description](/pdf/Moore.2014.ALIFE.Web.pdf)"
+                "details": "Description: [Evolve-a-Robot](http://evolve-a-robot.github.io/) is an interactive evolutionary robotics simulation. The project has two goals. The first is to expose K-12 students to evolution and evolutionary computation using an engaging and fun platform. Evolve-a-Robot does this by visualizing the evolution of robotic cars with an easy-to-use interface. And second, to expose enough of the adjustable parameters (i.e. genetic operators, and evolutionary configuration) to make the simulation useful for teaching evolutionary algorithms to undergraduate students. [Code](https://github.com/evolve-a-robot/evolve-a-robot.github.io), [Description]({{ "/static/pdf/Moore.2014.ALIFE.Web.pdf" | url }})"
             }
         ]
     },

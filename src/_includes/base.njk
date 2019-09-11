@@ -11,11 +11,11 @@ description: Professional website for Anthony J. Clark
   <meta name="description" content="{{ description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="/static/site.webmanifest">
-  <link rel="apple-touch-icon" href="/static/icon.png">
-  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+  <link rel="manifest" href="{{ "/static/site.webmanifest" | url }}">
+  <link rel="apple-touch-icon" href="{{ "/static/icon.png" | url }}">
+  <link rel="icon" type="image/x-icon" href="{{ "/static/favicon.ico" | url }}"/>
 
-  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="{{ "/static/css/normalize.css" | url }}">
 
     {% set css %}
         {% include "css/h5bp1.css" %}
