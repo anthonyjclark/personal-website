@@ -48,3 +48,18 @@ echo -e "\nConvert toml cv data files to a suitable format for eleventy."
 
 echo -e "\nBuild site."
 npx @11ty/eleventy
+
+
+echo -e "\nDeploying site to people.missouristate.edu"
+
+if mount | grep "on /Volumes/anthonyclark" > /dev/null; then
+    echo "The SMB share is already mounted."
+else
+    echo "Mounting the SMB share."
+    open "smb://people.missouristate.edu/courses.missouristate.edu/anthonyclark"
+fi
+
+until mount | grep "on /Volumes/anthonyclark" > /dev/null; do
+    sleep 0.5
+    echo "Waiting..."
+done
