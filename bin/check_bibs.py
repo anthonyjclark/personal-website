@@ -3,12 +3,12 @@
 from pathlib import Path
 import sys
 
-if len(sys.argv) != 2:
-    print("Expected the bib directory as an argument.", file=sys.stderr)
+if len(sys.argv) != 3:
+    print("usage: check_bibs.py bib_dir pdf_dir", file=sys.stderr)
     exit(1)
 
 bib_dir = Path(sys.argv[1])
-pdf_dir = Path("../pdf")
+pdf_dir = Path(sys.argv[2])
 
 pdf_files = set([str(f) for f in pdf_dir.glob("*.pdf")])
 
@@ -21,14 +21,14 @@ for bib in bib_dir.glob("*.bib"):
         print("WARNING: bib key is wrong for", bib)
 
     # Check for pdf of paper
-    pdf = Path("../pdf") / bib.with_suffix(".pdf")
+    pdf = pdf_dir / bib.with_suffix(".pdf").name
     if not pdf.is_file():
         print("WARNING: pdf not found for", pdf)
     else:
         pdf_files.remove(str(pdf))
 
     # Check for pdf of presentation
-    pres = str(Path("../pdf/" + bib.stem + "-slides.pdf"))
+    pres = str(pdf_dir / (bib.stem + "-slides.pdf"))
     if pres in pdf_files:
         pdf_files.remove(pres)
 

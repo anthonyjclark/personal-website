@@ -4,6 +4,10 @@ import json
 from pathlib import Path
 import sys
 
+if len(sys.argv) != 2:
+    print("usage: format_bibs.py bibs.json", file=sys.stderr)
+    exit(1)
+
 bib_filename = sys.argv[1]
 
 STUDENTS = {

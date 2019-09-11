@@ -5,6 +5,10 @@ from pathlib import Path
 from tomlkit import parse
 import sys
 
+if len(sys.argv) != 2:
+    print("usage: cv_data_to_json.py cv_toml_dir", file=sys.stderr)
+    exit(1)
+
 toml_fnames = Path(sys.argv[1]).glob("*.toml")
 
 combined_sections = {}

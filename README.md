@@ -26,6 +26,7 @@
 - abstract on hover
 - bibs as separate files?
 - external link symbol
+- allow print with different settings for font and size
 
 
 // SASS style sheet */
