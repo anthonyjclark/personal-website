@@ -1,6 +1,6 @@
 # Personal website
 
-## Running with hot-reloading local web server
+## Developing with hot-reloading local web server
 
 `npx @11ty/eleventy --serve`
 
@@ -8,14 +8,15 @@
 
 `npx @11ty/eleventy`
 
+## Building and deploying
+
+`./bin/deploy.sh`
+
 ## Things to do
 
 - build bibtex cache on demand only
   - `biber --tool --output_align --output_indent=2 --output_fieldcase=lower <filename>.bib`
-  - `pandoc-citeproc -j *.bib > tmp.json`
-- create color scheme (update paletton)
 - unify js into one include? (emails, etc.)
-- pdf locations
 - check all links (https://www.brokenlinkcheck.com/)
 - https://github.com/anandthakker/doiuse
 - https://github.com/addyosmani/critical
@@ -23,10 +24,13 @@
 - reviewer award
 - move all date formatting to nunjucks plugin (from bib data formatter)
 - cv printing
-- abstract on hover
+- abstract on hover or popup
+- bibtex file as popup
 - bibs as separate files?
-- external link symbol
+- external link symbol on urls
 - allow print with different settings for font and size
+- table of contents at top
+- links to coauthors
 
 
 // SASS style sheet */

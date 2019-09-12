@@ -84,7 +84,8 @@ def main():
             "month_index": bib["issued"]["date-parts"][0][1],
             "award": check_for_award(bib.get("note", "")),
             "doi": bib.get("DOI", ""),
-            "slides": check_for_slides(bib["id"])
+            "slides": check_for_slides(bib["id"]),
+            "abstract": bib["abstract"]
         })
 
     formatted_bibs.sort(key=lambda bib: (
