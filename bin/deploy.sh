@@ -75,7 +75,7 @@ if [[ "$run_all" = true || "$run_format" = true ]] ; then
     pandoc-citeproc -j $bib_dir/*.bib > "$bib_json_file"
 
     echo -e "\nConvert bib data into a format suitable format for eleventy."
-    ./bin/format_bibs.py "$bib_json_file" > "$formatted_bibs"
+    ./bin/format_bibs.py "$bib_json_file" $bib_dir $pdf_dir > "$formatted_bibs"
 fi
 
 if [[ "$run_all" = true || "$run_cv" = true ]] ; then

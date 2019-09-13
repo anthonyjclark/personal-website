@@ -52,28 +52,35 @@ layout: base.njk
             </div>
         </div>
 
-        <div class="flx-cv-content" id="{{ bib.key }}">
-            <a class="no-url-print" href="{{ "/static/pdf/" | url }}{{ bib.key }}.pdf" target="_blank">
+        {% set bibkey = bib.key | replace(".", "-") %}
+
+        <div class="flx-cv-content" id="{{ bibkey }}">
+            {# <a class="no-url-print" href="{{ "/static/pdf/" | url }}{{ bibkey }}.pdf" target="_blank">
                 <p class="itm-title">{{ bib.title }}</p>
-            </a>
+            </a> #}
+            <style>#{{ bibkey }}-abstract:checked ~ .cv-popover-container {display: block;}</style>
+            <label class="cv-popover-label itm-title" for="{{ bibkey }}-abstract">{{ bib.title }}</label>
+            <input class="cv-toggle" id="{{ bibkey }}-abstract" type="checkbox">
+            <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div>
             <p class="bib-authors">{{ bib.authors | safe }}</p>
-            <p class="bib-venue">
-                {{ bib.venue | safe }}
-            </p>
-            <p class="no-print bib-venue">
+            <p class="bib-venue">{{ bib.venue | safe }}</p>
+            <div class="no-print bib-venue">
                 <span><a href="{{ "/static/pdf/" | url }}{{ bib.key }}.pdf" target="_blank">PDF</a></span>
-                <span class="bib-sep"><a href="{{ "/bib/" | url }}{{ bib.key }}.bib" target="_blank">BibTeX</a></span>
                 {% if bib.doi | length > 0 %}
                 <span class="bib-sep"><a href="https://dx.doi.org/{{ bib.doi }}" target="_blank">DOI</a></span>
                 {% endif %}
                 {% if bib.slides %}
                 <span class="bib-sep"><a href="{{ "/static/pdf/" | url }}{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
                 {% endif %}
-            </p>
+                <div class="bib-sep">
+                  <style>#{{ bibkey }}-bibtex:checked ~ .cv-popover-container {display: block;}</style>
+                  <label class="cv-popover-label" for="{{ bibkey }}-bibtex">BibTeX</label>
+                  <input class="cv-toggle" id="{{ bibkey }}-bibtex" type="checkbox">
+                  <div class="cv-popover-container"><span class="cv-popover"><code>{{ bib.raw_bibtex | safe }}</code></span></div>
+                </div>
+            </div>
             {% if bib.doi | length > 0 %}
-            <p class="only-print bib-venue">
-                DOI: {{ bib.doi }}
-            </p>
+            <p class="only-print bib-venue">DOI: {{ bib.doi }}</p>
             {% endif %}
         </div>
     </div>

@@ -4,11 +4,13 @@ import json
 from pathlib import Path
 import sys
 
-if len(sys.argv) != 2:
-    print("usage: format_bibs.py bibs.json", file=sys.stderr)
+if len(sys.argv) != 4:
+    print("usage: format_bibs.py bibs.json bib_dir pdf_dir", file=sys.stderr)
     exit(1)
 
 bib_filename = sys.argv[1]
+bib_dir = Path(sys.argv[2])
+pdf_dir = Path(sys.argv[3])
 
 STUDENTS = {
     "Dipto Das", "Glen A. Simon", "Keith A. Cissell", "Jesse Simpson",
@@ -60,11 +62,17 @@ def date_format(date_list):
 
 
 def check_for_slides(bib_key):
-    return Path(f"../pdf/{bib_key}-slides.pdf").is_file()
+    return (pdf_dir / f"{bib_key}-slides.pdf").is_file()
 
 
 def check_for_award(bib_note):
     return bib_note.lower() == "best paper award"
+
+
+def get_raw_bibtex(bib_key):
+    with open(bib_dir / f"{bib_key}.bib", "r") as bib_file:
+        raw_bibtex = bib_file.read()
+    return raw_bibtex.replace("{{{", "{&#8203;{&#8203;{").replace("{{", "{&#8203;{")
 
 
 def main():
@@ -85,7 +93,8 @@ def main():
             "award": check_for_award(bib.get("note", "")),
             "doi": bib.get("DOI", ""),
             "slides": check_for_slides(bib["id"]),
-            "abstract": bib["abstract"]
+            "abstract": bib["abstract"],
+            "raw_bibtex": get_raw_bibtex(bib["id"])
         })
 
     formatted_bibs.sort(key=lambda bib: (

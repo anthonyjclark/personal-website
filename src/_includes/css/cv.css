@@ -11,6 +11,40 @@
   display: inline;
 }
 
+.cv-popover-container {
+  position: relative;
+  display: none;
+}
+
+.cv-popover-container .cv-popover {
+  position: absolute;
+  background: white;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.cv-popover-container .cv-popover code {
+  white-space: break-spaces;
+}
+
+.cv-toggle {
+  display: none;
+}
+
+.cv-popover-label {
+  color: $color-sec-green;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
 .sec-header {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -83,6 +117,7 @@
   padding-left: calc(0.5rem + 1px);
   border-left: 1px solid #ccc;
   margin-left: calc(0.5rem + 1px);
+  display: inline;
 }
 
 .only-print {

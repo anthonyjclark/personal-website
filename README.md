@@ -31,6 +31,8 @@
 - allow print with different settings for font and size
 - table of contents at top
 - links to coauthors
+- link to paper (popover)
+- fix BibTex followed by DOI (disappears on click)
 
 
 // SASS style sheet */
