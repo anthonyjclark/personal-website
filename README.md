@@ -26,7 +26,6 @@
 - cv printing
 - external link symbol on urls
 - allow print with different settings for font and size
-- table of contents at top
 - links to coauthors
 
 

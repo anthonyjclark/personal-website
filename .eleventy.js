@@ -86,6 +86,6 @@ module.exports = function (eleventyConfig) {
             input: "src",
             output: "dist"
         },
-        pathPrefix: (build_mode === "release") ? "/anthonyclark/dist/" : "/"
+        pathPrefix: (build_mode === "release") ? "/anthonyclark/" : "/"
     };
 };
