@@ -122,7 +122,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 
     # Trailing slashes are important
     site_dir_local="./dist/"
-    site_dir_remote="/Volumes/anthonyclark/dist/"
+    site_dir_remote="/Volumes/anthonyclark/"
 
     # do stuff here
     rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
