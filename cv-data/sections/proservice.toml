@@ -10,9 +10,10 @@ IEEE Transactions on Robotics
 Sage Adaptive Behavior"""
 
 [[proservice.items]]
-title = "Reviewer for Conferences"
+title = "Program Committee Member"
 details = """
-Evostar
+EvoAPPS
+EvoROBOT
 IEEE Symposium Series on Computational Intelligence
 IEEE International Conference on Self-Adaptive and Self-Organizing Systems"""
 
@@ -30,12 +31,6 @@ National Robotics Initiative"""
 title = "Task Force Member"
 date = "2018-01-01 to present"
 organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
-
-[[proservice.items]]
-title = "Program Committee Member"
-date = "2018-04-11"
-organization = "EvoROBOT Track at the Evostar 2018 Conference"
-location = "Parma, Italy"
 
 [[proservice.items]]
 title = "Abstract and Poster"

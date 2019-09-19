@@ -100,7 +100,6 @@
     "contact": {
         "sectionname": "Contact Information",
         "name": "Anthony J. Clark",
-        "update": "2019-09-08",
         "address1": "Missouri State University\nComputer Science\n901 S. National Ave.\nSpringfield, MO 65897",
         "address2": "<div id=\"email-insert\"></div>\n<a href=\"http://anthonyjclark.com\">anthonyjclark.com</a>\nCheek Hall, Room 307\n<div id=\"phone-insert\"></div>\n"
     },
@@ -190,8 +189,8 @@
                 "details": "Elsevier Robotics and Autonomous Systems\nIEEE Transactions on Systems, Man and Cybernetics: Systems\nIEEE Transactions on Robotics\nSage Adaptive Behavior"
             },
             {
-                "title": "Reviewer for Conferences",
-                "details": "Evostar\nIEEE Symposium Series on Computational Intelligence\nIEEE International Conference on Self-Adaptive and Self-Organizing Systems"
+                "title": "Program Committee Member",
+                "details": "EvoAPPS\nEvoROBOT\nIEEE Symposium Series on Computational Intelligence\nIEEE International Conference on Self-Adaptive and Self-Organizing Systems"
             },
             {
                 "title": "Professional Society Memberships",
@@ -205,12 +204,6 @@
                 "title": "Task Force Member",
                 "date": "2018-01-01 to present",
                 "organization": "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
-            },
-            {
-                "title": "Program Committee Member",
-                "date": "2018-04-11",
-                "organization": "EvoROBOT Track at the Evostar 2018 Conference",
-                "location": "Parma, Italy"
             },
             {
                 "title": "Abstract and Poster",

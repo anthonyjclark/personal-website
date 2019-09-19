@@ -82,20 +82,24 @@ def main():
 
     formatted_bibs = []
     for bib in bib_data:
-        formatted_bibs.append({
-            "key": bib["id"],
-            "title": bib["title"],
-            "authors": authors_format(bib["author"]),
-            "venue": venue_format(bib),
-            "date": date_format(bib["issued"]["date-parts"][0]),
-            "year": bib["issued"]["date-parts"][0][0],
-            "month_index": bib["issued"]["date-parts"][0][1],
-            "award": check_for_award(bib.get("note", "")),
-            "doi": bib.get("DOI", ""),
-            "slides": check_for_slides(bib["id"]),
-            "abstract": bib["abstract"],
-            "raw_bibtex": get_raw_bibtex(bib["id"])
-        })
+        try:
+            formatted_bibs.append({
+                "key": bib["id"],
+                "title": bib["title"],
+                "authors": authors_format(bib["author"]),
+                "venue": venue_format(bib),
+                "date": date_format(bib["issued"]["date-parts"][0]),
+                "year": bib["issued"]["date-parts"][0][0],
+                "month_index": bib["issued"]["date-parts"][0][1],
+                "award": check_for_award(bib.get("note", "")),
+                "doi": bib.get("DOI", ""),
+                "slides": check_for_slides(bib["id"]),
+                "abstract": bib["abstract"],
+                "raw_bibtex": get_raw_bibtex(bib["id"])
+            })
+        except KeyError as err:
+            print(bib["id"], file=sys.stderr)
+            raise err
 
     formatted_bibs.sort(key=lambda bib: (
         bib["year"], bib["month_index"]), reverse=True)

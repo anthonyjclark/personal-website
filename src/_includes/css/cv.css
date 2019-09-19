@@ -14,6 +14,10 @@
 .cv-popover-container {
   position: relative;
   display: none;
+
+  &:hover {
+    display: block;
+  }
 }
 
 .cv-popover-container .cv-popover {
@@ -43,6 +47,12 @@
   &:hover, &:focus {
     text-decoration: underline;
   }
+}
+
+.cv-toc {
+  margin-top: 0;
+  margin-bottom: 0;
+  columns: 2 400px;
 }
 
 .sec-header {

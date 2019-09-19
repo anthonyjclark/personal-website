@@ -43,6 +43,15 @@ module.exports = function (eleventyConfig) {
         return md.render(mdown);
     });
 
+    eleventyConfig.addNunjucksFilter("today", function (format) {
+        let today = new Date();
+        if (format === "year") {
+            return today.toLocaleString("en-US", { year: "numeric" });
+        } else {
+            return today.toLocaleString("en-US", { year: "numeric", month: "short" });
+        }
+    });
+
     eleventyConfig.addNunjucksFilter("cvdate", function (dateString) {
 
         if (typeof dateString === "undefined" || dateString.trim().length === 0) {
@@ -55,19 +64,19 @@ module.exports = function (eleventyConfig) {
         let date = first_month;
         if (dates.length > 1) {
             if (dateString.includes('present')) {
-                date += '&nbsp;' + first_year + ' to present';
+                date += ' ' + first_year + ' to present';
             } else {
                 const second_month = MONTHS[dates[1].getMonth() - 1].slice(0, 3);
                 const second_year = dates[1].getFullYear();
 
                 if (first_year !== second_year) {
-                    date += '&nbsp;' + first_year;
+                    date += ' ' + first_year;
                 }
 
-                date += ' to ' + second_month + '&nbsp;' + second_year;
+                date += ' to ' + second_month + ' ' + second_year;
             }
         } else {
-            date += '&nbsp;' + first_year;
+            date += ' ' + first_year;
         }
         return date;
     });

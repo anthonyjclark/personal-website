@@ -17,22 +17,17 @@
 - build bibtex cache on demand only
   - `biber --tool --output_align --output_indent=2 --output_fieldcase=lower <filename>.bib`
 - unify js into one include? (emails, etc.)
-- check all links (https://www.brokenlinkcheck.com/)
+- check all links (https://www.brokenlinkcheck.com/ or https://www.deadlinkchecker.com/)
 - https://github.com/anandthakker/doiuse
 - https://github.com/addyosmani/critical
 - course evals in CV?
 - reviewer award
 - move all date formatting to nunjucks plugin (from bib data formatter)
 - cv printing
-- abstract on hover or popup
-- bibtex file as popup
-- bibs as separate files?
 - external link symbol on urls
 - allow print with different settings for font and size
 - table of contents at top
 - links to coauthors
-- link to paper (popover)
-- fix BibTex followed by DOI (disappears on click)
 
 
 // SASS style sheet */

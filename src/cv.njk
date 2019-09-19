@@ -9,7 +9,7 @@ layout: base.njk
         {{ cv.contact.name | safe }}
       </div>
       <div class="flx-100 cv-subtitle">
-        Last Updated: {{ cv.contact.update | safe }}
+        Last Updated: {{ "" | today }}
       </div>
       <div class="flx-100 cv-subtitle no-print">
         This page can be printed via your browser; I recommend 0.75 inch side margins. Note: links are not preserved by Chrome. <button  onclick="javascript:window.print()" class="btn-print">Print</button>
@@ -25,6 +25,32 @@ layout: base.njk
       <div class="flx-50">
         <div class="cv-address text-right text-breaking">{{ cv.contact.address2 | safe }}</div>
       </div>
+    </div>
+
+    <div class="itm flxgrid">
+
+      <div class="flx-100">
+          <hr class="sec-hr" />
+          <div class="sec-header">Table of Contents</div>
+      </div>
+
+      <ul class="cv-toc">
+        {% for section in [cv.education, cv.work, cv.awards] %}
+        <li>
+          <a href="#{{ section.sectionname | lower | replace(" ", "-") | replace(",", "") }}">
+            {{ section.sectionname }}
+          </a>
+        </li>
+        {% endfor %}
+        <li><a href="#publications">Publications</a></li>
+        {% for section in [cv.uniservice, cv.proservice, cv.outreach, cv.grants, cv.softwares] %}
+        <li>
+          <a href="#{{ section.sectionname | lower | replace(" ", "-") | replace(",", "") }}">
+            {{ section.sectionname }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
     {% for section in [cv.education, cv.work, cv.awards] %}
@@ -58,9 +84,14 @@ layout: base.njk
             {# <a class="no-url-print" href="{{ "/static/pdf/" | url }}{{ bibkey }}.pdf" target="_blank">
                 <p class="itm-title">{{ bib.title }}</p>
             </a> #}
-            <style>#{{ bibkey }}-abstract:checked ~ .cv-popover-container {display: block;}</style>
-            <label class="cv-popover-label itm-title" for="{{ bibkey }}-abstract">{{ bib.title }}</label>
-            <input class="cv-toggle" id="{{ bibkey }}-abstract" type="checkbox">
+            <style>
+              #{{ bibkey }}-abstract:checked ~ .cv-popover-container,
+              #{{ bibkey }}-abstract-label:hover ~ .cv-popover-container {
+                display: block;
+              }
+            </style>
+            <label id="{{ bibkey }}-abstract-label" class="cv-popover-label itm-title" for="{{ bibkey }}-abstract">{{ bib.title }}</label>
+            <input id="{{ bibkey }}-abstract" class="cv-toggle" type="checkbox">
             <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div>
             <p class="bib-authors">{{ bib.authors | safe }}</p>
             <p class="bib-venue">{{ bib.venue | safe }}</p>
@@ -73,9 +104,14 @@ layout: base.njk
                 <span class="bib-sep"><a href="{{ "/static/pdf/" | url }}{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
                 {% endif %}
                 <div class="bib-sep">
-                  <style>#{{ bibkey }}-bibtex:checked ~ .cv-popover-container {display: block;}</style>
-                  <label class="cv-popover-label" for="{{ bibkey }}-bibtex">BibTeX</label>
-                  <input class="cv-toggle" id="{{ bibkey }}-bibtex" type="checkbox">
+                  <style>
+                    #{{ bibkey }}-bibtex:checked ~ .cv-popover-container,
+                    #{{ bibkey }}-bibtex-label:hover ~ .cv-popover-container {
+                      display: block;
+                    }
+                  </style>
+                  <label id="{{ bibkey }}-bibtex-label" class="cv-popover-label" for="{{ bibkey }}-bibtex">BibTeX</label>
+                  <input id="{{ bibkey }}-bibtex" class="cv-toggle" type="checkbox">
                   <div class="cv-popover-container"><span class="cv-popover"><code>{{ bib.raw_bibtex | safe }}</code></span></div>
                 </div>
             </div>
