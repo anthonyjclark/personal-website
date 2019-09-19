@@ -44,7 +44,7 @@ Our current project is to model, simulate, optimize, and fabricate a robot calle
 
 <iframe src="https://review.github.io/?log=https://raw.githubusercontent.com/anthonyjclark/adabot02-ann/master/animations/fsm-40-2-best20.json" title="Review" width="80%" height="400" style="display: block; margin: 0 auto;">
   <p>Visualization not shown because your browswer does not support iframes.</p>
-  <img src="{{ "/img/gz_step-wegs-out.png" | url }}" alt="Adabot Climbing a Step">
+  <img src="{{ "/static/img/gz_step-wegs-out.png" | url }}" alt="Adabot Climbing a Step">
 </iframe>
 
 As a side project, we have been working on a simple method for sharing simulation results with collaborators around the world. What we want, in essence, is something akin to an on-line video player, but with the ability to view the simulation from different angles. My colleague and I started on this project a few years ago, but we never had a polished product ([you can see Dr. Jared Moore's version here](http://jaredmmoore.com/WebGL_Visualizer/visualizer.html)).
