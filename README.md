@@ -27,7 +27,11 @@
 - external link symbol on urls
 - allow print with different settings for font and size
 - links to coauthors
+- link to CV in PDF format
 
+
+This doesn't work well
+This page can be printed via your browser; I recommend 0.75 inch side margins. Note: links are not preserved by Chrome. <button  onclick="javascript:window.print()" class="btn-print">Print</button>
 
 // SASS style sheet */
 // Palette color codes */
