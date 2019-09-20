@@ -4,7 +4,9 @@ $color-sec-green: #00C90D;	/* Main Secondary color (2) */
 $color-com-orange: #FFAA00;	/* Main Complement color */
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Proxima Nova Soft", "Helvetica Neue", sans-serif; */
   font-size: 12px;
 }
 

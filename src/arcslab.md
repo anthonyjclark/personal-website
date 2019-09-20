@@ -4,14 +4,15 @@ layout: base.njk
 
 # ARCS Lab
 
-<img style="float:right; width:30%;" src="{{ "/static/img/arcs-lab-logo.png" | url }}" alt="ARCS Lab Logo">
+<img style="float:right; width:30%; margin-left: 1rem;" src="{{ "/static/img/arcs-lab-logo.png" | url }}" alt="ARCS Lab Logo">
 
-The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concerned with improving the robustness and adaptability of autonomous robots. We employ a variety of techniques to optimize small (on the scale of 30 centimeters) robotic systems that are able to navigate unpredictable and dynamic terrain while at the same time being adaptive with respect to potential damage.
+The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concerned with improving the robustness and adaptability of autonomous robots. We employ a variety of techniques to optimize small (on the scale of 30 centimeters) robotic systems that are able to navigate unpredictable and dynamic terrain while at the same time being adaptive with respect to potential damage. See [our Publications]({{ "/cv/#publications" | url }}) for more details.
 
 ## Members
 
 ### Graduate Students
 
+- Rafail Islam (CS), Aug 2019
 - Jesse Simpson (CS), Jan 2019
 - Dipto Das (CS), Jan 2018 - Jul 2019 (**Thesis:** [A Multimodal Approach to Sarcasm Detection on Social Media](https://bearworks.missouristate.edu/theses/3417/))
 - Keith Cissell (CS), Nov 2016 - Dec 2018 (**Thesis:** [An Adaptive Memory-Based Reinforcement Learning Controller](https://bearworks.missouristate.edu/theses/3326/))

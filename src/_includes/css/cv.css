@@ -143,7 +143,7 @@
 @media print
 {
   html {
-    font-family: georgia, times, serif;
+    /* font-family: georgia, times, serif; */
     font-size: 11pt;
     padding: 0;
     margin: 0;
