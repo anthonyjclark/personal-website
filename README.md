@@ -23,9 +23,7 @@
 - course evals in CV?
 - reviewer award
 - move all date formatting to nunjucks plugin (from bib data formatter)
-- cv printing
 - external link symbol on urls
-- allow print with different settings for font and size
 - links to coauthors
 - link to CV in PDF format
 
