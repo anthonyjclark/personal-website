@@ -124,7 +124,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     site_dir_local="./dist/"
     site_dir_remote="/Volumes/anthonyclark/"
 
-    # do stuff here
+    # Sync with webdev
     rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
 
     read -p "Do you want to unmount the SMB share? " -n 1 -r
@@ -132,4 +132,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         diskutil umount /Volumes/anthonyclark
     fi
+
+    # Push to github
+    git push -u origin master
 fi
