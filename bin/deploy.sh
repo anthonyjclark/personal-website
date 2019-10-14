@@ -136,3 +136,5 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     # Push to github
     git push -u origin master
 fi
+
+echo "Generate new PDF"

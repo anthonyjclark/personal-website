@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 import sys
+from titlecase import titlecase
 
 if len(sys.argv) != 4:
     print("usage: format_bibs.py bibs.json bib_dir pdf_dir", file=sys.stderr)
@@ -40,8 +41,15 @@ def authors_format(author_list):
         return ", ".join(authors[:-1]) + ", and " + authors[-1]
 
 
+def handle_case(word, **kwargs):
+    if word.isupper() or word in {"WebGL", "JavaScript"}:
+        return word
+    else:
+        return None
+
+
 def venue_format(bib_item):
-    venue = bib_item["container-title"]
+    venue = titlecase(bib_item["container-title"], callback=handle_case)
 
     short = bib_item.get("event", "")
     short = f" ({short})" if len(short) > 0 else ""
@@ -85,7 +93,7 @@ def main():
         try:
             formatted_bibs.append({
                 "key": bib["id"],
-                "title": bib["title"],
+                "title": titlecase(bib["title"], callback=handle_case),
                 "authors": authors_format(bib["author"]),
                 "venue": venue_format(bib),
                 "date": date_format(bib["issued"]["date-parts"][0]),
