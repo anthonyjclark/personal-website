@@ -142,11 +142,14 @@
 
 @media print
 {
+  @page {
+    size: letter portrait;
+    margin: 1in;
+  }
   html {
-    /* font-family: georgia, times, serif; */
     font-size: 11pt;
     padding: 0;
-    margin: 0;
+    margin: 0in;
   }
   body {
     padding: 0;
@@ -174,10 +177,11 @@
   }
 
   a:link:after, a:visited:after {
-    content: "";
+    /* content: ""; */
   }
   .itm a, .cv-address a {
     text-decoration: none;
+    color: $color-sec-green;
     &:link:after, &:visited:after {
       content: "";
     }
@@ -186,8 +190,11 @@
   .itm-details em strong {
     font-weight: 600;
   }
-}
 
-@page {
-    margin: 0.75in;
+  .cv-popover-label {
+    color: black;
+  }
+  .cv-toc {
+    columns: 2;
+  }
 }

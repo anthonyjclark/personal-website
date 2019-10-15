@@ -27,11 +27,11 @@ layout: base.njk
       </div>
     </div>
 
-    <div class="itm flxgrid no-print">
+    <div class="itm flxgrid">
 
       <div class="flx-100">
           <hr class="sec-hr" />
-          <div class="sec-header">Table of Contents</div>
+          <div class="sec-header">Navigation</div>
       </div>
 
       <ul class="cv-toc">
@@ -94,7 +94,12 @@ layout: base.njk
             <input id="{{ bibkey }}-abstract" class="cv-toggle" type="checkbox">
             <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div>
             <p class="bib-authors">{{ bib.authors | safe }}</p>
-            <p class="bib-venue">{{ bib.venue | safe }}</p>
+            <p class="bib-venue">
+              {{ bib.venue | safe }}
+              {% if bib.doi | length > 0 %}
+                <a class="only-print" href="https://doi.org/{{ bib.doi }}">DOI: {{ bib.doi }}</a>
+              {% endif %}
+            </p>
             <div class="no-print bib-venue">
                 <span><a href="{{ "/static/pdf/" | url }}{{ bib.key }}.pdf" target="_blank">PDF</a></span>
                 {% if bib.doi | length > 0 %}
@@ -115,9 +120,6 @@ layout: base.njk
                   <div class="cv-popover-container"><span class="cv-popover"><code>{{ bib.raw_bibtex | safe }}</code></span></div>
                 </div>
             </div>
-            {% if bib.doi | length > 0 %}
-            <p class="only-print bib-venue">DOI: {{ bib.doi }}</p>
-            {% endif %}
         </div>
     </div>
     {% endfor %}

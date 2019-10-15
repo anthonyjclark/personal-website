@@ -21,15 +21,10 @@
 - https://github.com/anandthakker/doiuse
 - https://github.com/addyosmani/critical
 - course evals in CV?
-- reviewer award
 - move all date formatting to nunjucks plugin (from bib data formatter)
 - external link symbol on urls
 - links to coauthors
-- link to CV in PDF format
-
-
-This doesn't work well
-This page can be printed via your browser; I recommend 0.75 inch side margins. Note: links are not preserved by Chrome. <button  onclick="javascript:window.print()" class="btn-print">Print</button>
+- link to these in CV
 
 // SASS style sheet */
 // Palette color codes */

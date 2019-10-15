@@ -2,6 +2,11 @@
 sectionname = "Awards, Honors, and Certificates"
 
 [[awards.items]]
+title = "Outstanding Reviewer"
+date = "2018-10-06"
+organization = "Elsevier"
+
+[[awards.items]]
 title = "Faculty Excellence in Teaching"
 date = "2018-05-01"
 organization = "College of Natural and Applied Sciences, Missouri State University"

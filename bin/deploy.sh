@@ -4,7 +4,7 @@
 # https://github.com/alshedivat/al-folio/blob/master/bin/deploy
 
 
-USAGE_MSG="usage: deploy [--help] [--check] [--format] [--cv] [--build] [--deploy]"
+USAGE_MSG="usage: deploy [--help] [--check] [--format] [--cv] [--build] [--deploy] [--pdf]"
 
 run_all=true
 run_check=false
@@ -12,6 +12,7 @@ run_format=false
 run_cv=false
 run_build=false
 run_deploy=false
+run_pdf=false
 
 
 while [[ $# > 0 ]]; do
@@ -41,6 +42,10 @@ while [[ $# > 0 ]]; do
         --deploy)
         run_all=false
         run_deploy=true
+        ;;
+        --pdf)
+        run_all=false
+        run_pdf=true
         ;;
         *)
         echo "Option $1 is unknown."
@@ -88,6 +93,12 @@ if [[ "$run_all" = true || "$run_build" = true ]] ; then
     BUILD_MODE=release npx @11ty/eleventy
 fi
 
+if [[ "$run_all" = false && "$run_pdf" = true ]] ; then
+    echo -e "\nGenerate PDF."
+    node ./bin/generate_pdf.js
+    mv cv.pdf ./src/static/pdf/Clark.CV.pdf
+fi
+
 if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 
     read -r -p "Do you want to proceed? [Y/n] " response
@@ -127,14 +138,23 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     # Sync with webdev
     rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
 
+    # Generate pdf from active website
+    echo -e "\nGenerate PDF."
+    node ./bin/generate_pdf.js
+    mv cv.pdf ./src/static/pdf/Clark.CV.pdf
+
+    # Sync newly generate PDF
+    rsync -ari "$site_dir_local"/static/pdf/Clark.CV.pdf "$site_dir_remote"/static/pdf/Clark.CV.pdf
+
     read -p "Do you want to unmount the SMB share? " -n 1 -r
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         diskutil umount /Volumes/anthonyclark
     fi
 
+    # Commit updated PDF
+    git commit -am "Updated CV PDF."
+
     # Push to github
     git push -u origin master
 fi
-
-echo "Generate new PDF"
