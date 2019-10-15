@@ -141,20 +141,22 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     # Generate pdf from active website
     echo -e "\nGenerate PDF."
     node ./bin/generate_pdf.js
-    mv cv.pdf ./src/static/pdf/Clark.CV.pdf
+    cp cv.pdf ./src/static/pdf/Clark.CV.pdf
+    mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
 
     # Sync newly generate PDF
     rsync -ari "$site_dir_local"/static/pdf/Clark.CV.pdf "$site_dir_remote"/static/pdf/Clark.CV.pdf
 
+    echo
     read -p "Do you want to unmount the SMB share? " -n 1 -r
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         diskutil umount /Volumes/anthonyclark
     fi
 
-    # Commit updated PDF
+    echo -e "\nCommit updated PDF."
     git commit -am "Updated CV PDF."
 
-    # Push to github
+    echo -e "\nPush to github."
     git push -u origin master
 fi
