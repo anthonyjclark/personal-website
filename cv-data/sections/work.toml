@@ -7,9 +7,9 @@ date = "2016-08-15 to present"
 organization = "Department of Computer Science, Missouri State University"
 location = "Springfield, MO, USA"
 details = """
-***Research Interests:*** mobile robotics &bull; deep learning
-***Undergraduate Courses:*** introduction to C++ programming &bull; data structures &bull; algorithms and data structures &bull; languages and machines &bull; senior seminar
-***Graduate Courses:*** evolutionary computation &bull; deep learning &bull; advanced robotics
+*Research Interests:* mobile robotics &bull; deep learning
+*Undergraduate Courses:* C++ programming &bull; data structures &bull; algorithms and advanced data structures &bull; languages and machines &bull; senior seminar
+*Graduate Courses:* evolutionary computation &bull; deep learning &bull; advanced robotics
 """
 
 [[work.items]]
@@ -45,9 +45,9 @@ organization = "Department of Computer Science and Engineering, Michigan State U
 location = "East Lansing, MI, USA"
 details = """
 Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems.
-- apply evolutionary algorithms to the design and control of mobile robots,
-- design 3D-printed robots containing flexible components,
-- work on an interdisciplinary team including engineers and biologists, and
+- apply evolutionary algorithms to the design and control of mobile robots
+- design 3D-printed robots containing flexible components
+- work on an interdisciplinary team including engineers and biologists
 - present research at the BEACON Center, an NSF Science and Technology Center."""
 
 [[work.items]]
