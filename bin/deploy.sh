@@ -139,10 +139,11 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
 
     # Generate pdf from active website
-    echo -e "\nGenerate PDF."
+    # echo -e "\nGenerate PDF."
+    echo -e "\nNOT COPYING GENERATED PDF (ISSUE WITH TWO COLUMN NAVIGATION)"
     BUILD_MODE=release node ./bin/generate_pdf.js
-    cp cv.pdf ./src/static/pdf/Clark.CV.pdf
-    mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
+    # cp cv.pdf ./src/static/pdf/Clark.CV.pdf
+    # mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
 
     # Sync newly generate PDF
     rsync -ari "$site_dir_local"/static/pdf/Clark.CV.pdf "$site_dir_remote"/static/pdf/Clark.CV.pdf
