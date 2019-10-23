@@ -54,6 +54,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addNunjucksFilter("cvdate", function (dateString) {
 
+        console.log(dateString);
+
         if (typeof dateString === "undefined" || dateString.trim().length === 0) {
             return "";
         }

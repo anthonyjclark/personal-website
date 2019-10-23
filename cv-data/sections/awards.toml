@@ -10,16 +10,19 @@ organization = "Elsevier"
 title = "Faculty Excellence in Teaching"
 date = "2018-05-01"
 organization = "College of Natural and Applied Sciences, Missouri State University"
+details = "Nominated by the Computer Science Department and selected by the college awards committee."
 
 [[awards.items]]
 title = "Master Advisor"
 date = "2017-08-11"
 organization = "Missouri State University"
+details = "Completed the Advising Basics Workshop and the Master Advisor Workshop at Missouri State University. These workshops are day-long training sessions."
 
 [[awards.items]]
 title = "Cultural Consciousness in the Classroom: Certificate of Participation"
 date = "2017-01-12"
 organization = "Missouri State University"
+details = "Completed training for recruiting and retaining low-income students from historically underrepresented groups including first generation students."
 
 [[awards.items]]
 title = "Outstanding Graduate Student Service Award"
@@ -49,11 +52,13 @@ organization = "National Science Foundation"
 title = "Top Up Graduate Fellowship"
 date = "2010-08-20"
 organization = "NSF BEACON Center"
+details = "Nominated by faculty at Michigan State University. This award was for $5,000 per year."
 
 [[awards.items]]
 title = "University Enrichment Fellowship"
 date = "2010-08-20"
 organization = "Michigan State University"
+details = "Nominated by the Computer Science Graduate Program at Michigan State University. This award guaranteed a research assistantship for six years."
 
 [[awards.items]]
 title = "Graduated magna cum laude"

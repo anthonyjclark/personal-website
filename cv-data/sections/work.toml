@@ -17,38 +17,41 @@ title = "Computer Science Teaching Assistant"
 date = "2016-01-15 to 2016-05-15"
 organization = "Department of Computer Science and Engineering, Michigan State University"
 location = "East Lansing, MI, USA"
-details = """
-Administered two lab sections of Introduction to Programming II (CSE232).
-- approximately 25 students in each lab section
-- covering lecture and lab material at the beginning of each session
-- creating projects
-- grading course projects (11 total projects)
-- answering questions during weekly help-room sessions"""
+details = "Administered two lab sections of Introduction to Programming II"
+# details = """
+# Administered two lab sections of Introduction to Programming II (CSE232).
+# - approximately 25 students in each lab section
+# - covering lecture and lab material at the beginning of each session
+# - creating projects
+# - grading course projects (11 total projects)
+# - answering questions during weekly help-room sessions"""
 
 [[work.items]]
 title = "Computer Science Instructor"
 date = "2015-05-20 to 2015-07-08"
 organization = "Department of Computer Science and Engineering, Michigan State University"
 location = "East Lansing, MI, USA"
-details = """
-Organized and taught Introduction to Programming II (CSE232) during the summer session.
-- 56 students
-- develop and present lectures covering introductory programming concepts using C++
-- develop a series of course projects
-- mentor and coordinate three teaching assistants
-- modify and expand weekly laboratory assignments"""
+details = "Organized and taught Introduction to Programming II (CSE232) during the summer session."
+# details = """
+# Organized and taught Introduction to Programming II (CSE232) during the summer session.
+# - 56 students
+# - develop and present lectures covering introductory programming concepts using C++
+# - develop a series of course projects
+# - mentor and coordinate three teaching assistants
+# - modify and expand weekly laboratory assignments"""
 
 [[work.items]]
 title = "Graduate Fellow and Research Assistant"
 date = "2010-05-20 to 2016-08-10"
 organization = "Department of Computer Science and Engineering, Michigan State University"
 location = "East Lansing, MI, USA"
-details = """
-Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems.
-- apply evolutionary algorithms to the design and control of mobile robots
-- design 3D-printed robots containing flexible components
-- work on an interdisciplinary team including engineers and biologists
-- present research at the BEACON Center, an NSF Science and Technology Center."""
+details = "Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems."
+# details = """
+# Addressed optimization, adaptive control, and fabrication of bio-inspired mobile robotic systems.
+# - apply evolutionary algorithms to the design and control of mobile robots
+# - design 3D-printed robots containing flexible components
+# - work on an interdisciplinary team including engineers and biologists
+# - present research at the BEACON Center, an NSF Science and Technology Center."""
 
 [[work.items]]
 title = "Undergraduate Research Assistant"

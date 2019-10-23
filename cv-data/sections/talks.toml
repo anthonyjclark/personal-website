@@ -2,6 +2,18 @@
 sectionname = "Presentations"
 
 [[talks.items]]
+title = "Conference Talk: Satire vs Fake News: You Can Tell by the Way They Say It"
+date = "2018-09-25"
+organization = "IEEE Transdisciplinary AI (TransAI 2019)"
+location = "Laguna Hills, California, USA"
+
+[[talks.items]]
+title = "Conference Talk: Construct of Sarcasm on Social Media Platform"
+date = "2018-09-25"
+organization = "IEEE International Conference on Humanized Computing and Communication (HCC 2019)"
+location = "Laguna Hills, California, USA"
+
+[[talks.items]]
 title = "Conference Talk: An Ensemble of Face Recognition Algorithms for Unsupervised Expansion of Training Data"
 date = "2018-12-01"
 organization = "International Conference on Computational Science and Computational Intelligence (CSCI 2018)"

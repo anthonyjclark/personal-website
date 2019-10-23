@@ -11,14 +11,6 @@ Sage Adaptive Behavior
 Sage International Journal of Advanced Robotic Systems"""
 
 [[proservice.items]]
-title = "Program Committee Member"
-details = """
-EvoAPPS
-EvoROBOT
-IEEE Symposium Series on Computational Intelligence
-IEEE International Conference on Self-Adaptive and Self-Organizing Systems"""
-
-[[proservice.items]]
 title = "Professional Society Memberships"
 details = "IEEE and ACM"
 
@@ -32,6 +24,18 @@ National Robotics Initiative"""
 title = "Task Force Member"
 date = "2018-01-01 to present"
 organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
+
+[[proservice.items]]
+title = "Program Committee Member"
+date = "2020-04-15"
+organization = "EvoAPPS, International Conference on the Applications of Evolutionary Computation"
+location = "Seville, Spain"
+
+[[proservice.items]]
+title = "Program Committee Member"
+date = "2018-04-04"
+organization = "EvoROBOT, European Conference on the Applications of Evolutionary Computation"
+location = "Parma, Italy"
 
 [[proservice.items]]
 title = "Abstract and Poster"
@@ -49,8 +53,26 @@ location = "Berlin, Germany"
 details = "Responsibilities: Co-organize a workshop that brought together experts from around the world to discuss the topic of simulation; specifically how we can improve the current state of simulation in ER."
 
 [[proservice.items]]
+title = "Reviewer"
+date = "2014-12-01"
+organization = "IEEE Symposium Series on Computational Intelligence"
+location = "Orlando, Florida, USA"
+
+[[proservice.items]]
+title = "Reviewer"
+date = "2014-09-01"
+organization = "IEEE International Conference on Self-Adaptive and Self-Organizing Systems"
+location = "London, UK"
+
+[[proservice.items]]
 title = "Invited Conference Talk: Evolving Aquatic Robots"
 date = "2013-09-15"
 details = """
 The Twelfth European Conference on Artificial Life (ECAL), International Evolution of Physical Systems Workshop (EPS)
 Taormina, Italy, September 2013"""
+
+[[proservice.items]]
+title = "Reviewer"
+date = "2013-09-01"
+organization = "IEEE International Conference on Self-Adaptive and Self-Organizing Systems"
+location = "Philadelphia, Pennsylvania, USA"
