@@ -1,35 +1,37 @@
 [teaching]
 sectionname = "Teaching and Course Development"
+note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
 title = "CSC 125 Introduction to C++ Programming"
 date = "2020-01-15 to 2020-05-20"
 # organization = "Computer Science Department, Missouri State University"
 # location = "Springfield, Missouri, USA"
-details = "I will teach this course for the first time in spring 2020."
+details = "- I will teach this course for the first time in spring 2020."
 
 [[teaching.items]]
 title = "CSC 325/611 Algorithms and Advanced Data Structures"
 date = "2016-08-20 to present"
 details = """
 - Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
-- Prepare students for job interviews
 - Students per semester: 27, 24, 23, 28, 29, 37, 41
 - Student evaluation ratings (5-point scale): 4.75, 4.67, 4.89, 4.80, 4.89, 4.96
+- Prepare students for job interviews
 - This course includes 4 to 6 graduate students per semester
-- Developed course materials without assistance
-- Evaluate course based on ABET criteria"""
+- Developed all course materials
+- Created a [syntax highlighter for pseudocode](https://github.com/anthonyjclark/vscode-pseudocode) to maintain consistency on slides
+- Contribute to ABET accreditation through assessments"""
 
 [[teaching.items]]
 title = "CSC 333 Languages and Machines"
 date = "2016-08-20 to present"
 details = """
 - Topics: formal languages, automata theory, programming languages, Unix
-- Teach students about pair programming
 - Students per semester: 25, 24, 21, 23, 21, 29, 30
 - Student evaluation ratings (5-point scale): 4.67, 4.77, 4.86, 4.73, 4.90, 4.87
-- Developed course materials without assistance
-- Evaluate course based on ABET criteria"""
+- Teach students about pair programming using [Visual Studio Code Live Share](https://visualstudio.microsoft.com/services/live-share/)
+- Developed all course materials
+- Contribute to ABET accreditation through assessments"""
 
 [[teaching.items]]
 title = "Independent Study"
@@ -47,7 +49,7 @@ details = """
 - Students per semester: 14, 14
 - Student evaluation ratings (5-point scale): 4.39
 - Fall of even years
-- Developed course materials without assistance"""
+- Developed all course materials"""
 
 [[teaching.items]]
 title = "CSC 232 Data Structures"
@@ -65,7 +67,7 @@ details = """
 - Topics: convolutional neural networks, embeddings, optimization, regularization
 - Students per semester: 18
 - Student evaluation ratings (5-point scale): 4.85
-- Developed course materials without assistance"""
+- Developed all course materials"""
 
 [[teaching.items]]
 title = "CSC 482 Seminar in Computer Science"
@@ -80,7 +82,7 @@ date = "2018-01-20 to 2018-05-20"
 details = """
 - Topics: robot operating system (ROS), computer vision, publisher-subscriber software
 - Students per semester: 14
-- Developed course materials without assistance"""
+- Developed all course materials"""
 
 [[teaching.items]]
 title = "CSE 232, Introduction to Programming II"
