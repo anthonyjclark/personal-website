@@ -35,7 +35,7 @@ layout: base.njk
       </div>
 
       <ul class="cv-toc">
-        {% for section in [cv.education, cv.work, cv.awards, cv.teaching] %}
+        {% for section in [cv.education, cv.work, cv.teaching, cv.awards] %}
         <li>
           <a href="#{{ section.sectionname | lower | replace(" ", "-") | replace(",", "") }}">
             {{ section.sectionname }}
@@ -53,7 +53,7 @@ layout: base.njk
       </ul>
     </div>
 
-    {% for section in [cv.education, cv.work, cv.awards, cv.teaching] %}
+    {% for section in [cv.education, cv.work, cv.teaching, cv.awards] %}
       {% include "section.njk" %}
     {% endfor %}
 
