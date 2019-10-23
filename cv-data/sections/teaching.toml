@@ -1,0 +1,94 @@
+[teaching]
+sectionname = "Teaching and Course Development"
+
+[[teaching.items]]
+title = "CSC 125 Introduction to C++ Programming"
+date = "2020-01-15 to 2020-05-20"
+# organization = "Computer Science Department, Missouri State University"
+# location = "Springfield, Missouri, USA"
+details = "I will teach this course for the first time in spring 2020."
+
+[[teaching.items]]
+title = "CSC 325/611 Algorithms and Advanced Data Structures"
+date = "2016-08-20 to present"
+details = """
+- Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
+- Prepare students for job interviews
+- Students per semester: 27, 24, 23, 28, 29, 37, 41
+- Student evaluation ratings (5-point scale): 4.75, 4.67, 4.89, 4.80, 4.89, 4.96
+- This course includes 4 to 6 graduate students per semester
+- Developed course materials without assistance
+- Evaluate course based on ABET criteria"""
+
+[[teaching.items]]
+title = "CSC 333 Languages and Machines"
+date = "2016-08-20 to present"
+details = """
+- Topics: formal languages, automata theory, programming languages, Unix
+- Teach students about pair programming
+- Students per semester: 25, 24, 21, 23, 21, 29, 30
+- Student evaluation ratings (5-point scale): 4.67, 4.77, 4.86, 4.73, 4.90, 4.87
+- Developed course materials without assistance
+- Evaluate course based on ABET criteria"""
+
+[[teaching.items]]
+title = "Independent Study"
+date = "2017-05-20 to present"
+details = """
+- Mentored 24 independent study projects over the past eight semesters
+- Students range from seniors in the honors program to high school students attending Greenwood Elementary
+- Several research projects have been published in international computer science conferences"""
+
+[[teaching.items]]
+title = "CSC 742 Evolutionary Computing"
+date = "2017-08-20 to present"
+details = """
+- Topics: genetic algorithms, evolutionary strategies, genetic programming, statistics
+- Students per semester: 14, 14
+- Student evaluation ratings (5-point scale): 4.39
+- Fall of even years
+- Developed course materials without assistance"""
+
+[[teaching.items]]
+title = "CSC 232 Data Structures"
+date = "2019-06-12 to 2019-08-04"
+details = """
+- Topics: C++ programming, array lists, linked lists, trees
+- Students per semester: 14
+- Student evaluation ratings (5-point scale): 4.89
+- Developed course materials with minimal assistance"""
+
+[[teaching.items]]
+title = "CSC 790 Deep Learning"
+date = "2019-01-20 to 2019-05-20"
+details = """
+- Topics: convolutional neural networks, embeddings, optimization, regularization
+- Students per semester: 18
+- Student evaluation ratings (5-point scale): 4.85
+- Developed course materials without assistance"""
+
+[[teaching.items]]
+title = "CSC 482 Seminar in Computer Science"
+date = "2018-08-20 to 2018-10-20"
+details = """
+- Topics: interview preparation, ethics, teamwork
+- Students per semester: 35"""
+
+[[teaching.items]]
+title = "CSC 790 Advanced Robotics"
+date = "2018-01-20 to 2018-05-20"
+details = """
+- Topics: robot operating system (ROS), computer vision, publisher-subscriber software
+- Students per semester: 14
+- Developed course materials without assistance"""
+
+[[teaching.items]]
+title = "CSE 232, Introduction to Programming II"
+date = "2015-05-20 to 2015-07-20"
+organization = "Department of Computer Science and Engineering, Michigan State University"
+location = "East Lansing, MI, USA"
+details = """
+- Students per semester: 56
+- Student evaluation ratings (5-point scale): 4.61
+- Develop and present lectures covering introductory programming concepts using C++
+- Mentor and coordinate three teaching assistants"""
