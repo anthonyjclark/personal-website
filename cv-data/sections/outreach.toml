@@ -16,6 +16,13 @@ details = """
 Responsibilities: Coordinate and advise from three to six undergraduate and graduate students from different departments every semester."""
 
 [[outreach.items]]
+title = "Week-long Summer Coding Camp"
+date = "2019-06-17"
+organization = "Discover Center and Missouri State University"
+details = """
+Responsibilities: Organized and taught a week-long summer coding camp for middle school students."""
+
+[[outreach.items]]
 title = "Instructor, Introduction to Evolutionary Robotics"
 date = "2015-07-15"
 organization = "Introduction to Robotics Engineering Program, Michigan State University"

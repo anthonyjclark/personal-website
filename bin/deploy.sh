@@ -141,7 +141,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     # Generate pdf from active website
     # echo -e "\nGenerate PDF."
     echo -e "\nNOT COPYING GENERATED PDF (ISSUE WITH TWO COLUMN NAVIGATION)"
-    BUILD_MODE=release node ./bin/generate_pdf.js
+    # BUILD_MODE=release node ./bin/generate_pdf.js
     # cp cv.pdf ./src/static/pdf/Clark.CV.pdf
     # mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
 

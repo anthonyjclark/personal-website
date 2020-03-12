@@ -13,18 +13,20 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 ### Graduate Students
 
 - Rafail Islam (CS), Aug 2019
-- Jesse Simpson (CS), Jan 2019
+- Jesse Simpson (CS), Jan 2019 - Sep 2019
 - Dipto Das (CS), Jan 2018 - Jul 2019 (**Thesis:** [A Multimodal Approach to Sarcasm Detection on Social Media](https://bearworks.missouristate.edu/theses/3417/))
 - Keith Cissell (CS), Nov 2016 - Dec 2018 (**Thesis:** [An Adaptive Memory-Based Reinforcement Learning Controller](https://bearworks.missouristate.edu/theses/3326/))
 
 ### Undergraduates Students
 
+<!-- Seth and Kimmy -->
+
 - Ali Karimiafshar (MET), Sep 2019
 - Drew Rinker (CS), May 2019
-- Lauren Tallerico (CS), May 2019
-- Normany Bryson (CS), May 2019
-- Thad Fry (CS), May 2019
-- Anna Buckthorpe (EE), Jan 2019
+- William Fry (CS), May 2019
+- Lauren Tallerico (CS), May 2019 - Dec 2019
+- Normany Bryson (CS), May 2019 - Dec 2019
+- Anna Buckthorpe (EE), Jan 2019 - May 2019
 - Dillon Flohr (CS), Nov 2016 - Dec 2018
 - Eric McCullough (CS), Aug - Dec 2018
 - Rich Russell (CS), Sep 2017 - Dec 2018
