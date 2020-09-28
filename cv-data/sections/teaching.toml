@@ -3,19 +3,40 @@ sectionname = "Teaching and Course Development"
 note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
+title = "Algorithms"
+date = "2020-08-24 to present"
+organization = "Computer Science Department, Pomona College"
+location = "Claremont, California, USA"
+details = """
+- Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
+- Students per semester: 17
+"""
+
+[[teaching.items]]
+title = "Data Structures"
+date = "2020-08-24 to present"
+details = """
+- Topics: Java, OOP, Lists, Big-O, Trees
+- Students per semester: 26
+"""
+
+[[teaching.items]]
 title = "CSC 125 Introduction to C++ Programming"
 date = "2020-01-15 to 2020-05-20"
-# organization = "Computer Science Department, Missouri State University"
-# location = "Springfield, Missouri, USA"
-details = "- I will teach this course for the first time in spring 2020."
+organization = "Computer Science Department, Missouri State University"
+location = "Springfield, Missouri, USA"
+details = """
+- Topics: C++, Control Flow, Conditionals, Memory Management
+- Students per semester: 29
+"""
 
 [[teaching.items]]
 title = "CSC 325/611 Algorithms and Advanced Data Structures"
-date = "2016-08-20 to present"
+date = "2016-08-20 to 2020-05-20"
 details = """
 - Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
-- Students per semester: 27, 24, 23, 28, 29, 37, 41
-- Student evaluation ratings (5-point scale): 4.75, 4.67, 4.89, 4.80, 4.89, 4.96
+- Students per semester: 27, 24, 23, 28, 29, 37, 41, 45
+- Student evaluation ratings (5-point scale): 4.75, 4.67, 4.89, 4.80, 4.89, 4.96, N/A
 - Prepare students for job interviews
 - This course includes 4 to 6 graduate students per semester
 - Developed all course materials
@@ -24,7 +45,7 @@ details = """
 
 [[teaching.items]]
 title = "CSC 333 Languages and Machines"
-date = "2016-08-20 to present"
+date = "2016-08-20 to 2020-05-20"
 details = """
 - Topics: formal languages, automata theory, programming languages, Unix
 - Students per semester: 25, 24, 21, 23, 21, 29, 30
@@ -35,7 +56,7 @@ details = """
 
 [[teaching.items]]
 title = "Independent Study"
-date = "2017-05-20 to present"
+date = "2017-05-20 to 2020-05-20"
 details = """
 - Mentored 24 independent study projects over the past eight semesters
 - Students range from seniors in the honors program to high school students attending Greenwood Elementary
@@ -43,7 +64,7 @@ details = """
 
 [[teaching.items]]
 title = "CSC 742 Evolutionary Computing"
-date = "2017-08-20 to present"
+date = "2017-08-20 to 2019-12-20"
 details = """
 - Topics: genetic algorithms, evolutionary strategies, genetic programming, statistics
 - Students per semester: 14, 14

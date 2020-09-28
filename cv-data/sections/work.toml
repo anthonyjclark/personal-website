@@ -3,14 +3,20 @@ sectionname = "Professional Experience"
 
 [[work.items]]
 title = "Assistant Professor of Computer Science"
-date = "2016-08-15 to present"
+date = "2020-07-01 to present"
+organization = "Department of Computer Science, Pomona College"
+location = "Claremont, CA, USA"
+details = """
+<u>Research</u>: mobile robotics &bull; deep learning
+<u>Teaching</u>: algorithms &bull; neural networks
+"""
+
+[[work.items]]
+title = "Assistant Professor of Computer Science"
+date = "2016-08-15 to 2020-05-20"
 organization = "Department of Computer Science, Missouri State University"
 location = "Springfield, MO, USA"
-details = """
-<u>Research Interests</u>: mobile robotics &bull; deep learning
-<u>Undergraduate Courses</u>: C++ programming &bull; data structures &bull; algorithms and advanced data structures &bull; languages and machines &bull; senior seminar
-<u>Graduate Courses</u>: evolutionary computation &bull; deep learning &bull; advanced robotics
-"""
+details = """Tenure-track assistant professor."""
 
 [[work.items]]
 title = "Computer Science Teaching Assistant"

@@ -2,13 +2,13 @@
 sectionname = "Contact Information"
 name = "Anthony J. Clark"
 address1 = """
-Missouri State University
+Pomona College
 Computer Science
-901 S. National Ave.
-Springfield, MO 65897"""
+333 N. College Way
+Claremont, CA 91711"""
 address2 = """
 <div id="email-insert"></div>
 <a href="http://anthonyjclark.com">anthonyjclark.com</a>
-Cheek Hall, Room 307
+Edmunds Hall 127
 <div id="phone-insert"></div>
 """

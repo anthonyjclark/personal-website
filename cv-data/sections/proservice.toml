@@ -18,12 +18,20 @@ details = "IEEE and ACM"
 title = "NSF Panelist"
 details = """
 Smart and Autonomous Systems
-National Robotics Initiative"""
+National Robotics Initiative
+IIS Robust Intelligence"""
 
 [[proservice.items]]
 title = "Task Force Member"
 date = "2018-01-01 to present"
 organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
+
+[[proservice.items]]
+title = "Reviewer"
+date = "2020-12-01"
+organization = "IEEE Symposium Series on Computational Intelligence"
+location = "Canberra, Australia"
+
 
 [[proservice.items]]
 title = "Program Committee Member"
