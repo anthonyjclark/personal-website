@@ -62,8 +62,11 @@ set -e
 # Format bib files (only needs to be done when creating a new file)
 # biber --tool --output_align --output_indent=2 --output_fieldcase=lower <filename>.bib
 
+mkdir -p "./src/_data/"
+mkdir -p "website"
+
 bib_dir="./cv-data/bib"
-pdf_dir="./src/static/pdf"
+pdf_dir="./src/pdf"
 
 bib_json_file="$bib_dir/all_bibs.json"
 formatted_bibs="./src/_data/formatted_bibs.json"
@@ -77,31 +80,33 @@ fi
 
 if [[ "$run_all" = true || "$run_format" = true ]] ; then
     echo -e "\nConvert and combine all bib files into a json format."
-    pandoc-citeproc -j $bib_dir/*.bib > "$bib_json_file"
+    # pandoc-citeproc -j $bib_dir/*.bib > "$bib_json_file"
+    pandoc --citeproc cv-data/bib/*.bib -t csljson > "$bib_json_file"
 
-    echo -e "\nConvert bib data into a format suitable format for eleventy."
+    echo -e "\nConvert bib data into a simpler format."
     ./bin/format_bibs.py "$bib_json_file" $bib_dir $pdf_dir > "$formatted_bibs"
 fi
 
 if [[ "$run_all" = true || "$run_cv" = true ]] ; then
-    echo -e "\nConvert toml cv data files to a suitable format for eleventy."
+    echo -e "\nConvert toml cv data files to a simpler format."
     ./bin/cv_data_to_json.py ./cv-data/sections > "$formatted_cv_data"
 fi
 
 if [[ "$run_all" = true || "$run_build" = true ]] ; then
     echo -e "\nBuild site."
-    BUILD_MODE=release npx @11ty/eleventy
+    ./bin/GeneratePages.py
+    ./bin/GenerateCV.py
 fi
 
-if [[ "$run_all" = false && "$run_pdf" = true ]] ; then
-    echo -e "\nGenerate PDF."
-    node ./bin/generate_pdf.js
-    mv cv.pdf ./src/static/pdf/Clark.CV.pdf
-fi
+# if [[ "$run_all" = false && "$run_pdf" = true ]] ; then
+#     echo -e "\nGenerate PDF."
+#     node ./bin/generate_pdf.js
+#     mv cv.pdf ./src/static/pdf/Clark.CV.pdf
+# fi
 
 if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 
-    read -r -p "Do you want to proceed? [Y/n] " response
+    read -r -p "Do you want to upload to the server and push changes? [Y/n] " response
     if [[ $response =~ ^([nN][oO]|[nN])+$ ]]
     then
         echo "Aborting."
@@ -117,47 +122,65 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
         [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
     fi
 
-    echo -e "\nDeploying site to people.missouristate.edu"
+    echo -e "\nDeploying site to smb://ajcd2020@WellsAF/Fac-Staff/ajcd2020"
 
-    if mount | grep "on /Volumes/anthonyclark" > /dev/null; then
-        echo "The SMB share is already mounted."
-    else
-        echo "Mounting the SMB share."
-        open "smb://people.missouristate.edu/people.missouristate.edu/anthonyclark"
-    fi
+    echo -e "\nConnecting to VPN"
 
-    until mount | grep "on /Volumes/anthonyclark" > /dev/null; do
-        sleep 0.5
-        echo "Waiting..."
-    done
+    printf "\n\n$(security find-internet-password -s wells.campus.pomona.edu -w)\n" | \
+           /opt/cisco/anyconnect/bin/vpn -s connect anyconnect.pomona.edu > /dev/null
 
-    # Trailing slashes are important
-    site_dir_local="./dist/"
-    site_dir_remote="/Volumes/anthonyclark/"
+    echo -e "\nMounting network drive"
+    mkdir -p www
+    mount -t smbfs "//ajcd2020:$(security find-internet-password -s wells.campus.pomona.edu -w)@WellsAF/Fac-Staff/ajcd2020" www
 
-    # Sync with webdev
-    rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
+    # if mount | grep "on /Volumes/anthonyclark" > /dev/null; then
+    #     echo "The SMB share is already mounted."
+    # else
+    #     echo "Mounting the SMB share."
+    #     open "smb://people.missouristate.edu/people.missouristate.edu/anthonyclark"
+    # fi
+
+    # until mount | grep "on /Volumes/anthonyclark" > /dev/null; do
+    #     sleep 0.5
+    #     echo "Waiting..."
+    # done
+
+    # # Trailing slashes are important
+    # site_dir_local="./website/"
+    # site_dir_remote="/Volumes/anthonyclark/"
+
+    # # Sync with webdev
+    # rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
+    $HOME/.local/bin/cpsync website/ "www/My Documents/My Webs/"
+
+    # Create remote PDF directory
+    mkdir -p "www/My Documents/My Webs/pdf"
+
+    # Copy PDFS over
+    $HOME/.local/bin/cpsync src/pdf/ "www/My Documents/My Webs/pdf/"
 
     # Generate pdf from active website
-    # echo -e "\nGenerate PDF."
-    echo -e "\nNOT COPYING GENERATED PDF (ISSUE WITH TWO COLUMN NAVIGATION)"
-    # BUILD_MODE=release node ./bin/generate_pdf.js
-    # cp cv.pdf ./src/static/pdf/Clark.CV.pdf
-    # mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
+    echo -e "\nGenerate PDF."
+    # # BUILD_MODE=release node ./bin/generate_pdf.js
+    # # cp cv.pdf ./src/static/pdf/Clark.CV.pdf
+    # # mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
+    "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary" --headless --disable-gpu --print-to-pdf=Clark.CV.pdf --print-to-pdf-no-header https://cs.pomona.edu/~ajc/cv/
 
     # Sync newly generate PDF
-    rsync -ari "$site_dir_local"/static/pdf/Clark.CV.pdf "$site_dir_remote"/static/pdf/Clark.CV.pdf
+    $HOME/.local/bin/cpsync Clark.CV.pdf "www/My Documents/My Webs/pdf/Clark.CV.pdf"
 
-    echo
-    read -p "Do you want to unmount the SMB share? " -n 1 -r
-    echo
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        diskutil umount /Volumes/anthonyclark
-    fi
+    # echo
+    # read -p "Do you want to unmount the SMB share? " -n 1 -r
+    # echo
+    # if [[ $REPLY =~ ^[Yy]$ ]]; then
+    #     diskutil umount /Volumes/anthonyclark
+    # fi
+    until diskutil unmount www; do echo "Trying again..."; sleep 2; done
 
-    echo -e "\nCommit updated PDF."
-    git commit -am "Updated CV PDF."
+    /opt/cisco/anyconnect/bin/vpn disconnect > /dev/null
+    # echo -e "\nCommit updated PDF."
+    # git commit -am "Updated CV PDF."
 
-    echo -e "\nPush to github."
-    git push -u origin master
+    # echo -e "\nPush to github."
+    # git push -u origin master
 fi

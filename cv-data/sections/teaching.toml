@@ -3,21 +3,37 @@ sectionname = "Teaching and Course Development"
 note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
-title = "Algorithms"
-date = "2020-08-24 to present"
+title = "Neural Networks"
+date = "2021-01-25 to present"
 organization = "Computer Science Department, Pomona College"
 location = "Claremont, California, USA"
 details = """
+- Topics: Machine learning with nueral networks
+- Students per semester: 24
+"""
+
+[[teaching.items]]
+title = "Algorithms"
+date = "2020-08-24 to present"
+details = """
 - Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
-- Students per semester: 17
+- Students per semester: 17, 24
 """
 
 [[teaching.items]]
 title = "Data Structures"
-date = "2020-08-24 to present"
+date = "2020-08-24 to 2020-12-04"
 details = """
-- Topics: Java, OOP, Lists, Big-O, Trees
+- Topics: Java, OOP, lists, big-o, trees
 - Students per semester: 26
+"""
+
+[[teaching.items]]
+title = "Independent Study"
+date = "2020-08-24 to 2020-12-04"
+details = """
+- Topics: Deep learning, robotics, and graphics
+- Students per semester: 1
 """
 
 [[teaching.items]]
@@ -26,7 +42,7 @@ date = "2020-01-15 to 2020-05-20"
 organization = "Computer Science Department, Missouri State University"
 location = "Springfield, Missouri, USA"
 details = """
-- Topics: C++, Control Flow, Conditionals, Memory Management
+- Topics: C++, control flow, conditionals, memory management
 - Students per semester: 29
 """
 

@@ -1,7 +1,3 @@
----
-title: Anthony J. Clark
-description: Professional website for Anthony J. Clark
----
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -11,13 +7,12 @@ description: Professional website for Anthony J. Clark
   <meta name="description" content="{{ description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="{{ "/static/site.webmanifest" | url }}">
-  <link rel="apple-touch-icon" href="{{ "/static/icon.png" | url }}">
-  <link rel="icon" type="image/x-icon" href="{{ "/static/favicon.ico" | url }}"/>
-
-  <link rel="stylesheet" href="{{ "/static/css/normalize.css" | url }}">
+  <link rel="manifest" href="/static/site.webmanifest">
+  <link rel="apple-touch-icon" href="/static/icon.png">
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico"/>
 
     {% set css %}
+        {% include "css/normalize.css" %}
         {% include "css/h5bp1.css" %}
         {% include "css/custom.css" %}
         {% include "css/flxgrid.css" %}
@@ -25,7 +20,7 @@ description: Professional website for Anthony J. Clark
         {% include "css/h5bp2.css" %}
     {% endset %}
     <style>
-        {{ css | postcss | safe }}
+        {{ css | safe }}
     </style>
 
   <meta name="theme-color" content="#fafafa">
@@ -34,9 +29,9 @@ description: Professional website for Anthony J. Clark
 <body>
 
     <div class="container">
-      {% include "nav.njk" %}
+      {% include "nav.j2" %}
       {{ content | safe }}
-      {% include "footer.njk" %}
+      {% include "footer.j2" %}
     </div>
 
 </body>

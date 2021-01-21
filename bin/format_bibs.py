@@ -15,7 +15,7 @@ pdf_dir = Path(sys.argv[3])
 
 STUDENTS = {
     "Dipto Das", "Glen A. Simon", "Keith A. Cissell", "Jesse Simpson",
-    "Jeffrey Dale", "Md Forhad Hossain", "Jared Hall"
+    "Jeffrey Dale", "Md Forhad Hossain", "Jared Hall", "Matthew Shan"
 }
 
 MONTHS = [

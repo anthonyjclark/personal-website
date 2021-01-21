@@ -14,10 +14,10 @@
 .cv-popover-container {
   position: relative;
   display: none;
+}
 
-  &:hover {
-    display: block;
-  }
+.cv-popover-container:hover {
+  display: block;
 }
 
 .cv-popover-container .cv-popover {
@@ -43,10 +43,10 @@
   color: $color-sec-green;
   text-decoration: none;
   cursor: pointer;
+}
 
-  &:hover, &:focus {
-    text-decoration: underline;
-  }
+.cv-popover-label:hover, .cv-popover-label:focus {
+  text-decoration: underline;
 }
 
 .cv-toc {
@@ -88,35 +88,32 @@
   font-style: italic;
 }
 
-.itm-details {
+.itm-details p {
+  margin: 0;
+}
 
-  & p {
-    margin: 0;
-  }
+.itm-details ul {
+  margin: 0;
+  padding-left: 25px;
+}
 
-  & ul {
-    margin: 0;
-    padding-left: 25px;
-  }
-
-  & em strong {
-    /*font-weight: 600;*/
-    /*font-family: 'Open Sans Semi-Bold', sans-serif;*/
-    font-variant: small-caps;
-  }
+.itm-details em strong {
+  /*font-weight: 600;*/
+  /*font-family: 'Open Sans Semi-Bold', sans-serif;*/
+  font-variant: small-caps;
 }
 
 .bib-authors {
   margin: 0;
+}
 
-  & .bib-author-ajc {
-    font-weight: 600;
-    font-variant: small-caps;
-  }
+.bib-authors .bib-author-ajc {
+  font-weight: 600;
+  font-variant: small-caps;
+}
 
-  & .bib-author-student {
-    text-decoration: underline;
-  }
+.bib-authors .bib-author-student {
+  text-decoration: underline;
 }
 
 .bib-venue {
@@ -148,7 +145,7 @@
   }
   html {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-size: 10pt;
     line-height: 1.1;
     padding: 0;
     margin: 0in;
@@ -180,14 +177,20 @@
   }
 
   a:link:after, a:visited:after {
-    /* content: ""; */
+     content: "";
   }
+
   .itm a, .cv-address a {
     text-decoration: none;
     color: $color-sec-green;
-    &:link:after, &:visited:after {
-      content: "";
-    }
+  }
+
+  itm a:link:after, .cv-address a:link:after, itm a:visited:after, .cv-address a:visited:after {
+    content: "";
+  }
+
+  a[href]::after {
+    content: "";
   }
 
   .itm-details em strong {
