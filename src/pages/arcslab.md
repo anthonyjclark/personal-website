@@ -6,7 +6,7 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ## Members
 
-### Undergraduates Students
+### Current Students
 
 
 - Evelyn Hasama (CS), Jan 2021 - present
@@ -16,7 +16,7 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 - Alex Kehlani Fay (CS), May 2020 - present
 - Gabriel Konar-Steenberg (CS), May 2020 - present
 
-<!-- Seth and Kimmy -->
+### Former Students
 
 - Ali Karimiafshar (MET), Sep 2019 - May 2020
 - Drew Rinker (CS), May 2019 - May 2020
@@ -34,7 +34,7 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 - Tyler Medlin (CS), Jan - Jul 2017
 - Matthew Ridenhour (CS), Nov 2016 - Jul 2017
 
-### Graduate Students
+### Former Graduate Students
 
 - Rafail Islam (CS), Aug 2019 - May 2020
 - Jesse Simpson (CS), Jan 2019 - Sep 2019

@@ -1,9 +1,10 @@
 WEBDIR = website
-GENDIR = src/generated
+# GENDIR = src/generated
 
-CSS_SOURCE = $(wildcard src/css/*.css)
-JS_SOURCE = $(wildcard src/js/*.js)
+# CSS_SOURCE = $(wildcard src/css/*.css)
+# JS_SOURCE = $(wildcard src/js/*.js)
 IMG_SOURCE =  $(wildcard src/img/*)
+STATIC_SOURCE = $(wildcard src/static/*)
 
 #
 # Build index
@@ -11,7 +12,7 @@ IMG_SOURCE =  $(wildcard src/img/*)
 
 .PHONY: all
 # all: gen css js img $(WEBDIR)/index.html
-all: img $(WEBDIR)/index.html
+all: img static $(WEBDIR)/index.html
 
 # $(WEBDIR)/index.html: $(GENDIR)/calendar.md $(GENDIR)/schedule.md sections/*.md templates/*.j2 140.toml bin/GeneratePages.py | $(WEBDIR) $(GENDIR)
 # 	bin/GeneratePages.py > $@
@@ -21,7 +22,7 @@ $(WEBDIR)/index.html: src/pages/*.md src/templates/*.j2 bin/GeneratePages.py bin
 
 
 $(WEBDIR):
-	mkdir -p $(WEBDIR)/css $(WEBDIR)/js $(WEBDIR)/img
+	mkdir -p $(WEBDIR)/img #$(WEBDIR)/css $(WEBDIR)/js
 
 #
 #  Build generated md files
@@ -37,7 +38,7 @@ $(WEBDIR):
 # 	bin/GenerateSchedule.py $< > $@
 
 $(GENDIR):
-	mkdir -p $(GENDIR)
+	#mkdir -p $(GENDIR)
 
 # #
 # # Build css
@@ -74,10 +75,18 @@ img: $(IMG_COPIES)
 $(WEBDIR)/img/%: src/img/% | $(WEBDIR)
 	cp $< $@
 
+STATIC_COPIES = $(subst src/static,$(WEBDIR),$(STATIC_SOURCE))
+
+.PHONY: static
+static: $(STATIC_COPIES)
+
+$(WEBDIR)/%: src/static/% | $(WEBDIR)
+	cp $< $@
+
 #
 # Helpers
 #
 
 .PHONY: clean
 clean:
-	rm -rf $(WEBDIR) $(GENDIR)
+	rm -rf $(WEBDIR) #$(GENDIR)
