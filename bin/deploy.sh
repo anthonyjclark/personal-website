@@ -113,15 +113,6 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
         [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
     fi
 
-    # Check if there are any uncommitted changes
-    if ! git diff-index --quiet HEAD --; then
-        echo -e "\nChanges to the following files are uncommitted:"
-        git diff-index --name-only HEAD -- | sed 's/^/• /'
-        echo "Please commit the changes before proceeding."
-        echo "Aborting."
-        [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-    fi
-
     echo -e "\nDeploying site to smb://ajcd2020@WellsAF/Fac-Staff/ajcd2020"
 
     echo -e "\nConnecting to VPN"
@@ -178,9 +169,15 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     until diskutil unmount www; do echo "Trying again..."; sleep 2; done
 
     /opt/cisco/anyconnect/bin/vpn disconnect > /dev/null
-    # echo -e "\nCommit updated PDF."
-    # git commit -am "Updated CV PDF."
 
-    # echo -e "\nPush to github."
-    # git push -u origin master
+
+
+    # Check if there are any uncommitted changes
+    if ! git diff-index --quiet HEAD --; then
+        echo -e "\nChanges to the following files are uncommitted:"
+        git diff-index --name-only HEAD -- | sed 's/^/• /'
+    fi
+
+    echo -e "\nPush to github."
+    git push -u origin master
 fi
