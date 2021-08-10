@@ -142,6 +142,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 
     # # Sync with webdev
     # rsync -ari --exclude=.DS_Store "$site_dir_local" "$site_dir_remote"
+    echo "Syncing data..."
     $HOME/.local/bin/cpsync website/ "www/My Documents/My Webs/"
 
     # Create remote PDF directory

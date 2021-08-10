@@ -8,13 +8,36 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ### Current Students
 
+#### Oliver Change (CS '22), May 2021- present
 
-- Evelyn Hasama (CS), Jan 2021 - present
-- Sean O'Connor (CS), Jan 2021 - present
-- Kevin Ayala (CS), Aug 2020 - present
-- Jared Anthony Mejia (CS), Aug 2020 - present
-- Alex Kehlani Fay (CS), May 2020 - present
-- Gabriel Konar-Steenberg (CS), May 2020 - present
+
+#### Christy Marchese (CS '24), May 2021- present
+
+
+#### Evelyn Hasama (CS '24), Jan 2021 - present
+
+<img style="width:30%; margin: 0 auto;" src="../img/evelyn-hasama.webp" alt="Evelyn Hasama">
+
+Evelyn is a computer science student from the Class of 2024 at Pomona College. She is an athlete for the Pomona-Pitzer Women's Soccer team and is from Rancho Palos Verdes, CA. [GitHub](https://github.com/evelynhasama)
+
+#### Sean O'Connor (CS '22), Jan 2021 - present
+
+<img style="width:30%; margin: 0 auto;" src="../img/sean-oconnor.jpg" alt="Sean O'Connor">
+
+Sean O'Connor is a nontraditional student exploring healthcare AI, robotics simulation, and usable privacy tools.  Before studying CS, he was an EMT in Detroit; he's also an avid roller-blader, modern dance enthusiast, and digital art creator.  You can check out his [technical blog](https://oapostrophe.github.io/about) as well as follow him on [GitHub](https://github.com/oapostrophe) and [LinkedIn](https://www.linkedin.com/in/oapostrophe/).
+
+#### Kevin Ayala (CS '22), Aug 2020 - present
+
+
+#### Jared Anthony Mejia (CS '22), Aug 2020 - present
+
+
+#### Alex Kehlani Fay (CS '23), May 2020 - present
+
+
+#### Gabriel Konar-Steenberg (CS '23), May 2020 - present
+
+
 
 ### Former Students
 
