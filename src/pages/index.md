@@ -24,9 +24,15 @@ My research focuses on making autonomous robots more robust and adaptive. For ex
 
 #### Courses (semester last taught if not current)
 
-- CS 062 Data Structures (co-taught with [Prof Kauchak](https://cs.pomona.edu/~dkauchak/))
-- [CS 140 Algorithms](https://cs.pomona.edu/classes/cs140/) (update in progress)
-- [CS 152 Neural Networks](https://cs.pomona.edu/classes/cs152/) (update in progress)
+##### Current
+
+- [CS 152 Neural Networks](https://cs.pomona.edu/classes/cs152/)
+- [CS 105 Computer Systems](https://cs.pomona.edu/classes/cs105/)
+
+##### Past
+
+- CS 062 Data Structures (co-taught with [Prof Kauchak](https://cs.pomona.edu/~dkauchak/)) (Fall 2020)
+- [CS 140 Algorithms](https://cs.pomona.edu/classes/cs140/) (Fall 2021)
 
 #### Missouri State Courses
 

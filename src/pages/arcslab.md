@@ -8,10 +8,10 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ### Current Students
 
-#### Oliver Change (CS '22), May 2021- present
+#### Oliver Change (CS '22), May 2021 - present
 
 
-#### Christy Marchese (CS '24), May 2021- present
+#### Christy Marchese (CS '24), May 2021 - present
 
 
 #### Evelyn Hasama (CS '24), Jan 2021 - present
@@ -20,7 +20,6 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 Evelyn is a computer science student from the Class of 2024 at Pomona College. She is an athlete for the Pomona-Pitzer Women's Soccer team and is from Rancho Palos Verdes, CA. [GitHub](https://github.com/evelynhasama)
 
-#### Sean O'Connor (CS '22), Jan 2021 - present
 
 <img style="width:30%; margin: 0 auto;" src="../img/sean-oconnor.jpg" alt="Sean O'Connor">
 
@@ -35,12 +34,10 @@ Sean O'Connor is a nontraditional student exploring healthcare AI, robotics simu
 #### Alex Kehlani Fay (CS '23), May 2020 - present
 
 
-#### Gabriel Konar-Steenberg (CS '23), May 2020 - present
-
-
-
 ### Former Students
 
+- Sean O'Connor (CS '22), Jan 2021 - May 2021
+- Gabriel Konar-Steenberg (CS '23), May 2020 - May 2021
 - Ali Karimiafshar (MET), Sep 2019 - May 2020
 - Drew Rinker (CS), May 2019 - May 2020
 - William Fry (CS), May 2019 - May 2020

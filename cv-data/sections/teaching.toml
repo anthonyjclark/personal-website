@@ -3,21 +3,29 @@ sectionname = "Teaching and Course Development"
 note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
-title = "Neural Networks"
-date = "2021-01-25 to present"
+title = "Computer Systems"
+date = "2021-01-18 to 2021-05-15"
+details = """
+- Topics: Architecture, representations, concurrency, and I/O
+- Students per semester: 20
+"""
 organization = "Computer Science Department, Pomona College"
 location = "Claremont, California, USA"
+
+[[teaching.items]]
+title = "Neural Networks"
+date = "2021-01-25 to present"
 details = """
 - Topics: Machine learning with nueral networks
-- Students per semester: 24
+- Students per semester: 24, 36, 20
 """
 
 [[teaching.items]]
 title = "Algorithms"
-date = "2020-08-24 to present"
+date = "2020-08-24 to 2021-12-15"
 details = """
 - Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
-- Students per semester: 17, 24
+- Students per semester: 17, 24, 25
 """
 
 [[teaching.items]]

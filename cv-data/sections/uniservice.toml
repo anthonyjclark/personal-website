@@ -2,6 +2,18 @@
 sectionname = "University Service"
 
 [[uniservice.items]]
+title = "Pomona Scholars of Math (PSM) Advisor"
+date = "2021-07-20 to 2022-05-20"
+details = """
+Mentor and advise first year students."""
+
+[[uniservice.items]]
+title = "Fulbright Advisor"
+date = "2021-07-20 to 2022-05-20"
+details = """
+Advise students applying for Fulbright Awards."""
+
+[[uniservice.items]]
 title = "Robotics Club Advisor"
 date = "2017-11-20 to 2020-05-20"
 details = """

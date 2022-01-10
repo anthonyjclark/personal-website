@@ -4,6 +4,7 @@ sectionname = "Professional Activities"
 [[proservice.items]]
 title = "Reviewer for Journals"
 details = """
+Applied Sciences
 Elsevier Robotics and Autonomous Systems
 IEEE Transactions on Systems, Man and Cybernetics: Systems
 IEEE Transactions on Robotics
@@ -28,15 +29,26 @@ organization = "IEEE Task Force on Evolutionary Developmental Systems and Roboti
 
 [[proservice.items]]
 title = "Reviewer"
+date = "2021-04-01"
+organization = "EvoApps, International Conference on the Applications of Evolutionary Computation"
+location = "Seville, Spain"
+
+[[proservice.items]]
+title = "Reviewer"
+date = "2021-12-01"
+organization = "IEEE Symposium Series on Computational Intelligence"
+location = "Orlando, Florida, USA"
+
+[[proservice.items]]
+title = "Reviewer"
 date = "2020-12-01"
 organization = "IEEE Symposium Series on Computational Intelligence"
 location = "Canberra, Australia"
 
-
 [[proservice.items]]
 title = "Program Committee Member"
 date = "2020-04-15"
-organization = "EvoAPPS, International Conference on the Applications of Evolutionary Computation"
+organization = "EvoApps, International Conference on the Applications of Evolutionary Computation"
 location = "Seville, Spain"
 
 [[proservice.items]]

@@ -7,7 +7,7 @@ from markdown import Markdown
 from markdown.extensions.toc import TocExtension
 from pathlib import Path
 from subprocess import run
-import toml
+# import toml
 
 # # Open settings file
 # content_file = "140.toml"

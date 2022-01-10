@@ -96,6 +96,7 @@ if [[ "$run_all" = true || "$run_build" = true ]] ; then
     echo -e "\nBuild site."
     ./bin/GeneratePages.py
     ./bin/GenerateCV.py
+    make
 fi
 
 # if [[ "$run_all" = false && "$run_pdf" = true ]] ; then
@@ -115,10 +116,10 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 
     echo -e "\nDeploying site to smb://ajcd2020@WellsAF/Fac-Staff/ajcd2020"
 
-    echo -e "\nConnecting to VPN"
+    # echo -e "\nConnecting to VPN"
 
-    printf "\n\n$(security find-internet-password -s wells.campus.pomona.edu -w)\n" | \
-           /opt/cisco/anyconnect/bin/vpn -s connect anyconnect.pomona.edu > /dev/null
+    # printf "\n\n$(security find-internet-password -s wells.campus.pomona.edu -w)\n" | \
+    #        /opt/cisco/anyconnect/bin/vpn -s connect anyconnect.pomona.edu > /dev/null
 
     echo -e "\nMounting network drive"
     mkdir -p www
@@ -169,7 +170,7 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
     # fi
     until diskutil unmount www; do echo "Trying again..."; sleep 2; done
 
-    /opt/cisco/anyconnect/bin/vpn disconnect > /dev/null
+    # /opt/cisco/anyconnect/bin/vpn disconnect > /dev/null
 
 
 
