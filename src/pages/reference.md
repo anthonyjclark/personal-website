@@ -8,7 +8,7 @@ If I am going to write you a letter, I want a lot of information from you to hel
 
 - **I would like at least three weeks warning**, but I understand that sometimes you find out about an opportunity at the last moment. Be clear about the earliest due dates for the letter and send me a reminder a few days before it is due.
 
-- **Send me your CV or resume**. Include any other essays your have written as part of your application, such as a personal statement or research plan. An unofficial transcript can also help.
+- **Send me your application materials**. Include any essays you have written as part of your application, such as a personal statement or research plan.
 
 - **Remind me of the major types of interactions we have had**, including what courses you have taken from me, what projects you have worked on for me, what events you may have helped organize with me, or anything else that you think is relevant. You would be amazed how easy it is to forget one of those. When possible, please also remind me of dates (even just the year) so that I can be as specific as possible in my letter, which is always stronger.
 

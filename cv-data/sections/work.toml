@@ -8,7 +8,7 @@ organization = "Department of Computer Science, Pomona College"
 location = "Claremont, CA, USA"
 details = """
 <u>Research</u>: mobile robotics &bull; deep learning
-<u>Teaching</u>: data structures &bull; algorithms &bull; neural networks
+<u>Teaching</u>: data structures &bull; algorithms &bull; neural networks &bull; computer systems
 """
 
 [[work.items]]
