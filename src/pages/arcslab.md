@@ -8,18 +8,21 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ### Current Students
 
-- James Clinton (Eng '24), Feb 2022 - present
+- Simon Heck (CS '22), May 2022 - present
 
-- Oliver Change (CS '22), May 2021 - present
+- Kenny Gonzalez Hernandez (CS '24), May 2022 - present
+
+- Liz Johnson (CS '24), May 2022 - present
+
+- James Clinton (Eng '24), Feb 2022 - present
 
 - Christy Marchese (CS '24), May 2021 - present
 
-- Kevin Ayala (CS '22), Aug 2020 - present
-
-- Jared Anthony Mejia (CS '22), Aug 2020 - present
-
 ### Former Students
 
+- Oliver Change (CS '22), May 2021 - May 2022
+- Jared Anthony Mejia (CS '22), Aug 2020 - May 2022
+- Kevin Ayala (CS '22), Aug 2020 - May 2022
 - Evelyn Hasama (CS '24), Jan 2021 - Dec 2021
 - Alex Kehlani Fay (CS '23), May 2020 - Dec 2021
 - Sean O'Connor (CS '22), Jan 2021 - May 2021

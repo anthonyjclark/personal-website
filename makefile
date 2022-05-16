@@ -22,6 +22,7 @@ $(WEBDIR)/index.html: src/pages/*.md src/templates/*.j2 bin/GeneratePages.py bin
 
 
 $(WEBDIR):
+	echo "hello"
 	mkdir -p $(WEBDIR)/img #$(WEBDIR)/css $(WEBDIR)/js
 
 #
