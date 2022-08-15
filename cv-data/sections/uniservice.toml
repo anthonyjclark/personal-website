@@ -2,8 +2,14 @@
 sectionname = "University Service"
 
 [[uniservice.items]]
+title = "Teaching and Learning Committee"
+date = "2022-08-20 to present"
+details = """
+Promote student learning and achievement by sustaining faculty in their development as teachers."""
+
+[[uniservice.items]]
 title = "Pomona Scholars of Math (PSM) Advisor"
-date = "2021-07-20 to 2022-05-20"
+date = "2021-07-20 to present"
 details = """
 Mentor and advise first year students."""
 

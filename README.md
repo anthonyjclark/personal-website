@@ -18,6 +18,7 @@
 - course evals in CV?
 - external link symbol on urls
 - links to coauthors
+- switch to just file from shell script
 
 https://pdf.math.dev/
 

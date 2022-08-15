@@ -28,6 +28,18 @@ date = "2018-01-01 to present"
 organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
 
 [[proservice.items]]
+title = "Program Committee Member"
+date = "2022-04-20"
+organization = "EvoStar Conference"
+location = "Brno, Czech Republic"
+
+[[proservice.items]]
+title = "Program Committee Member"
+date = "2021-12-05"
+organization = "IEEE Symposium Series on Computational Intelligence"
+location = "(Remote) Orlando, Florida, USA"
+
+[[proservice.items]]
 title = "Reviewer"
 date = "2021-04-01"
 organization = "EvoApps, International Conference on the Applications of Evolutionary Computation"
