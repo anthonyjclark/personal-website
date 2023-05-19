@@ -8,18 +8,18 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ### Current Students
 
-- Simon Heck (CS '22), May 2022 - present
-
-- Kenny Gonzalez Hernandez (CS '24), May 2022 - present
-
-- Liz Johnson (CS '24), May 2022 - present
-
-- James Clinton (Eng '24), Feb 2022 - present
-
+- Anjali Nuggehalli (CS '26) May 2023 - present
+- Chau Vu (CS '26), Dec 2022 - present
 - Christy Marchese (CS '24), May 2021 - present
+- Daisy Abbott (CS '26) June 2023 - present
+- Francisco Morales Puente (CS '26) June 2023 - present
+- James Clinton (Eng '24), Feb 2022 - present
+- Kenny Gonzalez Hernandez (CS '24), May 2022 - present
+- Liz Johnson (CS '24), May 2022 - present
 
 ### Former Students
 
+- Simon Heck (CS '22), May 2022 - Dec 2022
 - Oliver Chang (CS '22), May 2021 - May 2022
 - Jared Anthony Mejia (CS '22), Aug 2020 - May 2022
 - Kevin Ayala (CS '22), Aug 2020 - May 2022

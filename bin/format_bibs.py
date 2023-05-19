@@ -16,7 +16,8 @@ pdf_dir = Path(sys.argv[3])
 STUDENTS = {
     "Dipto Das", "Glen A. Simon", "Keith A. Cissell", "Jesse Simpson",
     "Jeffrey Dale", "Md Forhad Hossain", "Jared Hall", "Matthew Shan",
-    "Oliver Chang", "Christiana Marchese", "Jared Mejia"
+    "Oliver Chang", "Christiana Marchese", "Jared Mejia", "Elizabeth Johnson",
+    "Simon Heck", "Keneth Gonzalez Hernandez"
 }
 
 MONTHS = [
@@ -30,9 +31,9 @@ def authors_format(author_list):
     for author in author_list:
         author_str = f'{author["given"]} {author["family"]}'
         if author_str in STUDENTS:
-            author_str = f'<span class="bib-author-student">{author_str}</span>'
+            author_str = f'<span class="cv-bib-author-student">{author_str}</span>'
         elif author_str == "Anthony J. Clark":
-            author_str = '<span class="bib-author-ajc">Anthony J. Clark</span>'
+            author_str = '<span class="cv-bib-author-ajc">Anthony J. Clark</span>'
         authors.append(author_str)
     if len(authors) == 1:
         return authors[0]
@@ -54,7 +55,7 @@ def venue_format(bib_item):
 
     short = bib_item.get("event", "")
     short = f" ({short})" if len(short) > 0 else ""
-    venue = f'<span class="bib-venue">{venue}{short}'
+    venue = f'<span class="cv-bib-venue">{venue}{short}'
 
     place = bib_item.get("publisher-place", "")
     venue += f",</span> {place}." if len(place) > 0 else "</span>."

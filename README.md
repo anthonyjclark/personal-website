@@ -4,6 +4,12 @@
 
 `./bin/deploy.sh`
 
+## Development
+
+One terminal: `./bin/deploy.sh --build`
+
+Another: `cd website && devd -ol .`
+
 ## Things to do
 
 - build bibtex cache on demand only

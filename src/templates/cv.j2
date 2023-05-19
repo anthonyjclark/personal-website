@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <hr class="sec-hr" />
+    <hr class="cv-sec-hr" />
 
     <div class="flxgrid">
       <div class="flx-50">
@@ -23,11 +23,11 @@
       </div>
     </div>
 
-    <div class="itm flxgrid">
+    <div class="cv-itm flxgrid">
 
       <div class="flx-100">
-          <hr class="sec-hr" />
-          <div class="sec-header">Navigation</div>
+          <hr class="cv-sec-hr" />
+          <div class="cv-sec-header">Navigation</div>
       </div>
 
       <ul class="cv-toc">
@@ -50,16 +50,16 @@
     </div>
 
     {% for section in [cv.education, cv.work, cv.teaching, cv.awards] %}
-      {% include "section.j2" %}
+      {% include "cv-section.j2" %}
     {% endfor %}
 
     {% for bib in formatted_bibs %}
-    <div class="itm flxgrid">
+    <div class="cv-itm flxgrid">
 
         {% if loop.first == true %}
         <div class="flx-100">
-            <hr class="sec-hr" />
-            <div class="sec-header" id="publications">
+            <hr class="cv-sec-hr" />
+            <div class="cv-sec-header" id="publications">
                 Publications
                 <div class="cv-subtitle">
                     Student authors are underlined.
@@ -69,7 +69,7 @@
         {% endif %}
 
         <div class="flx-cv-date">
-            <div class="itm-date text-right">
+            <div class="cv-itm-date text-right">
                 {{ bib.date }}
             </div>
         </div>
@@ -78,50 +78,62 @@
 
         <div class="flx-cv-content" id="{{ bibkey }}">
             {# <a class="no-url-print" href="../pdf/{{ bibkey }}.pdf" target="_blank">
-                <p class="itm-title">{{ bib.title }}</p>
+                <p class="cv-itm-title">{{ bib.title }}</p>
             </a> #}
-            <style>
-              #{{ bibkey }}-abstract:checked ~ .cv-popover-container,
-              #{{ bibkey }}-abstract-label:hover ~ .cv-popover-container {
-                display: block;
-              }
-            </style>
-            <label id="{{ bibkey }}-abstract-label" class="cv-popover-label itm-title" for="{{ bibkey }}-abstract">{{ bib.title }}</label>
+
+            {# <label id="{{ bibkey }}-abstract-label" class="cv-popover-label cv-itm-title" for="{{ bibkey }}-abstract">{{ bib.title }}</label>
             <input id="{{ bibkey }}-abstract" class="cv-toggle" type="checkbox">
-            <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div>
-            <p class="bib-authors">{{ bib.authors | safe }}</p>
-            <p class="bib-venue">
+            <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div> #}
+            <p class="cv-itm-title">{{ bib.title }}</p>
+            <p class="cv-bib-authors">{{ bib.authors | safe }}</p>
+            <p class="cv-bib-venue">
               {{ bib.venue | safe }}
               {% if bib.doi | length > 0 %}
                 <a class="only-print" href="https://doi.org/{{ bib.doi }}">DOI: {{ bib.doi }}</a>
               {% endif %}
             </p>
-            <div class="no-print bib-venue">
+            <div class="no-print cv-bib-venue">
                 <span><a href="../pdf/{{ bib.key }}.pdf" target="_blank">PDF</a></span>
                 {% if bib.doi | length > 0 %}
-                <span class="bib-sep"><a href="https://dx.doi.org/{{ bib.doi }}" target="_blank">DOI</a></span>
+                <span class="cv-bib-sep"><a href="https://dx.doi.org/{{ bib.doi }}" target="_blank">DOI</a></span>
                 {% endif %}
                 {% if bib.slides %}
-                <span class="bib-sep"><a href="../pdf/{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
+                <span class="cv-bib-sep"><a href="../pdf/{{ bib.key }}-slides.pdf" target="_blank">Slides</a></span>
                 {% endif %}
-                <div class="bib-sep">
+                <span class="cv-bib-sep cv-bib-hover">
+                  <span class="cv-bib-hover-label">Abstract</span>
+                  <span class="cv-bib-hover-popover container"><strong>Abstract: </strong>{{ bib.abstract }}</span>
+                </span>
+                <span class="cv-bib-sep cv-bib-hover">
+                  <span class="cv-bib-hover-label"><a href="../bib/{{ bib.key }}.bib" download="{{ bib.key }}.bib">BibTeX</a></span>
+                  <span class="cv-bib-hover-popover"><code>{{ bib.raw_bibtex | safe }}</code></span>
+                </span>
+                {# <div class="cv-bib-sep">
+                  <style>
+                    #{{ bibkey }}-abstract:checked ~ .cv-popover-container,
+                    #{{ bibkey }}-abstract-label:hover ~ .cv-popover-container { display: block; }
+                  </style>
+                  <label id="{{ bibkey }}-abstract-label" class="cv-popover-label" for="{{ bibkey }}-abstract">Abstract</label>
+                  <input id="{{ bibkey }}-abstract" class="cv-toggle" type="checkbox">
+                  <div class="cv-popover-container"><span class="cv-popover"><strong>Abstract: </strong>{{ bib.abstract }}</span></div>
+                </div>
+                <div class="cv-bib-sep">
                   <style>
                     #{{ bibkey }}-bibtex:checked ~ .cv-popover-container,
-                    #{{ bibkey }}-bibtex-label:hover ~ .cv-popover-container {
-                      display: block;
-                    }
+                    #{{ bibkey }}-bibtex-label:hover ~ .cv-popover-container { display: block; }
                   </style>
                   <label id="{{ bibkey }}-bibtex-label" class="cv-popover-label" for="{{ bibkey }}-bibtex">BibTeX</label>
                   <input id="{{ bibkey }}-bibtex" class="cv-toggle" type="checkbox">
                   <div class="cv-popover-container"><span class="cv-popover"><code>{{ bib.raw_bibtex | safe }}</code></span></div>
                 </div>
+                #}
             </div>
         </div>
     </div>
     {% endfor %}
 
     {% for section in [cv.uniservice, cv.proservice, cv.outreach, cv.grants, cv.softwares] %}
-      {% include "section.j2" %}
+      {% include "cv-section.j2" %}
     {% endfor %}
 
 </div>

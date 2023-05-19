@@ -2,9 +2,10 @@
 
 My name is Anthony Clark and I am an Assistant Professor in the [Computer Science Department](https://www.pomona.edu/academics/departments/computer-science) at [Pomona College](https://www.pomona.edu/) (The image above was provided by Collin O'Connell). The following external links should be useful to get an idea about my research and advising philosophies:
 
-- [Advising Syllabus](https://anthonyjclark.github.io/advising/) (update in progress)
+- [Advising Syllabus](https://anthonyjclark.github.io/advising/)
 - [Instructions for Requesting a Reference Letter](reference/)
 - [Computer Sciencing Complex System (Blog)](https://compusciencing.github.io)
+- [Computer Science Students Work on Autonomous Robots in Campus Lab](https://www.pomona.edu/news/2022/11/01-computer-science-students-work-autonomous-robots-campus-lab)
 - [Local TV Interview](https://www.ozarksfirst.com/kallie-koester/ozarks-fox-am-tech-news-with-kallie-05-16-19_20190516153826/2006264599)
 - [Missouri State News](https://news.missouristate.edu/2019/04/25/midwest-problems-can-require-robot-solutions/)
 - [Article in The Standard](http://www.the-standard.org/life/msu-professor-experimenting-with-tiny-robots/article_f53eb20c-91c9-11e7-970b-ff4b5618ba8b.html)

@@ -674,17 +674,94 @@ footer {
   display: inline;
 }
 
-.cv-popover-container {
-  position: relative;
-  display: none;
+.cv-toc {
+  margin-top: 0;
+  margin-bottom: 0;
+  columns: 2 400px;
 }
 
-.cv-popover-container:hover {
+.cv-sec-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv-sec-hr {
   display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0.75rem 0;
+  padding: 0;
 }
 
-.cv-popover-container .cv-popover {
+.cv-itm {
+  margin-bottom: 1.5rem;
+}
+
+.cv-itm-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.cv-itm-date {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  line-height: 1.4rem;
+}
+
+.cv-itm-organization, .cv-itm-location {
+  font-style: italic;
+}
+
+.cv-itm-details p {
+  margin: 0;
+}
+
+.cv-itm-details ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.cv-itm-details em strong {
+  font-variant: small-caps;
+}
+
+.cv-bib-authors {
+  margin: 0;
+}
+
+.cv-bib-authors .cv-bib-author-ajc {
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.cv-bib-authors .cv-bib-author-student {
+  text-decoration: underline;
+}
+
+.cv-bib-venue {
+  margin: 0;
+}
+
+.cv-bib-sep {
+  padding-left: calc(0.5rem + 1px);
+  border-left: 1px solid #ccc;
+  margin-left: calc(0.5rem + 1px);
+  display: inline;
+}
+
+.cv-bib-hover {
+  position: relative;
+}
+
+.cv-bib-hover-popover {
+  display: none;
   position: absolute;
+  z-index: 10;
+
+  /* Just an estimate for what seems to work */
+  width: 40vw;
+
   background: white;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   border: 1px solid black;
@@ -694,15 +771,43 @@ footer {
   text-align: justify;
 }
 
-.cv-popover-container .cv-popover code {
+.cv-bib-hover-label:hover ~ .cv-bib-hover-popover {
+  display: block;
+}
+
+.cv-bib-hover-popover code {
   white-space: break-spaces;
 }
 
-.cv-toggle {
+/* .cv-popover-container {
+  position: relative;
   display: none;
-}
+} */
 
-.cv-popover-label {
+/* .cv-popover-container:hover {
+  display: block;
+} */
+
+/* .cv-popover-container .cv-popover {
+  position: absolute;
+  background: white;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: justify;
+} */
+
+/* .cv-popover-container .cv-popover code {
+  white-space: break-spaces;
+} */
+
+/* .cv-toggle {
+  display: none;
+} */
+
+/* .cv-popover-label {
   color: $color-sec-green;
   text-decoration: none;
   cursor: pointer;
@@ -710,85 +815,7 @@ footer {
 
 .cv-popover-label:hover, .cv-popover-label:focus {
   text-decoration: underline;
-}
-
-.cv-toc {
-  margin-top: 0;
-  margin-bottom: 0;
-  columns: 2 400px;
-}
-
-.sec-header {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.itm {
-  margin-bottom: 1.5rem;
-}
-
-.itm-title {
-  font-weight: bold;
-  margin: 0;
-}
-
-.itm-date {
-  font-size: 0.8rem;
-  margin-right: 1rem;
-  line-height: 1.4rem;
-}
-
-.itm-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 0.75rem 0;
-  padding: 0;
-}
-
-.itm-organization, .itm-location {
-  font-style: italic;
-}
-
-.itm-details p {
-  margin: 0;
-}
-
-.itm-details ul {
-  margin: 0;
-  padding-left: 25px;
-}
-
-.itm-details em strong {
-  /*font-weight: 600;*/
-  /*font-family: 'Open Sans Semi-Bold', sans-serif;*/
-  font-variant: small-caps;
-}
-
-.bib-authors {
-  margin: 0;
-}
-
-.bib-authors .bib-author-ajc {
-  font-weight: 600;
-  font-variant: small-caps;
-}
-
-.bib-authors .bib-author-student {
-  text-decoration: underline;
-}
-
-.bib-venue {
-  margin: 0;
-}
-
-.bib-sep {
-  padding-left: calc(0.5rem + 1px);
-  border-left: 1px solid #ccc;
-  margin-left: calc(0.5rem + 1px);
-  display: inline;
-}
+} */
 
 .only-print {
   display: none;
@@ -834,7 +861,7 @@ footer {
     page-break-after: always;
     page-break-inside: avoid;
   }
-  .itm {
+  .cv-itm {
     page-break-inside: avoid;
     margin-bottom: 1rem;
   }
@@ -843,12 +870,12 @@ footer {
      content: "";
   }
 
-  .itm a, .cv-address a {
+  .cv-itm a, .cv-address a {
     text-decoration: none;
     color: $color-sec-green;
   }
 
-  itm a:link:after, .cv-address a:link:after, itm a:visited:after, .cv-address a:visited:after {
+  .cv-itm a:link:after, .cv-address a:link:after, .cv-itm a:visited:after, .cv-address a:visited:after {
     content: "";
   }
 
@@ -856,14 +883,14 @@ footer {
     content: "";
   }
 
-  .itm-details em strong {
+  .cv-itm-details em strong {
     font-weight: 600;
   }
 
   .cv-title {
     font-size: 18pt;
   }
-  .sec-header {
+  .cv-sec-header {
     font-size: 16pt;
   }
 
@@ -1070,9 +1097,10 @@ footer {
       <p><img alt="Lab Photo" src="img/me-with-computer1.png"></p>
 <p>My name is Anthony Clark and I am an Assistant Professor in the <a href="https://www.pomona.edu/academics/departments/computer-science">Computer Science Department</a> at <a href="https://www.pomona.edu/">Pomona College</a> (The image above was provided by Collin O&rsquo;Connell). The following external links should be useful to get an idea about my research and advising philosophies:</p>
 <ul>
-<li><a href="https://anthonyjclark.github.io/advising/">Advising Syllabus</a> (update in progress)</li>
+<li><a href="https://anthonyjclark.github.io/advising/">Advising Syllabus</a></li>
 <li><a href="reference/">Instructions for Requesting a Reference Letter</a></li>
 <li><a href="https://compusciencing.github.io">Computer Sciencing Complex System (Blog)</a></li>
+<li><a href="https://www.pomona.edu/news/2022/11/01-computer-science-students-work-autonomous-robots-campus-lab">Computer Science Students Work on Autonomous Robots in Campus Lab</a></li>
 <li><a href="https://www.ozarksfirst.com/kallie-koester/ozarks-fox-am-tech-news-with-kallie-05-16-19_20190516153826/2006264599">Local TV Interview</a></li>
 <li><a href="https://news.missouristate.edu/2019/04/25/midwest-problems-can-require-robot-solutions/">Missouri State News</a></li>
 <li><a href="http://www.the-standard.org/life/msu-professor-experimenting-with-tiny-robots/article_f53eb20c-91c9-11e7-970b-ff4b5618ba8b.html">Article in The Standard</a></li>
@@ -1137,7 +1165,7 @@ footer {
         <div class="main-nav footer">
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1.6rem" viewBox="0 0 10 16" class="icon"><path fill-rule="evenodd" d="M5 3L0 9h3v4h4V9h3z"/></svg>
-                &copy; 2022 | Anthony J. Clark
+                &copy; 2023 | Anthony J. Clark
                 <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1.6rem" viewBox="0 0 10 16" class="icon"><path fill-rule="evenodd" d="M5 3L0 9h3v4h4V9h3z"/></svg>
             </a>
         </div>

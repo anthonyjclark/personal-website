@@ -1,34 +1,34 @@
 [teaching]
 sectionname = "Teaching and Course Development"
-note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
+# note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
 title = "Senior Seminar"
-date = "2022-08-29 to present"
+date = "2022-08-29 to 2023-05-10"
 details = """
 - Topics: Reading, discussion and presentation of research papers
-- Students per semester: 12
-"""
-organization = "Computer Science Department, Pomona College"
-location = "Claremont, California, USA"
-
-[[teaching.items]]
-title = "Computer Systems"
-date = "2021-01-18 to present"
-details = """
-- Topics: Architecture, representations, concurrency, and I/O
-- Students per semester: 20, 26
+- Students per semester: 22, 10
 """
 organization = "Computer Science Department, Pomona College"
 location = "Claremont, California, USA"
 
 [[teaching.items]]
 title = "Neural Networks"
-date = "2021-01-25 to 2022-05-20"
+date = "2021-01-25 to 2023-05-10"
 details = """
-- Topics: Machine learning with nueral networks
-- Students per semester: 24, 36, 20
+- Topics: Neural networks foundations and ethics
+- Students per semester: 24, 36, 20, 37
 """
+
+[[teaching.items]]
+title = "Computer Systems"
+date = "2022-01-18 to 2023-12-15"
+details = """
+- Topics: Architecture, representations, concurrency, and I/O
+- Students per semester: 20, 26
+"""
+organization = "Computer Science Department, Pomona College"
+location = "Claremont, California, USA"
 
 [[teaching.items]]
 title = "Algorithms"

@@ -153,14 +153,15 @@ if [[ "$run_all" = true || "$run_deploy" = true ]] ; then
 	mkdir -p "www/My Documents/My Webs/pdf"
 
 	# Copy PDFS over
-	$HOME/.local/bin/cpsync src/pdf/ "www/My Documents/My Webs/pdf/"
+	$HOME/.local/bin/cpsync "$pdf_dir/" "www/My Documents/My Webs/pdf/"
+	$HOME/.local/bin/cpsync "$bib_dir/" "www/My Documents/My Webs/bib/"
 
 	# Generate pdf from active website
 	echo -e "\nGenerate PDF."
 	# # BUILD_MODE=release node ./bin/generate_pdf.js
 	# # cp cv.pdf ./src/static/pdf/Clark.CV.pdf
 	# # mv cv.pdf "$site_dir_local"/static/pdf/Clark.CV.pdf
-	"/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary" --headless --disable-gpu --print-to-pdf=Clark.CV.pdf --print-to-pdf-no-header https://cs.pomona.edu/~ajc/cv/
+	"/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" --headless --disable-gpu --print-to-pdf=Clark.CV.pdf --no-pdf-header-footer https://cs.pomona.edu/~ajc/cv/
 
 	# Sync newly generate PDF
 	$HOME/.local/bin/cpsync Clark.CV.pdf "www/My Documents/My Webs/pdf/Clark.CV.pdf"
