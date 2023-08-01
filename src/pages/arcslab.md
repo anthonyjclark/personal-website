@@ -20,7 +20,7 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 ### Former Students
 
 - Simon Heck (CS '22), May 2022 - Dec 2022
-- Oliver Chang (CS '22), May 2021 - May 2022
+- [Oliver Chang](https://oliverc1623.github.io/) (CS '22), May 2021 - May 2022
 - Jared Anthony Mejia (CS '22), Aug 2020 - May 2022
 - Kevin Ayala (CS '22), Aug 2020 - May 2022
 - Evelyn Hasama (CS '24), Jan 2021 - Dec 2021

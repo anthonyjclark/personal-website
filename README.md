@@ -10,6 +10,8 @@ One terminal: `./bin/deploy.sh --build`
 
 Another: `cd website && devd -ol .`
 
+Try `entr`?
+
 ## Things to do
 
 - build bibtex cache on demand only
@@ -25,6 +27,7 @@ Another: `cd website && devd -ol .`
 - external link symbol on urls
 - links to coauthors
 - switch to just file from shell script
+- cleanup css (https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)
 
 https://pdf.math.dev/
 

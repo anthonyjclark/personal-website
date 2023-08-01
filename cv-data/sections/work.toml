@@ -12,6 +12,13 @@ details = """
 """
 
 [[work.items]]
+title = "Visiting Associate"
+date = "2023-04-01 to present"
+organization = "California Institute of Technology"
+location = "Pasadena, CA, USA"
+details = "Visiting researcher working in [Dr. Soon-Jo Chung's ARC Lab](https://aerospacerobotics.caltech.edu/)"
+
+[[work.items]]
 title = "Assistant Professor of Computer Science"
 date = "2016-08-15 to 2020-05-20"
 organization = "Department of Computer Science, Missouri State University"
