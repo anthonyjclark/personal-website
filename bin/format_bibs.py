@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import json
-from pathlib import Path
 import sys
+from pathlib import Path
+
 from titlecase import titlecase
 
 if len(sys.argv) != 4:
@@ -17,7 +18,9 @@ STUDENTS = {
     "Dipto Das", "Glen A. Simon", "Keith A. Cissell", "Jesse Simpson",
     "Jeffrey Dale", "Md Forhad Hossain", "Jared Hall", "Matthew Shan",
     "Oliver Chang", "Christiana Marchese", "Jared Mejia", "Elizabeth Johnson",
-    "Simon Heck", "Keneth Gonzalez Hernandez"
+    "Simon Heck", "Keneth Gonzalez Hernandez", "Kevin J. Ayala Ahumada",
+    "Daisy Abbott", "Anjali Nuggehalli", "Francisco Morales Puente",
+    "Chau Vu", "Ella Zhu", "James Clinton"
 }
 
 MONTHS = [
