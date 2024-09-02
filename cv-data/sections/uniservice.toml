@@ -2,8 +2,14 @@
 sectionname = "University Service"
 
 [[uniservice.items]]
+title = "Information Technology Committee"
+date = "2024-08-20 to present"
+details = """
+Review and recommend policies and procedures for the use of information technology resources."""
+
+[[uniservice.items]]
 title = "Teaching and Learning Committee"
-date = "2022-08-20 to present"
+date = "2022-08-20 to 2023-05-20"
 details = """
 Promote student learning and achievement by sustaining faculty in their development as teachers."""
 

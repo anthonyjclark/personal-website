@@ -2,6 +2,12 @@
 sectionname = "Presentations"
 
 [[talks.items]]
+title = "Tutorial: Simulation in Evolutionary Robotics"
+date = "2024-07-24"
+organization = "ALIFE 2024"
+location = "Copenhagen, Denmark"
+
+[[talks.items]]
 title = "Conference Talk: Satire vs Fake News: You Can Tell by the Way They Say It"
 date = "2018-09-25"
 organization = "IEEE Transdisciplinary AI (TransAI 2019)"

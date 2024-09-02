@@ -3,11 +3,19 @@ sectionname = "Teaching and Course Development"
 # note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
+title = "Mobile Robotics"
+date = "2024-08-27 to 2024-12-15"
+details = """
+- Topics: design, fabrication, control, plannting, and ethics
+- Students per semester: 20
+"""
+
+[[teaching.items]]
 title = "Senior Seminar"
-date = "2022-08-29 to 2023-05-10"
+date = "2022-08-29 to 2024-12-15"
 details = """
 - Topics: Reading, discussion and presentation of research papers
-- Students per semester: 22, 10
+- Students per semester: 22, 10, 28
 """
 organization = "Computer Science Department, Pomona College"
 location = "Claremont, California, USA"
