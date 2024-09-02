@@ -23,6 +23,12 @@ National Robotics Initiative
 IIS Robust Intelligence"""
 
 [[proservice.items]]
+title = "Tutorial: Simulation in Evolutionary Robotics (SimER)"
+date = "2024-07-20"
+details = "Led a tutorial in the use of simulation in evolutionary robotics."
+organization = "ALIFE 2024 Conference"
+
+[[proservice.items]]
 title = "Task Force Member"
 date = "2018-01-01 to 2021-01-01"
 organization = "IEEE Task Force on Evolutionary Developmental Systems and Robotics"
