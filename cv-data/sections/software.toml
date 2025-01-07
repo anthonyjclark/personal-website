@@ -2,6 +2,11 @@
 sectionname = "Software Contributions"
 
 [[softwares.items]]
+title = "PyMatch"
+details = """
+Description: [PyMatch](https://github.com/pymatch/pymatch) A pedagogical tool for teaching neural networks."""
+
+[[softwares.items]]
 title = "Review, A Visualization Player"
 details = """
 Description: [Review](https://review.github.io/) is a web-based platform for sharing dynamic visualizations. [Code](https://github.com/review/review.github.io), [Description](/static/pdf/Clark.2018.GECCO.ReviewWebbasedSimulation.pdf)"""
