@@ -27,25 +27,26 @@ My research focuses on making autonomous robots more robust and adaptive. For ex
 
 ##### Current
 
-- [CS 105 Computer Systems](https://cs.pomona.edu/classes/cs105/)
-- CS 190 Senior Seminar
+- [CS 062 Data Structures](https://cs.pomona.edu/classes/cs62/)
 
 ##### Past
 
-- CS 062 Data Structures (co-taught with [Prof Kauchak](https://cs.pomona.edu/~dkauchak/)) (Fall 2020)
-- [CS 140 Algorithms](https://cs.pomona.edu/classes/cs140/) (Fall 2021)
-- [CS 152 Neural Networks](https://cs.pomona.edu/classes/cs152/) (Spring 2022)
+- [CS 105 Computer Systems](https://cs.pomona.edu/classes/cs105/archive/2022fa/) (most recently Fall 2022)
+- [CS 181R Mobile Robotics](https://cs.pomona.edu/classes/cs181r/) (Fall 2024)
+- [CS 152 Neural Networks](https://cs.pomona.edu/classes/cs152/) (most recently Spring 2025)
+- [CS 140 Algorithms](https://cs.pomona.edu/classes/cs140/archive/2025-26fall/) (most recently Fall 2025)
+- [CS 190 Senior Seminar](https://cs.pomona.edu/classes/cs190/) (most recently Spring 2026)
 
 #### Missouri State Courses
 
-- [CSC 125 C++ Programming](http://courses.missouristate.edu/anthonyclark/125/) (Spring 2020)
-- [CSC 232 Data Structures](http://courses.missouristate.edu/anthonyclark/232/) (Summer 2019)
-- [CSC 325 Algorithms and Advanced Data Structures](http://courses.missouristate.edu/anthonyclark/325/) (Spring 2020)
-- [CSC 333 Languages and Machines](http://courses.missouristate.edu/anthonyclark/333/) (Spring 2020)
-- [CSC 482 Senior Seminar](http://courses.missouristate.edu/anthonyclark/482/) (Fall 2018)
-- [CSC 742 Evolutionary Computing](http://courses.missouristate.edu/anthonyclark/742/) (Fall 2019)
-- [CSC 790 Advanced Robotics](http://courses.missouristate.edu/anthonyclark/790/) (Spring 2018)
-- [CSC 790 Deep Learning](http://courses.missouristate.edu/anthonyclark/790dl/) (Spring 2019)
+- CSC 125 C++ Programming (Spring 2020)
+- CSC 232 Data Structures (Summer 2019)
+- CSC 325 Algorithms and Advanced Data Structures (Spring 2020)
+- CSC 333 Languages and Machines (Spring 2020)
+- CSC 482 Senior Seminar (Fall 2018)
+- CSC 742 Evolutionary Computing (Fall 2019)
+- CSC 790 Advanced Robotics (Spring 2018)
+- CSC 790 Deep Learning (Spring 2019)
 
 ---
 
