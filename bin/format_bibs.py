@@ -20,7 +20,8 @@ STUDENTS = {
     "Oliver Chang", "Christiana Marchese", "Jared Mejia", "Elizabeth Johnson",
     "Simon Heck", "Keneth Gonzalez Hernandez", "Kevin J. Ayala Ahumada",
     "Daisy Abbott", "Anjali Nuggehalli", "Francisco Morales Puente",
-    "Chau Vu", "Ella Zhu", "James Clinton"
+    "Chau Vu", "Ella Zhu", "James Clinton", "Connor Lee", "Aser Atawya",
+    "Kellie Au", "Tommy Ryan", "Willy Li", "Max Linden"
 }
 
 MONTHS = [
