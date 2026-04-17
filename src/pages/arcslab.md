@@ -8,13 +8,15 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 
 ### Current Students
 
-- Kellie Au (CS '26) May 2024 - present
-- Ella Zhu (CS '26) Aug 2023 - present
+- Tommy Ryan (CS '27) May 2024 - present
 - Francisco Morales Puente (CS '26) Jun 2023 - present
+- Stefanie Nguyen (CS '29) Nov 2025 - present
 
 ### Former Students
 
-- Tommy Ryan (CS '27) Summer 2024
+- Kellie Au (CS '26) May 2024 - May 2025
+- Ella Zhu (CS '26) Aug 2023 - Aug 2025
+- Philippe Gregory Essama Mekongo (CS '27) May 2025 - Aug 2025
 - Aser Atawya (CS '24) Summer 2024
 - Anjali Nuggehalli (CS '26) May 2023 - May 2024
 - Chau Vu (CS '26), Dec 2022 - May 2024

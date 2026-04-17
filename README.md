@@ -14,6 +14,7 @@ Try `entr`?
 
 ## Things to do
 
+- minimap like the neovim braille dots
 - build bibtex cache on demand only
   - `biber --tool --output_align --output_indent=2 --output_fieldcase=lower <filename>.bib`
 - unify js into one include? (emails, etc.)
@@ -34,3 +35,5 @@ https://pdf.math.dev/
 TODO:
 - lab policies
 - update lab students
+- add RiE paper pdf
+- add ICRA tutorial pdf (and bibtex)

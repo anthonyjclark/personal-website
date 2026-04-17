@@ -26,7 +26,13 @@ IIS Robust Intelligence"""
 
 [[proservice.items]]
 title = "Program Committee Member"
-date = "2024-04-23"
+date = "2026-04-08"
+organization = "EvoStar Conference"
+location = "Toulouse, France"
+
+[[proservice.items]]
+title = "Program Committee Member"
+date = "2025-04-23"
 organization = "EvoStar Conference"
 location = "Trieste, Italy"
 

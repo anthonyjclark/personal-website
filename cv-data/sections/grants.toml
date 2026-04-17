@@ -3,6 +3,16 @@ sectionname = "Funding and Grant Activity"
 note = "I have contributed to writing, editing, and producing preliminary results for the following grants."
 
 [[grants.items]]
+title = "Hahn Teaching with Technology Grant"
+date = "2024-05-01"
+details = "Developing a flipped, interactive mobile robotics course"
+
+[[grants.items]]
+title = "Wig Teaching Innovation Grant"
+date = "2023-08-01"
+details = "Developing a pedagogical framework for teaching neural networks"
+
+[[grants.items]]
 title = "Missouri Space Grant Program"
 date = "2019-08-20"
 details = """

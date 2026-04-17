@@ -2,8 +2,14 @@
 sectionname = "University Service"
 
 [[uniservice.items]]
+title = "Curriculum Committee and General Education Review"
+date = "2025-08-20 to present"
+details = """
+Review proposed curricular changes and perform the ten-year general education review."""
+
+[[uniservice.items]]
 title = "Information Technology Committee"
-date = "2024-08-20 to present"
+date = "2024-08-20 to 2025-05-20"
 details = """
 Review and recommend policies and procedures for the use of information technology resources."""
 

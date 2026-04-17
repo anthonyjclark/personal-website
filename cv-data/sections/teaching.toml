@@ -3,22 +3,38 @@ sectionname = "Teaching and Course Development"
 # note = "I use two-stage exams, automated grading tools, instant messaging for communication, and random partner assignments with self-evaluations for all undergraduate courses."
 
 [[teaching.items]]
+title = "Data Structures"
+date = "2020-08-24 to 2026-05-10"
+details = """
+- Topics: Java, OOP, lists, big-o, trees
+- Students per semester: 26, 29
+"""
+
+[[teaching.items]]
+title = "Algorithms"
+date = "2020-08-24 to 2025-12-15"
+details = """
+- Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
+- Students per semester: 17, 24, 25, 32, 21
+"""
+
+[[teaching.items]]
+title = "Senior Seminar"
+date = "2022-08-29 to 2025-12-15"
+details = """
+- Topics: Reading, discussion and presentation of research papers
+- Students per semester: 22, 10, 28, 26
+"""
+organization = "Computer Science Department, Pomona College"
+location = "Claremont, California, USA"
+
+[[teaching.items]]
 title = "Mobile Robotics"
 date = "2024-08-27 to 2024-12-15"
 details = """
 - Topics: design, fabrication, control, planning, and ethics
 - Students per semester: 20
 """
-
-[[teaching.items]]
-title = "Senior Seminar"
-date = "2022-08-29 to 2024-12-15"
-details = """
-- Topics: Reading, discussion and presentation of research papers
-- Students per semester: 22, 10, 28
-"""
-organization = "Computer Science Department, Pomona College"
-location = "Claremont, California, USA"
 
 [[teaching.items]]
 title = "Neural Networks"
@@ -37,14 +53,6 @@ details = """
 """
 organization = "Computer Science Department, Pomona College"
 location = "Claremont, California, USA"
-
-[[teaching.items]]
-title = "Algorithms"
-date = "2020-08-24 to 2021-12-15"
-details = """
-- Topics: Asymptotic complexity, graphs, proofs, algorithm paradigms, computational complexity
-- Students per semester: 17, 24, 25
-"""
 
 [[teaching.items]]
 title = "Data Structures"

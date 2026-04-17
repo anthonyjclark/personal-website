@@ -2,6 +2,18 @@
 sectionname = "Presentations"
 
 [[talks.items]]
+title = "Tutorial: Simulation in Robotics"
+date = "2026-06-01"
+organization = "ICRA 2024"
+location = "Vienna, Austria"
+
+[[talks.items]]
+title = "Developing a Flipped, Interactive Mobile Robotics Course for Computer Science Students"
+date = "2026-04-17"
+organization = "RiE 2026"
+location = "Wolfenbüttel, Germany"
+
+[[talks.items]]
 title = "Tutorial: Simulation in Evolutionary Robotics"
 date = "2024-07-24"
 organization = "ALIFE 2024"

@@ -2,6 +2,11 @@
 sectionname = "Software Contributions"
 
 [[softwares.items]]
+title = "SSDL: Simple Scene Description Language"
+details = """
+Description: [SSDL](https://anthonyjclark.github.io/simple-scene-description-language/) A tool for creating robot descriptions programmatically using a simple scene description language."""
+
+[[softwares.items]]
 title = "PyMatch"
 details = """
 Description: [PyMatch](https://github.com/pymatch/pymatch) A pedagogical tool for teaching neural networks."""
