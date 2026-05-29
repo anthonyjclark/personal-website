@@ -21,7 +21,9 @@ STUDENTS = {
     "Simon Heck", "Keneth Gonzalez Hernandez", "Kevin J. Ayala Ahumada",
     "Daisy Abbott", "Anjali Nuggehalli", "Francisco Morales Puente",
     "Chau Vu", "Ella Zhu", "James Clinton", "Connor Lee", "Aser Atawya",
-    "Kellie Au", "Tommy Ryan", "Willy Li", "Max Linden"
+    "Kellie Au", "Tommy Ryan", "Willy Li", "Max Linden", "Neil Chulani",
+    "Tom Tang", "Philippe Gregory Essama Mekongo", "Stefanie Nguyen",
+    "Ruben Millan Fabian", "Tung Nguyen"
 }
 
 MONTHS = [

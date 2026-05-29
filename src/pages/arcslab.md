@@ -9,11 +9,13 @@ The ARCS (**A**utonomous **R**obotics and **C**omplex **S**ystems) Lab is concer
 ### Current Students
 
 - Tommy Ryan (CS '27) May 2024 - present
-- Francisco Morales Puente (CS '26) Jun 2023 - present
 - Stefanie Nguyen (CS '29) Nov 2025 - present
+- Ruben Millan Fabian (CS '29) May 2026 - present
+- Tung Nguyen (CS '28) May 2026 - present
 
 ### Former Students
 
+- Francisco Morales Puente (CS '26) Jun 2023 - May 2026
 - Kellie Au (CS '26) May 2024 - May 2025
 - Ella Zhu (CS '26) Aug 2023 - Aug 2025
 - Philippe Gregory Essama Mekongo (CS '27) May 2025 - Aug 2025
