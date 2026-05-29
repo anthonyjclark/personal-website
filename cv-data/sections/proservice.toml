@@ -7,6 +7,9 @@ details = """
 Robotics
 Sensors
 Applied Sciences
+Machines
+Biomimetics
+Micromachines
 Elsevier Robotics and Autonomous Systems
 IEEE Transactions on Systems, Man and Cybernetics: Systems
 IEEE Transactions on Robotics
@@ -22,7 +25,14 @@ title = "NSF Panelist"
 details = """
 Smart and Autonomous Systems
 National Robotics Initiative
-IIS Robust Intelligence"""
+IIS Robust Intelligence
+RI CoRE AI"""
+
+[[proservice.items]]
+title = "Workshop Reviewer"
+date = "2026-06-01"
+organization = "Uncertainty in Robotics at ICRA"
+location = "Vienna, Austria"
 
 [[proservice.items]]
 title = "Program Committee Member"
@@ -47,6 +57,11 @@ title = "Program Committee Member"
 date = "2024-04-03"
 organization = "EvoStar Conference"
 location = "Aberystwyth, Wales, United Kingdom"
+
+[[proservice.items]]
+title = "CRA Undergraduate Research Award Reviewer"
+date = "2023-05-15"
+organization = "Computing Research Association"
 
 [[proservice.items]]
 title = "Program Committee Member"

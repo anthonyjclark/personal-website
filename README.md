@@ -37,3 +37,4 @@ TODO:
 - update lab students
 - add RiE paper pdf
 - add ICRA tutorial pdf (and bibtex)
+- add mobile robotics textbook
